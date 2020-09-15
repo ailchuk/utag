@@ -10,7 +10,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 
 #path to Qt
-SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
+SET(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
 
 message("Looking for Qt...")
 
