@@ -38,10 +38,9 @@ public:
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
-UnknownFrame::UnknownFrame(const ByteVector &data) :
-  Frame(data),
-  d(new UnknownFramePrivate())
+UnknownFrame::UnknownFrame(const ByteVector &data) : Frame(data)
 {
+  d = new UnknownFramePrivate;
   setData(data);
 }
 
@@ -78,9 +77,8 @@ ByteVector UnknownFrame::renderFields() const
 // private members
 ////////////////////////////////////////////////////////////////////////////////
 
-UnknownFrame::UnknownFrame(const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new UnknownFramePrivate())
+UnknownFrame::UnknownFrame(const ByteVector &data, Header *h) : Frame(h)
 {
+  d = new UnknownFramePrivate;
   parseFields(fieldData(data));
 }

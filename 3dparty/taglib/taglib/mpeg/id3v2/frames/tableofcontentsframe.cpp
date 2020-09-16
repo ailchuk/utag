@@ -36,9 +36,7 @@ class TableOfContentsFrame::TableOfContentsFramePrivate
 {
 public:
   TableOfContentsFramePrivate() :
-    tagHeader(0),
-    isTopLevel(false),
-    isOrdered(false)
+    tagHeader(0)
   {
     embeddedFrameList.setAutoDelete(true);
   }
@@ -55,7 +53,7 @@ public:
 namespace {
 
   // These functions are needed to try to aim for backward compatibility with
-  // an API that previously (unreasonably) required null bytes to be appended
+  // an API that previously (unreasonably) required null bytes to be appeneded
   // at the end of identifiers explicitly by the API user.
 
   // BIC: remove these
@@ -82,9 +80,9 @@ namespace {
 ////////////////////////////////////////////////////////////////////////////////
 
 TableOfContentsFrame::TableOfContentsFrame(const ID3v2::Header *tagHeader, const ByteVector &data) :
-  ID3v2::Frame(data),
-  d(new TableOfContentsFramePrivate())
+    ID3v2::Frame(data)
 {
+  d = new TableOfContentsFramePrivate;
   d->tagHeader = tagHeader;
   setData(data);
 }
@@ -92,9 +90,9 @@ TableOfContentsFrame::TableOfContentsFrame(const ID3v2::Header *tagHeader, const
 TableOfContentsFrame::TableOfContentsFrame(const ByteVector &elementID,
                                            const ByteVectorList &children,
                                            const FrameList &embeddedFrames) :
-  ID3v2::Frame("CTOC"),
-  d(new TableOfContentsFramePrivate())
+    ID3v2::Frame("CTOC")
 {
+  d = new TableOfContentsFramePrivate;
   d->elementID = elementID;
   strip(d->elementID);
   d->childElements = children;
@@ -216,23 +214,7 @@ void TableOfContentsFrame::removeEmbeddedFrames(const ByteVector &id)
 
 String TableOfContentsFrame::toString() const
 {
-  String s = String(d->elementID) +
-             ": top level: " + (d->isTopLevel ? "true" : "false") +
-             ", ordered: " + (d->isOrdered ? "true" : "false");
-
-  if(!d->childElements.isEmpty()) {
-    s+= ", chapters: [ " + String(d->childElements.toByteVector(", ")) + " ]";
-  }
-
-  if(!d->embeddedFrameList.isEmpty()) {
-    StringList frameIDs;
-    for(FrameList::ConstIterator it = d->embeddedFrameList.begin();
-        it != d->embeddedFrameList.end(); ++it)
-      frameIDs.append((*it)->frameID());
-    s += ", sub-frames: [ " + frameIDs.toString(", ") + " ]";
-  }
-
-  return s;
+  return String();
 }
 
 PropertyMap TableOfContentsFrame::asProperties() const
@@ -304,7 +286,7 @@ void TableOfContentsFrame::parseFields(const ByteVector &data)
     return;
 
   while(embPos < size - header()->size()) {
-    Frame *frame = FrameFactory::instance()->createFrame(data.mid(pos + embPos), d->tagHeader);
+    Frame *frame = FrameFactory::instance()->createFrame(data.mid(pos + embPos), (d->tagHeader != 0));
 
     if(!frame)
       return;
@@ -348,9 +330,9 @@ ByteVector TableOfContentsFrame::renderFields() const
 
 TableOfContentsFrame::TableOfContentsFrame(const ID3v2::Header *tagHeader,
                                            const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new TableOfContentsFramePrivate())
+  Frame(h)
 {
+  d = new TableOfContentsFramePrivate;
   d->tagHeader = tagHeader;
   parseFields(fieldData(data));
 }

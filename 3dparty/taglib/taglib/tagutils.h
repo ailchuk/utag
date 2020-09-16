@@ -30,12 +30,9 @@
 
 #ifndef DO_NOT_DOCUMENT  // tell Doxygen not to document this header
 
-#include <tbytevector.h>
-
 namespace TagLib {
 
   class File;
-  class IOStream;
 
   namespace Utils {
 
@@ -44,9 +41,6 @@ namespace TagLib {
     long findID3v2(File *file);
 
     long findAPE(File *file, long id3v1Location);
-
-    ByteVector readHeader(IOStream *stream, unsigned int length, bool skipID3v2,
-                          long *headerOffset = 0);
   }
 }
 

@@ -39,10 +39,11 @@ public:
   ByteVector data;
 };
 
-FLAC::UnknownMetadataBlock::UnknownMetadataBlock(int code, const ByteVector &data) :
-  d(new UnknownMetadataBlockPrivate())
+FLAC::UnknownMetadataBlock::UnknownMetadataBlock(int code, const ByteVector &data)
 {
+  d = new UnknownMetadataBlockPrivate;
   d->code = code;
+  //debug(String(data.toHex()));
   d->data = data;
 }
 

@@ -41,9 +41,9 @@ public:
 // public methods
 ////////////////////////////////////////////////////////////////////////////////
 
-ExtendedHeader::ExtendedHeader() :
-  d(new ExtendedHeaderPrivate())
+ExtendedHeader::ExtendedHeader()
 {
+  d = new ExtendedHeaderPrivate();
 }
 
 ExtendedHeader::~ExtendedHeader()

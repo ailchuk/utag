@@ -45,16 +45,14 @@ public:
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
-PrivateFrame::PrivateFrame() :
-  Frame("PRIV"),
-  d(new PrivateFramePrivate())
+PrivateFrame::PrivateFrame() : Frame("PRIV")
 {
+  d = new PrivateFramePrivate;
 }
 
-PrivateFrame::PrivateFrame(const ByteVector &data) :
-  Frame(data),
-  d(new PrivateFramePrivate())
+PrivateFrame::PrivateFrame(const ByteVector &data) : Frame(data)
 {
+  d = new PrivateFramePrivate;
   setData(data);
 }
 
@@ -123,9 +121,8 @@ ByteVector PrivateFrame::renderFields() const
 // private members
 ////////////////////////////////////////////////////////////////////////////////
 
-PrivateFrame::PrivateFrame(const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new PrivateFramePrivate())
+PrivateFrame::PrivateFrame(const ByteVector &data, Header *h) : Frame(h)
 {
+  d = new PrivateFramePrivate();
   parseFields(fieldData(data));
 }

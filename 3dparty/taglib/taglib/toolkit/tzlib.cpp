@@ -27,11 +27,15 @@
 # include <config.h>
 #endif
 
-#ifdef HAVE_ZLIB
+#if defined(HAVE_ZLIB)
 # include <zlib.h>
-# include <tstring.h>
-# include <tdebug.h>
+#elif defined(HAVE_BOOST_ZLIB)
+# include <boost/iostreams/filtering_streambuf.hpp>
+# include <boost/iostreams/filter/zlib.hpp>
 #endif
+
+#include <tstring.h>
+#include <tdebug.h>
 
 #include "tzlib.h"
 
@@ -39,7 +43,7 @@ using namespace TagLib;
 
 bool zlib::isAvailable()
 {
-#ifdef HAVE_ZLIB
+#if defined(HAVE_ZLIB) || defined(HAVE_BOOST_ZLIB)
 
   return true;
 
@@ -52,7 +56,7 @@ bool zlib::isAvailable()
 
 ByteVector zlib::decompress(const ByteVector &data)
 {
-#ifdef HAVE_ZLIB
+#if defined(HAVE_ZLIB)
 
   z_stream stream = {};
 
@@ -97,6 +101,38 @@ ByteVector zlib::decompress(const ByteVector &data)
   inflateEnd(&stream);
 
   return outData;
+
+#elif defined(HAVE_BOOST_ZLIB)
+
+  using namespace boost::iostreams;
+
+  struct : public sink
+  {
+    ByteVector data;
+
+    typedef char     char_type;
+    typedef sink_tag category;
+
+    std::streamsize write(char const* s, std::streamsize n)
+    {
+      const unsigned int originalSize = data.size();
+
+      data.resize(static_cast<unsigned int>(originalSize + n));
+      ::memcpy(data.data() + originalSize, s, static_cast<size_t>(n));
+
+      return n;
+    }
+  } sink;
+
+  try {
+    zlib_decompressor().write(sink, data.data(), data.size());
+  }
+  catch(const zlib_error &) {
+    debug("zlib::decompress() - Error reading compressed stream.");
+    return ByteVector();
+  }
+
+  return sink.data;
 
 #else
 

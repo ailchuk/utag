@@ -77,58 +77,6 @@ public:
 };
 
 ////////////////////////////////////////////////////////////////////////////////
-// static members
-////////////////////////////////////////////////////////////////////////////////
-
-namespace
-{
-  // Dummy file class to make a stream work with MPEG::Header.
-
-  class AdapterFile : public TagLib::File
-  {
-  public:
-    AdapterFile(IOStream *stream) : File(stream) {}
-
-    Tag *tag() const { return 0; }
-    AudioProperties *audioProperties() const { return 0; }
-    bool save() { return false; }
-  };
-}
-
-bool MPEG::File::isSupported(IOStream *stream)
-{
-  if(!stream || !stream->isOpen())
-    return false;
-
-  // An MPEG file has MPEG frame headers. An ID3v2 tag may precede.
-
-  // MPEG frame headers are really confusing with irrelevant binary data.
-  // So we check if a frame header is really valid.
-
-  long headerOffset;
-  const ByteVector buffer = Utils::readHeader(stream, bufferSize(), true, &headerOffset);
-
-  if(buffer.isEmpty())
-      return false;
-
-  const long originalPosition = stream->tell();
-  AdapterFile file(stream);
-
-  for(unsigned int i = 0; i < buffer.size() - 1; ++i) {
-    if(isFrameSync(buffer, i)) {
-      const Header header(&file, headerOffset + i, true);
-      if(header.isValid()) {
-        stream->seek(originalPosition);
-        return true;
-      }
-    }
-  }
-
-  stream->seek(originalPosition);
-  return false;
-}
-
-////////////////////////////////////////////////////////////////////////////////
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -200,30 +148,20 @@ bool MPEG::File::save()
 
 bool MPEG::File::save(int tags)
 {
-  return save(tags, StripOthers);
+  return save(tags, true);
 }
 
 bool MPEG::File::save(int tags, bool stripOthers)
 {
-  return save(tags, stripOthers ? StripOthers : StripNone, ID3v2::v4);
+  return save(tags, stripOthers, 4);
 }
 
 bool MPEG::File::save(int tags, bool stripOthers, int id3v2Version)
 {
-  return save(tags,
-              stripOthers ? StripOthers : StripNone,
-              id3v2Version == 3 ? ID3v2::v3 : ID3v2::v4);
+  return save(tags, stripOthers, id3v2Version, true);
 }
 
 bool MPEG::File::save(int tags, bool stripOthers, int id3v2Version, bool duplicateTags)
-{
-  return save(tags,
-              stripOthers ? StripOthers : StripNone,
-              id3v2Version == 3 ? ID3v2::v3 : ID3v2::v4,
-              duplicateTags ? Duplicate : DoNotDuplicate);
-}
-
-bool MPEG::File::save(int tags, StripTags strip, ID3v2::Version version, DuplicateTags duplicate)
 {
   if(readOnly()) {
     debug("MPEG::File::save() -- File is read only.");
@@ -232,22 +170,22 @@ bool MPEG::File::save(int tags, StripTags strip, ID3v2::Version version, Duplica
 
   // Create the tags if we've been asked to.
 
-  if(duplicate == Duplicate) {
+  if(duplicateTags) {
 
     // Copy the values from the tag that does exist into the new tag,
     // except if the existing tag is to be stripped.
 
-    if((tags & ID3v2) && ID3v1Tag() && !(strip == StripOthers && !(tags & ID3v1)))
+    if((tags & ID3v2) && ID3v1Tag() && !(stripOthers && !(tags & ID3v1)))
       Tag::duplicate(ID3v1Tag(), ID3v2Tag(true), false);
 
-    if((tags & ID3v1) && d->tag[ID3v2Index] && !(strip == StripOthers && !(tags & ID3v2)))
+    if((tags & ID3v1) && d->tag[ID3v2Index] && !(stripOthers && !(tags & ID3v2)))
       Tag::duplicate(ID3v2Tag(), ID3v1Tag(true), false);
   }
 
   // Remove all the tags not going to be saved.
 
-  if(strip == StripOthers)
-    File::strip(~tags, false);
+  if(stripOthers)
+    strip(~tags, false);
 
   if(ID3v2 & tags) {
 
@@ -258,7 +196,7 @@ bool MPEG::File::save(int tags, StripTags strip, ID3v2::Version version, Duplica
       if(d->ID3v2Location < 0)
         d->ID3v2Location = 0;
 
-      const ByteVector data = ID3v2Tag()->render(version);
+      const ByteVector data = ID3v2Tag()->render(id3v2Version);
       insert(data, d->ID3v2Location, d->ID3v2OriginalSize);
 
       if(d->APELocation >= 0)
@@ -273,7 +211,7 @@ bool MPEG::File::save(int tags, StripTags strip, ID3v2::Version version, Duplica
 
       // ID3v2 tag is empty. Remove the old one.
 
-      File::strip(ID3v2, false);
+      strip(ID3v2, false);
     }
   }
 
@@ -297,7 +235,7 @@ bool MPEG::File::save(int tags, StripTags strip, ID3v2::Version version, Duplica
 
       // ID3v1 tag is empty. Remove the old one.
 
-      File::strip(ID3v1, false);
+      strip(ID3v1, false);
     }
   }
 
@@ -326,7 +264,7 @@ bool MPEG::File::save(int tags, StripTags strip, ID3v2::Version version, Duplica
 
       // APE tag is empty. Remove the old one.
 
-      File::strip(APE, false);
+      strip(APE, false);
     }
   }
 
@@ -408,50 +346,55 @@ void MPEG::File::setID3v2FrameFactory(const ID3v2::FrameFactory *factory)
 
 long MPEG::File::nextFrameOffset(long position)
 {
-  ByteVector frameSyncBytes(2, '\0');
+  bool foundLastSyncPattern = false;
+
+  ByteVector buffer;
 
   while(true) {
     seek(position);
-    const ByteVector buffer = readBlock(bufferSize());
-    if(buffer.isEmpty())
+    buffer = readBlock(bufferSize());
+
+    if(buffer.size() <= 0)
       return -1;
 
-    for(unsigned int i = 0; i < buffer.size(); ++i) {
-      frameSyncBytes[0] = frameSyncBytes[1];
-      frameSyncBytes[1] = buffer[i];
-      if(isFrameSync(frameSyncBytes)) {
-        const Header header(this, position + i - 1, true);
-        if(header.isValid())
-          return position + i - 1;
-      }
+    if(foundLastSyncPattern && secondSynchByte(buffer[0]))
+      return position - 1;
+
+    for(unsigned int i = 0; i < buffer.size() - 1; i++) {
+      if(firstSyncByte(buffer[i]) && secondSynchByte(buffer[i + 1]))
+        return position + i;
     }
 
-    position += bufferSize();
+    foundLastSyncPattern = firstSyncByte(buffer[buffer.size() - 1]);
+    position += buffer.size();
   }
 }
 
 long MPEG::File::previousFrameOffset(long position)
 {
-  ByteVector frameSyncBytes(2, '\0');
+  bool foundFirstSyncPattern = false;
+  ByteVector buffer;
 
-  while(position > 0) {
-    const long bufferLength = std::min<long>(position, bufferSize());
-    position -= bufferLength;
+  while (position > 0) {
+    long size = std::min<long>(position, bufferSize());
+    position -= size;
 
     seek(position);
-    const ByteVector buffer = readBlock(bufferLength);
+    buffer = readBlock(size);
 
-    for(int i = buffer.size() - 1; i >= 0; --i) {
-      frameSyncBytes[1] = frameSyncBytes[0];
-      frameSyncBytes[0] = buffer[i];
-      if(isFrameSync(frameSyncBytes)) {
-        const Header header(this, position + i, true);
-        if(header.isValid())
-          return position + i + header.frameLength();
-      }
+    if(buffer.size() <= 0)
+      break;
+
+    if(foundFirstSyncPattern && firstSyncByte(buffer[buffer.size() - 1]))
+      return position + buffer.size() - 1;
+
+    for(int i = buffer.size() - 2; i >= 0; i--) {
+      if(firstSyncByte(buffer[i]) && secondSynchByte(buffer[i + 1]))
+        return position + i;
     }
-  }
 
+    foundFirstSyncPattern = secondSynchByte(buffer[0]);
+  }
   return -1;
 }
 
@@ -545,41 +488,28 @@ long MPEG::File::findID3v2()
   const ByteVector headerID = ID3v2::Header::fileIdentifier();
 
   seek(0);
-  if(readBlock(headerID.size()) == headerID)
-    return 0;
 
-  const Header firstHeader(this, 0, true);
-  if(firstHeader.isValid())
+  const ByteVector data = readBlock(headerID.size());
+  if(data.size() < headerID.size())
     return -1;
 
-  // Look for an ID3v2 tag until reaching the first valid MPEG frame.
+  if(data == headerID)
+    return 0;
 
-  ByteVector frameSyncBytes(2, '\0');
-  ByteVector tagHeaderBytes(3, '\0');
-  long position = 0;
+  if(firstSyncByte(data[0]) && secondSynchByte(data[1]))
+    return -1;
 
-  while(true) {
-    seek(position);
-    const ByteVector buffer = readBlock(bufferSize());
-    if(buffer.isEmpty())
-      return -1;
+  // Look for the entire file, if neither an MEPG frame or ID3v2 tag was found
+  // at the beginning of the file.
+  // We don't care about the inefficiency of the code, since this is a seldom case.
 
-    for(unsigned int i = 0; i < buffer.size(); ++i) {
-      frameSyncBytes[0] = frameSyncBytes[1];
-      frameSyncBytes[1] = buffer[i];
-      if(isFrameSync(frameSyncBytes)) {
-        const Header header(this, position + i - 1, true);
-        if(header.isValid())
-          return -1;
-      }
+  const long tagOffset = find(headerID);
+  if(tagOffset < 0)
+    return -1;
 
-      tagHeaderBytes[0] = tagHeaderBytes[1];
-      tagHeaderBytes[1] = tagHeaderBytes[2];
-      tagHeaderBytes[2] = buffer[i];
-      if(tagHeaderBytes == headerID)
-        return position + i - 2;
-    }
+  const long frameOffset = firstFrameOffset();
+  if(frameOffset < tagOffset)
+    return -1;
 
-    position += bufferSize();
-  }
+  return tagOffset;
 }

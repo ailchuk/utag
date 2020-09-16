@@ -48,16 +48,14 @@ public:
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
-AttachedPictureFrame::AttachedPictureFrame() :
-  Frame("APIC"),
-  d(new AttachedPictureFramePrivate())
+AttachedPictureFrame::AttachedPictureFrame() : Frame("APIC")
 {
+  d = new AttachedPictureFramePrivate;
 }
 
-AttachedPictureFrame::AttachedPictureFrame(const ByteVector &data) :
-  Frame(data),
-  d(new AttachedPictureFramePrivate())
+AttachedPictureFrame::AttachedPictureFrame(const ByteVector &data) : Frame(data)
 {
+  d = new AttachedPictureFramePrivate;
   setData(data);
 }
 
@@ -171,10 +169,9 @@ ByteVector AttachedPictureFrame::renderFields() const
 // private members
 ////////////////////////////////////////////////////////////////////////////////
 
-AttachedPictureFrame::AttachedPictureFrame(const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new AttachedPictureFramePrivate())
+AttachedPictureFrame::AttachedPictureFrame(const ByteVector &data, Header *h) : Frame(h)
 {
+  d = new AttachedPictureFramePrivate;
   parseFields(fieldData(data));
 }
 

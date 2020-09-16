@@ -50,16 +50,14 @@ public:
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
-GeneralEncapsulatedObjectFrame::GeneralEncapsulatedObjectFrame() :
-  Frame("GEOB"),
-  d(new GeneralEncapsulatedObjectFramePrivate())
+GeneralEncapsulatedObjectFrame::GeneralEncapsulatedObjectFrame() : Frame("GEOB")
 {
+    d = new GeneralEncapsulatedObjectFramePrivate;
 }
 
-GeneralEncapsulatedObjectFrame::GeneralEncapsulatedObjectFrame(const ByteVector &data) :
-  Frame(data),
-  d(new GeneralEncapsulatedObjectFramePrivate())
+GeneralEncapsulatedObjectFrame::GeneralEncapsulatedObjectFrame(const ByteVector &data) : Frame(data)
 {
+  d = new GeneralEncapsulatedObjectFramePrivate;
   setData(data);
 }
 
@@ -179,9 +177,8 @@ ByteVector GeneralEncapsulatedObjectFrame::renderFields() const
 // private members
 ////////////////////////////////////////////////////////////////////////////////
 
-GeneralEncapsulatedObjectFrame::GeneralEncapsulatedObjectFrame(const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new GeneralEncapsulatedObjectFramePrivate())
+GeneralEncapsulatedObjectFrame::GeneralEncapsulatedObjectFrame(const ByteVector &data, Header *h) : Frame(h)
 {
+  d = new GeneralEncapsulatedObjectFramePrivate;
   parseFields(fieldData(data));
 }

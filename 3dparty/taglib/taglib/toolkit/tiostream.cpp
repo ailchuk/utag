@@ -23,49 +23,73 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
-#ifdef _WIN32
-# include <windows.h>
-# include <tstring.h>
-#endif
-
 #include "tiostream.h"
 
 using namespace TagLib;
 
 #ifdef _WIN32
 
+# include "tstring.h"
+# include "tdebug.h"
+# include <windows.h>
+
 namespace
 {
-  std::wstring ansiToUnicode(const char *str)
+  // Check if the running system has CreateFileW() function.
+  // Windows9x systems don't have CreateFileW() or can't accept Unicode file names.
+
+  bool supportsUnicode()
   {
-    const int len = MultiByteToWideChar(CP_ACP, 0, str, -1, NULL, 0);
+#ifdef UNICODE
+    return true;
+#else
+    const FARPROC p = GetProcAddress(GetModuleHandleA("kernel32"), "CreateFileW");
+    return (p != NULL);
+#endif
+  }
+
+  // Indicates whether the system supports Unicode file names.
+
+  const bool SystemSupportsUnicode = supportsUnicode();
+
+  // Converts a UTF-16 string into a local encoding.
+  // This function should only be used in Windows9x systems which don't support
+  // Unicode file names.
+
+  std::string unicodeToAnsi(const wchar_t *wstr)
+  {
+    if(SystemSupportsUnicode) {
+      debug("unicodeToAnsi() - Should not be used on WinNT systems.");
+    }
+
+    const int len = WideCharToMultiByte(CP_ACP, 0, wstr, -1, NULL, 0, NULL, NULL);
     if(len == 0)
-      return std::wstring();
+      return std::string();
 
-    std::wstring wstr(len - 1, L'\0');
-    MultiByteToWideChar(CP_ACP, 0, str, -1, &wstr[0], len);
+    std::string str(len, '\0');
+    WideCharToMultiByte(CP_ACP, 0, wstr, -1, &str[0], len, NULL, NULL);
 
-    return wstr;
+    return str;
   }
 }
 
-// m_name is no longer used, but kept for backward compatibility.
+// If WinNT, stores a Unicode string into m_wname directly.
+// If Win9x, converts and stores it into m_name to avoid calling Unicode version functions.
 
-FileName::FileName(const wchar_t *name) :
-  m_name(),
-  m_wname(name)
+FileName::FileName(const wchar_t *name)
+  : m_name (SystemSupportsUnicode ? "" : unicodeToAnsi(name))
+  , m_wname(SystemSupportsUnicode ? name : L"")
 {
 }
 
-FileName::FileName(const char *name) :
-  m_name(),
-  m_wname(ansiToUnicode(name))
+FileName::FileName(const char *name)
+  : m_name(name)
 {
 }
 
-FileName::FileName(const FileName &name) :
-  m_name(),
-  m_wname(name.m_wname)
+FileName::FileName(const FileName &name)
+  : m_name (name.m_name)
+  , m_wname(name.m_wname)
 {
 }
 
@@ -91,8 +115,24 @@ const std::string &FileName::str() const
 
 String FileName::toString() const
 {
-  return String(m_wname.c_str());
+  if(!m_wname.empty()) {
+    return String(m_wname);
+  }
+  else if(!m_name.empty()) {
+    const int len = MultiByteToWideChar(CP_ACP, 0, m_name.c_str(), -1, NULL, 0);
+    if(len == 0)
+      return String();
+
+    std::vector<wchar_t> buf(len);
+    MultiByteToWideChar(CP_ACP, 0, m_name.c_str(), -1, &buf[0], len);
+
+    return String(&buf[0]);
+  }
+  else {
+    return String();
+  }
 }
+
 
 #endif  // _WIN32
 

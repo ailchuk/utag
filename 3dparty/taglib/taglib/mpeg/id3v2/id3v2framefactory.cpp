@@ -127,11 +127,6 @@ Frame *FrameFactory::createFrame(const ByteVector &data, unsigned int version) c
 
 Frame *FrameFactory::createFrame(const ByteVector &origData, Header *tagHeader) const
 {
-    return createFrame(origData, const_cast<const Header *>(tagHeader));
-}
-
-Frame *FrameFactory::createFrame(const ByteVector &origData, const Header *tagHeader) const
-{
   ByteVector data = origData;
   unsigned int version = tagHeader->majorVersion();
   Frame::Header *header = new Frame::Header(data, version);
@@ -203,8 +198,8 @@ Frame *FrameFactory::createFrame(const ByteVector &origData, const Header *tagHe
 
   // Text Identification (frames 4.2)
 
-  // Apple proprietary WFED (Podcast URL), MVNM (Movement Name), MVIN (Movement Number), GRP1 (Grouping) are in fact text frames.
-  if(frameID.startsWith("T") || frameID == "WFED" || frameID == "MVNM" || frameID == "MVIN" || frameID == "GRP1") {
+  // Apple proprietary WFED (Podcast URL) is in fact a text frame.
+  if(frameID.startsWith("T") || frameID == "WFED") {
 
     TextIdentificationFrame *f = frameID != "TXXX"
       ? new TextIdentificationFrame(data, header)
@@ -339,11 +334,10 @@ void FrameFactory::rebuildAggregateFrames(ID3v2::Tag *tag) const
      tag->frameList("TDAT").size() == 1)
   {
     TextIdentificationFrame *tdrc =
-      dynamic_cast<TextIdentificationFrame *>(tag->frameList("TDRC").front());
+      static_cast<TextIdentificationFrame *>(tag->frameList("TDRC").front());
     UnknownFrame *tdat = static_cast<UnknownFrame *>(tag->frameList("TDAT").front());
 
-    if(tdrc &&
-       tdrc->fieldList().size() == 1 &&
+    if(tdrc->fieldList().size() == 1 &&
        tdrc->fieldList().front().size() == 4 &&
        tdat->data().size() >= 5)
     {
@@ -462,9 +456,6 @@ namespace
     { "TDS", "TDES" },
     { "TID", "TGID" },
     { "WFD", "WFED" },
-    { "MVN", "MVNM" },
-    { "MVI", "MVIN" },
-    { "GP1", "GRP1" },
   };
   const size_t frameConversion2Size = sizeof(frameConversion2) / sizeof(frameConversion2[0]);
 

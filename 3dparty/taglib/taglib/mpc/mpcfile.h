@@ -198,7 +198,7 @@ namespace TagLib {
        * \deprecated
        * \see strip
        */
-      TAGLIB_DEPRECATED void remove(int tags = AllTags);
+      void remove(int tags = AllTags);
 
       /*!
        * Returns whether or not the file on disk actually has an ID3v1 tag.
@@ -213,15 +213,6 @@ namespace TagLib {
        * \see APETag()
        */
       bool hasAPETag() const;
-
-      /*!
-       * Returns whether or not the given \a stream can be opened as an MPC
-       * file.
-       *
-       * \note This method is designed to do a quick check.  The result may
-       * not necessarily be correct.
-       */
-      static bool isSupported(IOStream *stream);
 
     private:
       File(const File &);

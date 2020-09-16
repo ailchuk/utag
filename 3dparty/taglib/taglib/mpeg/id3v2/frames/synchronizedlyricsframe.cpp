@@ -52,16 +52,16 @@ public:
 ////////////////////////////////////////////////////////////////////////////////
 
 SynchronizedLyricsFrame::SynchronizedLyricsFrame(String::Type encoding) :
-  Frame("SYLT"),
-  d(new SynchronizedLyricsFramePrivate())
+  Frame("SYLT")
 {
+  d = new SynchronizedLyricsFramePrivate;
   d->textEncoding = encoding;
 }
 
 SynchronizedLyricsFrame::SynchronizedLyricsFrame(const ByteVector &data) :
-  Frame(data),
-  d(new SynchronizedLyricsFramePrivate())
+  Frame(data)
 {
+  d = new SynchronizedLyricsFramePrivate;
   setData(data);
 }
 
@@ -189,7 +189,7 @@ void SynchronizedLyricsFrame::parseFields(const ByteVector &data)
       }
     }
     String text = readStringField(data, enc, &pos);
-    if(pos + 4 > end)
+    if(text.isEmpty() || pos + 4 > end)
       return;
 
     unsigned int time = data.toUInt(pos, true);
@@ -234,9 +234,9 @@ ByteVector SynchronizedLyricsFrame::renderFields() const
 // private members
 ////////////////////////////////////////////////////////////////////////////////
 
-SynchronizedLyricsFrame::SynchronizedLyricsFrame(const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new SynchronizedLyricsFramePrivate())
+SynchronizedLyricsFrame::SynchronizedLyricsFrame(const ByteVector &data, Header *h)
+  : Frame(h)
 {
+  d = new SynchronizedLyricsFramePrivate();
   parseFields(fieldData(data));
 }

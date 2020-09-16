@@ -89,9 +89,9 @@ public:
 ////////////////////////////////////////////////////////////////////////////////
 
 template <class T>
-List<T>::List() :
-  d(new ListPrivate<T>())
+List<T>::List()
 {
+  d = new ListPrivate<T>;
 }
 
 template <class T>
@@ -196,7 +196,7 @@ List<T> &List<T>::clear()
 template <class T>
 unsigned int List<T>::size() const
 {
-  return static_cast<unsigned int>(d->list.size());
+  return d->list.size();
 }
 
 template <class T>
@@ -283,16 +283,14 @@ const T &List<T>::operator[](unsigned int i) const
 template <class T>
 List<T> &List<T>::operator=(const List<T> &l)
 {
-  List<T>(l).swap(*this);
+  if(&l == this)
+    return *this;
+
+  if(d->deref())
+    delete d;
+  d = l.d;
+  d->ref();
   return *this;
-}
-
-template <class T>
-void List<T>::swap(List<T> &l)
-{
-  using std::swap;
-
-  swap(d, l.d);
 }
 
 template <class T>

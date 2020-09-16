@@ -115,15 +115,6 @@ namespace TagLib {
        */
       virtual bool save();
 
-      /*!
-       * Returns whether or not the given \a stream can be opened as an ASF
-       * file.
-       *
-       * \note This method is designed to do a quick check.  The result may
-       * not necessarily be correct.
-       */
-      static bool isSupported(IOStream *stream);
-
     private:
       void read();
 

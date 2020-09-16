@@ -43,10 +43,9 @@ public:
   String trackerName;
 };
 
-Mod::Tag::Tag() :
-  TagLib::Tag(),
-  d(new TagPrivate())
+Mod::Tag::Tag() : TagLib::Tag()
 {
+  d = new TagPrivate;
 }
 
 Mod::Tag::~Tag()

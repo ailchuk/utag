@@ -51,16 +51,14 @@ public:
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
-RelativeVolumeFrame::RelativeVolumeFrame() :
-  Frame("RVA2"),
-  d(new RelativeVolumeFramePrivate())
+RelativeVolumeFrame::RelativeVolumeFrame() : Frame("RVA2")
 {
+  d = new RelativeVolumeFramePrivate;
 }
 
-RelativeVolumeFrame::RelativeVolumeFrame(const ByteVector &data) :
-  Frame(data),
-  d(new RelativeVolumeFramePrivate())
+RelativeVolumeFrame::RelativeVolumeFrame(const ByteVector &data) : Frame(data)
 {
+  d = new RelativeVolumeFramePrivate;
   setData(data);
 }
 
@@ -225,9 +223,8 @@ ByteVector RelativeVolumeFrame::renderFields() const
 // private members
 ////////////////////////////////////////////////////////////////////////////////
 
-RelativeVolumeFrame::RelativeVolumeFrame(const ByteVector &data, Header *h) :
-  Frame(h),
-  d(new RelativeVolumeFramePrivate())
+RelativeVolumeFrame::RelativeVolumeFrame(const ByteVector &data, Header *h) : Frame(h)
 {
+  d = new RelativeVolumeFramePrivate;
   parseFields(fieldData(data));
 }

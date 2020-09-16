@@ -96,18 +96,6 @@ public:
 };
 
 ////////////////////////////////////////////////////////////////////////////////
-// static members
-////////////////////////////////////////////////////////////////////////////////
-
-bool FLAC::File::isSupported(IOStream *stream)
-{
-  // A FLAC file has an ID "fLaC" somewhere. An ID3v2 tag may precede.
-
-  const ByteVector buffer = Utils::readHeader(stream, bufferSize(), true);
-  return (buffer.find("fLaC") >= 0);
-}
-
-////////////////////////////////////////////////////////////////////////////////
 // public members
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -180,8 +168,8 @@ bool FLAC::File::save()
   }
 
   // Create new vorbis comments
-  if(!hasXiphComment())
-    Tag::duplicate(&d->tag, xiphComment(true), false);
+
+  Tag::duplicate(&d->tag, xiphComment(true), false);
 
   d->xiphCommentData = xiphComment()->render(false);
 
@@ -210,6 +198,7 @@ bool FLAC::File::save()
   }
 
   // Compute the amount of padding, and append that to data.
+  // TODO: Should be calculated in offset_t in taglib2.
 
   long originalLength = d->streamStart - d->flacStart;
   long paddingLength = originalLength - data.size() - 4;
@@ -309,7 +298,11 @@ bool FLAC::File::save()
 
 ID3v2::Tag *FLAC::File::ID3v2Tag(bool create)
 {
-  return d->tag.access<ID3v2::Tag>(FlacID3v2Index, create);
+  if(!create || d->tag[FlacID3v2Index])
+    return static_cast<ID3v2::Tag *>(d->tag[FlacID3v2Index]);
+
+  d->tag.set(FlacID3v2Index, new ID3v2::Tag);
+  return static_cast<ID3v2::Tag *>(d->tag[FlacID3v2Index]);
 }
 
 ID3v1::Tag *FLAC::File::ID3v1Tag(bool create)
@@ -514,9 +507,7 @@ void FLAC::File::scan()
       return;
     }
 
-    if(blockLength == 0
-      && blockType != MetadataBlock::Padding && blockType != MetadataBlock::SeekTable)
-    {
+    if(blockLength == 0 && blockType != MetadataBlock::Padding) {
       debug("FLAC::File::scan() -- Zero-sized metadata block found");
       setValid(false);
       return;

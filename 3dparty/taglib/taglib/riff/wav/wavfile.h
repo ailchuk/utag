@@ -159,19 +159,7 @@ namespace TagLib {
          */
         virtual bool save();
 
-        /*!
-         * \deprecated
-         */
-        TAGLIB_DEPRECATED bool save(TagTypes tags, bool stripOthers, int id3v2Version = 4);
-
-        /*!
-         * Save the file.  If \a strip is specified, it is possible to choose if
-         * tags not specified in \a tags should be stripped from the file or
-         * retained.  With \a version, it is possible to specify whether ID3v2.4
-         * or ID3v2.3 should be used.
-         */
-        bool save(TagTypes tags, StripTags strip = StripOthers,
-                  ID3v2::Version version = ID3v2::v4);
+        bool save(TagTypes tags, bool stripOthers = true, int id3v2Version = 4);
 
         /*!
          * Returns whether or not the file on disk actually has an ID3v2 tag.
@@ -186,15 +174,6 @@ namespace TagLib {
          * \see InfoTag()
          */
         bool hasInfoTag() const;
-
-        /*!
-         * Returns whether or not the given \a stream can be opened as a WAV
-         * file.
-         *
-         * \note This method is designed to do a quick check.  The result may
-         * not necessarily be correct.
-         */
-        static bool isSupported(IOStream *stream);
 
       private:
         File(const File &);
