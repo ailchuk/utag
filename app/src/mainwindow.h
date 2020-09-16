@@ -8,7 +8,11 @@
 #include <QFileDialog>
 #include <QFileSystemWatcher>
 #include <QListWidget>
+#include <QString>
+#include <QFile>
 #include "mytag.h"
+
+class Tag;
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

@@ -12,7 +12,7 @@ SET(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
-set(SRCS mainwindow.ui mainwindow.cpp)
+set(SRCS mainwindow.ui mainwindow.cpp mytag.cpp file_utils.cpp)
 
 add_library(src ${SRCS})
 
@@ -21,4 +21,4 @@ target_link_libraries(
     Qt5::Core
     Qt5::Gui
     Qt5::Widgets
-)
+) 

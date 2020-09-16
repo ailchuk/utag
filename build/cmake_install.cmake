@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/ailchuk/Desktop/utag/build/app/cmake_install.cmake")
-  include("/Users/ailchuk/Desktop/utag/build/3dparty/cmake_install.cmake")
 
 endif()
 

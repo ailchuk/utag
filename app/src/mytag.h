@@ -1,7 +1,7 @@
 #pragma once
 
-#include <QString>
-#include <QFile>
+#include "file_utils.h"
+#include "mainwindow.h"
 
 class Tag
 {

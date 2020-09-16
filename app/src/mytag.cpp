@@ -1,5 +1,4 @@
 #include "mytag.h"
-#include "file_utils.h"
 
 Tag::Tag(QString fname)
 {

@@ -10,9 +10,19 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/ailchuk/Desktop/utag/app/src/file_utils.h",
+			"MU",
+			"EWIEGA46WW/moc_file_utils.cpp"
+		],
+		[
 			"/Users/ailchuk/Desktop/utag/app/src/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
+		],
+		[
+			"/Users/ailchuk/Desktop/utag/app/src/mytag.h",
+			"MU",
+			"EWIEGA46WW/moc_mytag.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -67,7 +77,9 @@
 	"SETTINGS_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp", "MU" ]
+		[ "/Users/ailchuk/Desktop/utag/app/src/file_utils.cpp", "MU" ],
+		[ "/Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp", "MU" ],
+		[ "/Users/ailchuk/Desktop/utag/app/src/mytag.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
