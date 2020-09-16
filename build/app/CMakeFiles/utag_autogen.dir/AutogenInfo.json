@@ -32,10 +32,10 @@
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 		"/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework",
 		"/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include",
 		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include",
-		"/Library/Developer/CommandLineTools/usr/include",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"
+		"/Library/Developer/CommandLineTools/usr/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],

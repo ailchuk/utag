@@ -115,6 +115,7 @@ utag: app/CMakeFiles/utag.dir/main.cpp.o
 utag: app/CMakeFiles/utag.dir/build.make
 utag: /Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/QtWidgets
 utag: app/src/libsrc.a
+utag: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd
 utag: /Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/QtGui
 utag: /Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/QtCore
 utag: /Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/QtWidgets

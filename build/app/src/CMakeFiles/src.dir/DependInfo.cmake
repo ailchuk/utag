@@ -24,6 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "app/src"
   "../app/src"
   "app/src/src_autogen/include"
+  "../app/src/../3dparty/taglib"
   "/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework"
   "/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers"
   "/Users/ailchuk/.brew/opt/qt/./mkspecs/macx-clang"

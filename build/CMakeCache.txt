@@ -14,6 +14,24 @@
 # EXTERNAL cache entries
 ########################
 
+//The subdirectory to the binaries prefix (default prefix/bin)
+BIN_INSTALL_DIR:PATH=/Users/ailchuk/.brew/bin
+
+//Build the bindings
+BUILD_BINDINGS:BOOL=ON
+
+//Build the examples
+BUILD_EXAMPLES:BOOL=OFF
+
+//Build an OS X framework
+BUILD_FRAMEWORK:BOOL=OFF
+
+//Build shared libraries
+BUILD_SHARED_LIBS:BOOL=OFF
+
+//Build the test suite
+BUILD_TESTS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -44,6 +62,24 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/cc
+
+//Flags used by the C compiler during all build types.
+CMAKE_C_FLAGS:STRING=
+
+//Flags used by the C compiler during DEBUG builds.
+CMAKE_C_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the C compiler during MINSIZEREL builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the C compiler during RELEASE builds.
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the C compiler during RELWITHDEBINFO builds.
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
@@ -192,6 +228,31 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Use ccache when building libtag
+ENABLE_CCACHE:BOOL=OFF
+
+//Visual Studio, link with runtime statically
+ENABLE_STATIC_RUNTIME:BOOL=OFF
+
+//Base directory for executables and libraries
+EXEC_INSTALL_PREFIX:PATH=/Users/ailchuk/.brew
+
+//The subdirectory to the header prefix
+INCLUDE_INSTALL_DIR:PATH=/Users/ailchuk/.brew/include
+
+//The subdirectory relative to the install prefix where libraries
+// will be installed (default is /lib)
+LIB_INSTALL_DIR:PATH=/Users/ailchuk/.brew/lib
+
+//Define suffix of directory name (32/64)
+LIB_SUFFIX:STRING=
+
+//Disable workarounds for iTunes bugs
+NO_ITUNES_HACKS:BOOL=OFF
+
+//Enable WinRT support
+PLATFORM_WINRT:BOOL=OFF
+
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/Users/ailchuk/.brew/opt/qt/lib/cmake/Qt5Core
 
@@ -204,6 +265,21 @@ Qt5Widgets_DIR:PATH=/Users/ailchuk/.brew/opt/qt/lib/cmake/Qt5Widgets
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/Users/ailchuk/.brew/opt/qt/lib/cmake/Qt5
 
+//Output debug messages even in release mode
+TRACE_IN_RELEASE:BOOL=OFF
+
+//Build with -fvisibility=hidden
+VISIBILITY_HIDDEN:BOOL=OFF
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd
+
 //Value Computed by CMake
 src_BINARY_DIR:STATIC=/Users/ailchuk/Desktop/utag/build/app/src
 
@@ -212,6 +288,18 @@ src_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;
 
 //Value Computed by CMake
 src_SOURCE_DIR:STATIC=/Users/ailchuk/Desktop/utag/app/src
+
+//Dependencies for the target
+tag_LIB_DEPENDS:STATIC=general;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd;
+
+//Dependencies for the target
+tag_c_LIB_DEPENDS:STATIC=general;tag;
+
+//Value Computed by CMake
+taglib_BINARY_DIR:STATIC=/Users/ailchuk/Desktop/utag/build/3dparty/taglib
+
+//Value Computed by CMake
+taglib_SOURCE_DIR:STATIC=/Users/ailchuk/Desktop/utag/3dparty/taglib
 
 //Value Computed by CMake
 utag_BINARY_DIR:STATIC=/Users/ailchuk/Desktop/utag/build/app
@@ -256,6 +344,18 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER
+CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS
+CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
+CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
+CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
+CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
+CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
@@ -304,7 +404,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -347,4 +447,52 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include][v1.2.11()]
+//Have library Crun
+HAVE_CRUN_LIB:INTERNAL=
+//Test HAVE_GCC_BYTESWAP
+HAVE_GCC_BYTESWAP:INTERNAL=1
+//Test HAVE_ISO_STRDUP
+HAVE_ISO_STRDUP:INTERNAL=
+//Result of TRY_COMPILE
+HAVE_SIZEOF_DOUBLE:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_FLOAT:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_INT:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_LONGLONG:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_SHORT:INTERNAL=TRUE
+//Result of TRY_COMPILE
+HAVE_SIZEOF_WCHAR_T:INTERNAL=TRUE
+//Have include stddef.h
+HAVE_STDDEF_H:INTERNAL=1
+//Have include stdint.h
+HAVE_STDINT_H:INTERNAL=1
+//Test HAVE_STD_ATOMIC
+HAVE_STD_ATOMIC:INTERNAL=1
+//Have include sys/types.h
+HAVE_SYS_TYPES_H:INTERNAL=1
+//Test HAVE_VSNPRINTF
+HAVE_VSNPRINTF:INTERNAL=1
+//CHECK_TYPE_SIZE: sizeof(double)
+SIZEOF_DOUBLE:INTERNAL=8
+//CHECK_TYPE_SIZE: sizeof(float)
+SIZEOF_FLOAT:INTERNAL=4
+//CHECK_TYPE_SIZE: sizeof(int)
+SIZEOF_INT:INTERNAL=4
+//CHECK_TYPE_SIZE: sizeof(long long)
+SIZEOF_LONGLONG:INTERNAL=8
+//CHECK_TYPE_SIZE: sizeof(short)
+SIZEOF_SHORT:INTERNAL=2
+//CHECK_TYPE_SIZE: sizeof(wchar_t)
+SIZEOF_WCHAR_T:INTERNAL=4
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

@@ -40,6 +40,7 @@
 	[
 		"/Users/ailchuk/Desktop/utag/build/app/src",
 		"/Users/ailchuk/Desktop/utag/app/src",
+		"/Users/ailchuk/Desktop/utag/app/3dparty/taglib",
 		"/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework",
 		"/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers",
 		"/Users/ailchuk/.brew/opt/qt/mkspecs/macx-clang",
