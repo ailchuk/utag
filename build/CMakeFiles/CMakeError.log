@@ -1,0 +1,42 @@
+Performing C++ SOURCE FILE Test HAVE_ISO_STRDUP failed with the following output:
+Change Dir: /Users/ailchuk/Desktop/utag/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da2da/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_da2da.dir/build.make CMakeFiles/cmTC_da2da.dir/build
+Building CXX object CMakeFiles/cmTC_da2da.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -DHAVE_ISO_STRDUP -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_da2da.dir/src.cxx.o -c /Users/ailchuk/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/ailchuk/Desktop/utag/build/CMakeFiles/CMakeTmp/src.cxx:4:5: error: use of undeclared identifier '_strdup'; did you mean 'strdup'?
+    _strdup(0);
+    ^~~~~~~
+    strdup
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/string.h:117:7: note: 'strdup' declared here
+char    *strdup(const char *__s1);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_da2da.dir/src.cxx.o] Error 1
+make: *** [cmTC_da2da/fast] Error 2
+
+
+Source file was:
+
+  #include <cstring>
+  int main() {
+    _strdup(0);
+    return 0;
+  }
+
+Determining if the function __RTTI___ exists in the Crun failed with the following output:
+Change Dir: /Users/ailchuk/Desktop/utag/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f5db/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4f5db.dir/build.make CMakeFiles/cmTC_4f5db.dir/build
+Building C object CMakeFiles/cmTC_4f5db.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=__RTTI___ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o CMakeFiles/cmTC_4f5db.dir/CheckFunctionExists.c.o -c /Users/ailchuk/.brew/Cellar/cmake/3.18.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f5db
+/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f5db.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=__RTTI___ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4f5db.dir/CheckFunctionExists.c.o -o cmTC_4f5db  -lCrun 
+ld: library not found for -lCrun
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4f5db] Error 1
+make: *** [cmTC_4f5db/fast] Error 2
+
+
+

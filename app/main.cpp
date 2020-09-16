@@ -1,12 +1,13 @@
+#include "mainwindow.h"
+
 #include <QApplication>
 
-#include "mainwindow.h"
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	QApplication app(argc, argv);
-
-	MainWindow mainWindow;
-	mainWindow.show();
-
-	return app.exec();
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.setPath("D:\\A_Data\\Музыка\\");
+    w.show();
+    w.showDir();
+    return a.exec();
 }

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libsrc.a CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o CMakeFiles/src.dir/mainwindow.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libsrc.a

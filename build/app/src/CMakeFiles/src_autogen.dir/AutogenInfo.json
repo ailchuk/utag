@@ -1,0 +1,77 @@
+{
+	"BUILD_DIR" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/ailchuk/Desktop/utag/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ailchuk/Desktop/utag/build/app/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ailchuk/Desktop/utag/app/src",
+	"CMAKE_EXECUTABLE" : "/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/ailchuk/Desktop/utag",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/ailchuk/Desktop/utag/app/src/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/ailchuk/Desktop/utag/build/app/src",
+		"/Users/ailchuk/Desktop/utag/app/src",
+		"/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework",
+		"/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers",
+		"/Users/ailchuk/.brew/opt/qt/mkspecs/macx-clang",
+		"/Users/ailchuk/.brew/opt/qt/lib/QtGui.framework",
+		"/Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/Headers",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework",
+		"/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include",
+		"/Library/Developer/CommandLineTools/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Users/ailchuk/.brew/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/ailchuk/.brew/opt/qt/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/ailchuk/.brew/opt/qt/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
