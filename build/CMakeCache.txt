@@ -308,7 +308,7 @@ ZLIB_LIBRARY_RELEASE:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX10.
 src_BINARY_DIR:STATIC=/Users/admin/Desktop/utag/build/app/src
 
 //Dependencies for the target
-src_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;
+src_LIB_DEPENDS:STATIC=general;Qt5::Core;general;Qt5::Gui;general;Qt5::Widgets;general;tag;
 
 //Value Computed by CMake
 src_SOURCE_DIR:STATIC=/Users/admin/Desktop/utag/app/src

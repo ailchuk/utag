@@ -40,16 +40,22 @@ void MainWindow::showDir()
 void MainWindow::setMyLabels()
 {
     TagLib::FileRef ref(m_file_path.toStdString().c_str());
+    auto year = QString::number(ref.tag()->year());
+    auto track = QString::number(ref.tag()->track());
 
-    // m_ui->m_title_line->setText(QString::fromStdString(ref.tag()->title().toCString()));
-    // m_ui->m_artist_line->setText(QString::fromStdString(ref.tag()->artist().toCString()));
-    // m_ui->m_album_line->setText(QString::fromStdString(ref.tag()->album().toCString()));
-    // m_ui->m_year_line->setText(QString::number(ref.tag()->year()));
+    m_ui->m_full_path_to_file_l->setText(m_file_path);
+    m_ui->m_line_title->setText(QString::fromStdString(ref.tag()->title().toCString()));
+    m_ui->m_line_artist->setText(QString::fromStdString(ref.tag()->artist().toCString()));
+    m_ui->m_line_album->setText(QString::fromStdString(ref.tag()->album().toCString()));
+    m_ui->m_line_genre->setText(QString::fromStdString(ref.tag()->genre().toCString()));
+    m_ui->m_line_year->setText(year == "0" ? " " : year);
+    m_ui->m_line_track->setText(track == "0" ? " " : track);
+    m_ui->m_line_comment->setText(QString::fromStdString(ref.tag()->comment().toCString()));
 }
 
 void MainWindow::on_m_save_clicked()
 {
-
+    // m_ui->m_
 }
 
 void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
@@ -64,6 +70,5 @@ void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
     if (m_file) {
         setMyLabels();
     }
-
-
+    m_file->close();
 }

@@ -1,5 +1,4 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include <QDir>
@@ -43,4 +42,3 @@ private:
     TagLib::FileRef m_ref; // in end m_ref.save()!!!!
 
 };
-#endif // MAINWINDOW_H

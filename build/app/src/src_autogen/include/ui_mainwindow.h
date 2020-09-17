@@ -11,14 +11,11 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QGraphicsView>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -29,30 +26,33 @@ public:
     QWidget *centralwidget;
     QPushButton *m_save;
     QListWidget *m_folderList;
-    QGraphicsView *m_logo;
-    QWidget *layoutWidget;
-    QHBoxLayout *m_layout_all;
-    QVBoxLayout *m_layout_label;
-    QLabel *m_artist;
-    QLabel *m_title;
-    QLabel *m_album;
-    QLabel *m_year;
-    QVBoxLayout *m_layout_line;
-    QLineEdit *m_artist_line;
-    QLineEdit *m_title_line;
-    QLineEdit *m_album_line;
-    QLineEdit *m_year_line;
+    QLabel *m_title_l;
+    QLabel *m_album_l;
+    QLabel *m_artist_l;
+    QLabel *m_genre_l;
+    QLabel *m_year_l;
+    QLabel *m_track_l;
+    QLabel *m_comment_l;
+    QLabel *m_path_to_file_l;
+    QLineEdit *m_line_title;
+    QLineEdit *m_line_artist;
+    QLineEdit *m_line_album;
+    QLineEdit *m_line_genre;
+    QLineEdit *m_line_year;
+    QLineEdit *m_line_track;
+    QLineEdit *m_line_comment;
+    QLabel *m_full_path_to_file_l;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(800, 600);
+        MainWindow->resize(800, 415);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         m_save = new QPushButton(centralwidget);
         m_save->setObjectName(QString::fromUtf8("m_save"));
-        m_save->setGeometry(QRect(10, 566, 441, 25));
+        m_save->setGeometry(QRect(14, 375, 451, 30));
         QFont font;
         font.setPointSize(10);
         font.setBold(false);
@@ -70,72 +70,69 @@ public:
 "}"));
         m_folderList = new QListWidget(centralwidget);
         m_folderList->setObjectName(QString::fromUtf8("m_folderList"));
-        m_folderList->setGeometry(QRect(465, 10, 321, 581));
-        m_logo = new QGraphicsView(centralwidget);
-        m_logo->setObjectName(QString::fromUtf8("m_logo"));
-        m_logo->setGeometry(QRect(60, 20, 361, 231));
-        layoutWidget = new QWidget(centralwidget);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(10, 270, 441, 247));
-        m_layout_all = new QHBoxLayout(layoutWidget);
-        m_layout_all->setObjectName(QString::fromUtf8("m_layout_all"));
-        m_layout_all->setContentsMargins(0, 0, 0, 0);
-        m_layout_label = new QVBoxLayout();
-        m_layout_label->setObjectName(QString::fromUtf8("m_layout_label"));
-        m_artist = new QLabel(layoutWidget);
-        m_artist->setObjectName(QString::fromUtf8("m_artist"));
+        m_folderList->setGeometry(QRect(475, 5, 321, 405));
+        m_title_l = new QLabel(centralwidget);
+        m_title_l->setObjectName(QString::fromUtf8("m_title_l"));
+        m_title_l->setGeometry(QRect(14, 90, 75, 30));
         QFont font1;
-        font1.setPointSize(12);
-        m_artist->setFont(font1);
-
-        m_layout_label->addWidget(m_artist);
-
-        m_title = new QLabel(layoutWidget);
-        m_title->setObjectName(QString::fromUtf8("m_title"));
-        m_title->setFont(font1);
-
-        m_layout_label->addWidget(m_title);
-
-        m_album = new QLabel(layoutWidget);
-        m_album->setObjectName(QString::fromUtf8("m_album"));
-        m_album->setFont(font1);
-
-        m_layout_label->addWidget(m_album);
-
-        m_year = new QLabel(layoutWidget);
-        m_year->setObjectName(QString::fromUtf8("m_year"));
-        m_year->setFont(font1);
-
-        m_layout_label->addWidget(m_year);
-
-
-        m_layout_all->addLayout(m_layout_label);
-
-        m_layout_line = new QVBoxLayout();
-        m_layout_line->setObjectName(QString::fromUtf8("m_layout_line"));
-        m_artist_line = new QLineEdit(layoutWidget);
-        m_artist_line->setObjectName(QString::fromUtf8("m_artist_line"));
-
-        m_layout_line->addWidget(m_artist_line);
-
-        m_title_line = new QLineEdit(layoutWidget);
-        m_title_line->setObjectName(QString::fromUtf8("m_title_line"));
-
-        m_layout_line->addWidget(m_title_line);
-
-        m_album_line = new QLineEdit(layoutWidget);
-        m_album_line->setObjectName(QString::fromUtf8("m_album_line"));
-
-        m_layout_line->addWidget(m_album_line);
-
-        m_year_line = new QLineEdit(layoutWidget);
-        m_year_line->setObjectName(QString::fromUtf8("m_year_line"));
-
-        m_layout_line->addWidget(m_year_line);
-
-
-        m_layout_all->addLayout(m_layout_line);
-
+        font1.setPointSize(10);
+        m_title_l->setFont(font1);
+        m_album_l = new QLabel(centralwidget);
+        m_album_l->setObjectName(QString::fromUtf8("m_album_l"));
+        m_album_l->setGeometry(QRect(14, 170, 75, 30));
+        m_album_l->setFont(font1);
+        m_artist_l = new QLabel(centralwidget);
+        m_artist_l->setObjectName(QString::fromUtf8("m_artist_l"));
+        m_artist_l->setGeometry(QRect(14, 130, 75, 30));
+        m_artist_l->setFont(font1);
+        m_genre_l = new QLabel(centralwidget);
+        m_genre_l->setObjectName(QString::fromUtf8("m_genre_l"));
+        m_genre_l->setGeometry(QRect(14, 210, 75, 30));
+        m_genre_l->setFont(font1);
+        m_year_l = new QLabel(centralwidget);
+        m_year_l->setObjectName(QString::fromUtf8("m_year_l"));
+        m_year_l->setGeometry(QRect(14, 250, 75, 30));
+        m_year_l->setFont(font1);
+        m_track_l = new QLabel(centralwidget);
+        m_track_l->setObjectName(QString::fromUtf8("m_track_l"));
+        m_track_l->setGeometry(QRect(14, 290, 75, 30));
+        m_track_l->setFont(font1);
+        m_comment_l = new QLabel(centralwidget);
+        m_comment_l->setObjectName(QString::fromUtf8("m_comment_l"));
+        m_comment_l->setGeometry(QRect(14, 330, 75, 30));
+        m_comment_l->setFont(font1);
+        m_path_to_file_l = new QLabel(centralwidget);
+        m_path_to_file_l->setObjectName(QString::fromUtf8("m_path_to_file_l"));
+        m_path_to_file_l->setGeometry(QRect(10, 30, 91, 30));
+        m_path_to_file_l->setFont(font1);
+        m_line_title = new QLineEdit(centralwidget);
+        m_line_title->setObjectName(QString::fromUtf8("m_line_title"));
+        m_line_title->setGeometry(QRect(100, 90, 365, 25));
+        m_line_artist = new QLineEdit(centralwidget);
+        m_line_artist->setObjectName(QString::fromUtf8("m_line_artist"));
+        m_line_artist->setGeometry(QRect(100, 130, 365, 25));
+        m_line_album = new QLineEdit(centralwidget);
+        m_line_album->setObjectName(QString::fromUtf8("m_line_album"));
+        m_line_album->setGeometry(QRect(100, 170, 365, 25));
+        m_line_genre = new QLineEdit(centralwidget);
+        m_line_genre->setObjectName(QString::fromUtf8("m_line_genre"));
+        m_line_genre->setGeometry(QRect(100, 210, 365, 25));
+        m_line_year = new QLineEdit(centralwidget);
+        m_line_year->setObjectName(QString::fromUtf8("m_line_year"));
+        m_line_year->setGeometry(QRect(100, 250, 365, 25));
+        m_line_track = new QLineEdit(centralwidget);
+        m_line_track->setObjectName(QString::fromUtf8("m_line_track"));
+        m_line_track->setGeometry(QRect(100, 290, 365, 25));
+        m_line_comment = new QLineEdit(centralwidget);
+        m_line_comment->setObjectName(QString::fromUtf8("m_line_comment"));
+        m_line_comment->setGeometry(QRect(100, 330, 365, 25));
+        m_full_path_to_file_l = new QLabel(centralwidget);
+        m_full_path_to_file_l->setObjectName(QString::fromUtf8("m_full_path_to_file_l"));
+        m_full_path_to_file_l->setGeometry(QRect(110, 30, 351, 30));
+        QFont font2;
+        font2.setPointSize(10);
+        font2.setItalic(false);
+        m_full_path_to_file_l->setFont(font2);
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
@@ -147,10 +144,15 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         m_save->setText(QCoreApplication::translate("MainWindow", "Save changes", nullptr));
-        m_artist->setText(QCoreApplication::translate("MainWindow", "Artist", nullptr));
-        m_title->setText(QCoreApplication::translate("MainWindow", "Title", nullptr));
-        m_album->setText(QCoreApplication::translate("MainWindow", "Album", nullptr));
-        m_year->setText(QCoreApplication::translate("MainWindow", "Year", nullptr));
+        m_title_l->setText(QCoreApplication::translate("MainWindow", "Title", nullptr));
+        m_album_l->setText(QCoreApplication::translate("MainWindow", "Album", nullptr));
+        m_artist_l->setText(QCoreApplication::translate("MainWindow", "Artist", nullptr));
+        m_genre_l->setText(QCoreApplication::translate("MainWindow", "Genre", nullptr));
+        m_year_l->setText(QCoreApplication::translate("MainWindow", "Year", nullptr));
+        m_track_l->setText(QCoreApplication::translate("MainWindow", "Track", nullptr));
+        m_comment_l->setText(QCoreApplication::translate("MainWindow", "Comment", nullptr));
+        m_path_to_file_l->setText(QCoreApplication::translate("MainWindow", "Path to file", nullptr));
+        m_full_path_to_file_l->setText(QString());
     } // retranslateUi
 
 };
