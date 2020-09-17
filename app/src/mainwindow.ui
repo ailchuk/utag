@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>415</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QPushButton" name="m_save">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>566</y>
-      <width>441</width>
-      <height>25</height>
+      <x>14</x>
+      <y>375</y>
+      <width>451</width>
+      <height>30</height>
      </rect>
     </property>
     <property name="font">
@@ -49,102 +49,245 @@ QPushButton:pressed {
    <widget class="QListWidget" name="m_folderList">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>10</y>
+      <x>475</x>
+      <y>5</y>
       <width>321</width>
-      <height>581</height>
+      <height>405</height>
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="m_logo">
+   <widget class="QLabel" name="m_title_l">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>20</y>
-      <width>361</width>
-      <height>231</height>
+      <x>14</x>
+      <y>90</y>
+      <width>75</width>
+      <height>30</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Title</string>
+    </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QLabel" name="m_album_l">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>170</y>
+      <width>75</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Album</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_artist_l">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>130</y>
+      <width>75</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Artist</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_genre_l">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>210</y>
+      <width>75</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Genre</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_year_l">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>250</y>
+      <width>75</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Year</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_track_l">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>290</y>
+      <width>75</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Track</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_comment_l">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>330</y>
+      <width>75</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Comment</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_path_to_file_l">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>270</y>
-      <width>441</width>
-      <height>247</height>
+      <y>30</y>
+      <width>91</width>
+      <height>30</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="m_layout_all">
-     <item>
-      <layout class="QVBoxLayout" name="m_layout_label">
-       <item>
-        <widget class="QLabel" name="m_artist">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Artist</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="m_title">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Title</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="m_album">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Album</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="m_year">
-         <property name="font">
-          <font>
-           <pointsize>12</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Year</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item>
-      <layout class="QVBoxLayout" name="m_layout_line">
-       <item>
-        <widget class="QLineEdit" name="m_artist_line"/>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="m_title_line"/>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="m_album_line"/>
-       </item>
-       <item>
-        <widget class="QLineEdit" name="m_year_line"/>
-       </item>
-      </layout>
-     </item>
-    </layout>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Path to file</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_title">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_artist">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_album">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_genre">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>210</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_year">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>250</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_track">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_line_comment">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>330</y>
+      <width>365</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_full_path_to_file_l">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>351</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
  </widget>
