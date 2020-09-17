@@ -1,1 +1,1 @@
-cmake . -Bbuild && cmake --build ./build
+cmake . -Bbuild && cmake --build ./build && ./build/utag

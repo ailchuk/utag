@@ -4,7 +4,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , m_ui(new Ui::MainWindow)
 {
-    this->setFixedSize(800, 415);
+    setFixedSize(800, 415);
+    setWindowFlags(Qt::Drawer);
     m_ui->setupUi(this);
     connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
             this,SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem*)));
