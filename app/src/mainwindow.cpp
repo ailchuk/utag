@@ -37,12 +37,14 @@ void MainWindow::showDir()
 
 }
 
-void MainWindow::setTitles(Tag &tags)
+void MainWindow::setMyLabels()
 {
-    m_ui->m_title_line->setText(tags.getTitle());
-    m_ui->m_artist_line->setText(tags.getArtist());
-    m_ui->m_album_line->setText(tags.getAlbum());
-    m_ui->m_year_line->setText(tags.getYear());
+    TagLib::FileRef ref(m_file_path.toStdString().c_str());
+
+    // m_ui->m_title_line->setText(QString::fromStdString(ref.tag()->title().toCString()));
+    // m_ui->m_artist_line->setText(QString::fromStdString(ref.tag()->artist().toCString()));
+    // m_ui->m_album_line->setText(QString::fromStdString(ref.tag()->album().toCString()));
+    // m_ui->m_year_line->setText(QString::number(ref.tag()->year()));
 }
 
 void MainWindow::on_m_save_clicked()
@@ -53,8 +55,15 @@ void MainWindow::on_m_save_clicked()
 void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
 {
     QVariant data = item->data(Qt::UserRole);
-    QString fullFilePath = data.toString();
-    Tag tags(fullFilePath);
-    setTitles(tags);
+    m_file_path = data.toString();
+    // MyTag tags(fullFilePath);
+    // setTitles(tags);
+    m_file = new QFile(m_file_path);
+    m_file->open(QIODevice::ReadWrite | QIODevice::Text);
+
+    if (m_file) {
+        setMyLabels();
+    }
+
 
 }

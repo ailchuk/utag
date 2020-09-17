@@ -10,9 +10,8 @@
 #include <QListWidget>
 #include <QString>
 #include <QFile>
-#include "mytag.h"
-
-class Tag;
+#include <taglib/tag.h>
+#include <taglib/fileref.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -27,7 +26,7 @@ public:
     ~MainWindow();
     void setPath(std::string path);
     void showDir();
-    void setTitles(Tag& tags);
+    void setMyLabels();
 
 
 private slots:
@@ -39,5 +38,9 @@ private slots:
 private:
     Ui::MainWindow *m_ui;
     QString m_path;
+    QFile *m_file;
+    QString m_file_path;
+    TagLib::FileRef m_ref; // in end m_ref.save()!!!!
+
 };
 #endif // MAINWINDOW_H

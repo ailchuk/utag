@@ -10,19 +10,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/admin/Desktop/utag/app/src/file_utils.h",
-			"MU",
-			"EWIEGA46WW/moc_file_utils.cpp"
-		],
-		[
 			"/Users/admin/Desktop/utag/app/src/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
-		],
-		[
-			"/Users/admin/Desktop/utag/app/src/mytag.h",
-			"MU",
-			"EWIEGA46WW/moc_mytag.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -40,7 +30,32 @@
 	[
 		"/Users/admin/Desktop/utag/build/app/src",
 		"/Users/admin/Desktop/utag/app/src",
-		"/Users/admin/Desktop/utag/app/3dparty/taglib",
+		"/Users/admin/Desktop/utag/3dparty/taglib",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ape",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/asf",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/flac",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/it",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mod",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/flac",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/riff",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/s3m",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/xm",
 		"/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework",
 		"/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers",
 		"/usr/local/Cellar/qt/5.15.1/mkspecs/macx-clang",
@@ -78,9 +93,7 @@
 	"SETTINGS_FILE" : "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/admin/Desktop/utag/app/src/file_utils.cpp", "MU" ],
-		[ "/Users/admin/Desktop/utag/app/src/mainwindow.cpp", "MU" ],
-		[ "/Users/admin/Desktop/utag/app/src/mytag.cpp", "MU" ]
+		[ "/Users/admin/Desktop/utag/app/src/mainwindow.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

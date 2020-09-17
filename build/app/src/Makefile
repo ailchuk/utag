@@ -205,33 +205,6 @@ src_autogen/fast:
 	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src_autogen.dir/build.make app/src/CMakeFiles/src_autogen.dir/build
 .PHONY : src_autogen/fast
 
-file_utils.o: file_utils.cpp.o
-
-.PHONY : file_utils.o
-
-# target to build an object file
-file_utils.cpp.o:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/file_utils.cpp.o
-.PHONY : file_utils.cpp.o
-
-file_utils.i: file_utils.cpp.i
-
-.PHONY : file_utils.i
-
-# target to preprocess a source file
-file_utils.cpp.i:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/file_utils.cpp.i
-.PHONY : file_utils.cpp.i
-
-file_utils.s: file_utils.cpp.s
-
-.PHONY : file_utils.s
-
-# target to generate assembly for a file
-file_utils.cpp.s:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/file_utils.cpp.s
-.PHONY : file_utils.cpp.s
-
 mainwindow.o: mainwindow.cpp.o
 
 .PHONY : mainwindow.o
@@ -258,33 +231,6 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
-
-mytag.o: mytag.cpp.o
-
-.PHONY : mytag.o
-
-# target to build an object file
-mytag.cpp.o:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/mytag.cpp.o
-.PHONY : mytag.cpp.o
-
-mytag.i: mytag.cpp.i
-
-.PHONY : mytag.i
-
-# target to preprocess a source file
-mytag.cpp.i:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/mytag.cpp.i
-.PHONY : mytag.cpp.i
-
-mytag.s: mytag.cpp.s
-
-.PHONY : mytag.s
-
-# target to generate assembly for a file
-mytag.cpp.s:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/mytag.cpp.s
-.PHONY : mytag.cpp.s
 
 src_autogen/mocs_compilation.o: src_autogen/mocs_compilation.cpp.o
 
@@ -327,15 +273,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... src_autogen"
 	@echo "... src"
-	@echo "... file_utils.o"
-	@echo "... file_utils.i"
-	@echo "... file_utils.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
-	@echo "... mytag.o"
-	@echo "... mytag.i"
-	@echo "... mytag.s"
 	@echo "... src_autogen/mocs_compilation.o"
 	@echo "... src_autogen/mocs_compilation.i"
 	@echo "... src_autogen/mocs_compilation.s"

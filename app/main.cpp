@@ -1,8 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include "taglib/tag.h"
-#include "taglib/fileref.h"
-using namespace TagLib;
+
 
 int main(int argc, char *argv[])
 {

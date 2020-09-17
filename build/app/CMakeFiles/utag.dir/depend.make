@@ -15,9 +15,8 @@ app/CMakeFiles/utag.dir/main.cpp.o: ../3dparty/taglib/taglib/toolkit/tlist.tcc
 app/CMakeFiles/utag.dir/main.cpp.o: ../3dparty/taglib/taglib/toolkit/trefcounter.h
 app/CMakeFiles/utag.dir/main.cpp.o: ../3dparty/taglib/taglib/toolkit/tstring.h
 app/CMakeFiles/utag.dir/main.cpp.o: ../3dparty/taglib/taglib/toolkit/tstringlist.h
-app/CMakeFiles/utag.dir/main.cpp.o: ../app/src/file_utils.h
+app/CMakeFiles/utag.dir/main.cpp.o: ../3dparty/taglib/taglib_config.h
 app/CMakeFiles/utag.dir/main.cpp.o: ../app/src/mainwindow.h
-app/CMakeFiles/utag.dir/main.cpp.o: ../app/src/mytag.h
 app/CMakeFiles/utag.dir/main.cpp.o: ../app/main.cpp
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDebug
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDir
@@ -35,12 +34,10 @@ app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.fr
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
-app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QWidget
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qapplication.h
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
-app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qwidget.h
 
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o: app/utag_autogen/mocs_compilation.cpp
 
