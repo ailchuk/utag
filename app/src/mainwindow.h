@@ -39,6 +39,6 @@ private:
     QString m_path;
     QFile *m_file;
     QString m_file_path;
-    TagLib::FileRef m_ref; // in end m_ref.save()!!!!
+    TagLib::FileRef* m_ref; // in end m_ref.save()!!!!
 
 };

@@ -5,7 +5,7 @@ MainWindow::MainWindow(QWidget *parent)
     , m_ui(new Ui::MainWindow)
 {
     setFixedSize(800, 415);
-    setWindowFlags(Qt::Drawer);
+    setWindowFlags(Qt::WindowCloseButtonHint | Qt::WindowMinimizeButtonHint | Qt::CustomizeWindowHint);
     m_ui->setupUi(this);
     connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
             this,SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem*)));
@@ -44,6 +44,7 @@ void MainWindow::setMyLabels()
     auto year = QString::number(ref.tag()->year());
     auto track = QString::number(ref.tag()->track());
 
+    m_ref = &ref;
     m_ui->m_full_path_to_file_l->setText(m_file_path);
     m_ui->m_line_title->setText(QString::fromStdString(ref.tag()->title().toCString()));
     m_ui->m_line_artist->setText(QString::fromStdString(ref.tag()->artist().toCString()));
@@ -56,7 +57,10 @@ void MainWindow::setMyLabels()
 
 void MainWindow::on_m_save_clicked()
 {
-    // m_ui->m_
+    // m_ref->tag()->setTitle(m_ui->m_line_title->text().toStdString());
+    // m_ref->save();
+    // m_file->close();
+
 }
 
 void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
@@ -71,5 +75,4 @@ void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
     if (m_file) {
         setMyLabels();
     }
-    m_file->close();
 }
