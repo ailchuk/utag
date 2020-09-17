@@ -1,8 +1,8 @@
-# Install script for directory: /Users/ailchuk/Desktop/utag
+# Install script for directory: /Users/admin/Desktop/utag
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/ailchuk/.brew")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,10 +38,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/ailchuk/Desktop/utag/build/app/cmake_install.cmake")
-  include("/Users/ailchuk/Desktop/utag/build/3dparty/cmake_install.cmake")
+  # Include the install script for the subdirectory.
+  include("/Users/admin/Desktop/utag/build/3dparty/taglib/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/admin/Desktop/utag/build/app/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -52,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ailchuk/Desktop/utag/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/admin/Desktop/utag/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ailchuk/Desktop/utag/app/src/file_utils.cpp" "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src.dir/file_utils.cpp.o"
-  "/Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp" "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src.dir/mainwindow.cpp.o"
-  "/Users/ailchuk/Desktop/utag/app/src/mytag.cpp" "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src.dir/mytag.cpp.o"
-  "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp" "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"
+  "/Users/admin/Desktop/utag/app/src/file_utils.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/file_utils.cpp.o"
+  "/Users/admin/Desktop/utag/app/src/mainwindow.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/mainwindow.cpp.o"
+  "/Users/admin/Desktop/utag/app/src/mytag.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/mytag.cpp.o"
+  "/Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -25,14 +25,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../app/src"
   "app/src/src_autogen/include"
   "../app/src/../3dparty/taglib"
-  "/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework"
-  "/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers"
-  "/Users/ailchuk/.brew/opt/qt/./mkspecs/macx-clang"
-  "/Users/ailchuk/.brew/opt/qt/lib/QtGui.framework"
-  "/Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/Headers"
+  "/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework"
+  "/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers"
+  "/usr/local/Cellar/qt/5.15.1/./mkspecs/macx-clang"
+  "/usr/local/Cellar/qt/5.15.1/lib/QtGui.framework"
+  "/usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/Headers"
   "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
-  "/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework"
-  "/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers"
+  "/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework"
+  "/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers"
   )
 
 # Targets to which this target links.

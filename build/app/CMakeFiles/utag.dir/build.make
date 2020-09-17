@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ailchuk/Desktop/utag
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/utag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/utag.dir/depend.make
@@ -78,29 +78,29 @@ include app/CMakeFiles/utag.dir/flags.make
 
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o: app/CMakeFiles/utag.dir/flags.make
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o: app/utag_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o"
-	cd /Users/ailchuk/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o -c /Users/ailchuk/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o"
+	cd /Users/admin/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o -c /Users/admin/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp
 
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.i"
-	cd /Users/ailchuk/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ailchuk/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp > CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.i
+	cd /Users/admin/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp > CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.i
 
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.s"
-	cd /Users/ailchuk/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ailchuk/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp -o CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.s
+	cd /Users/admin/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp -o CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.s
 
 app/CMakeFiles/utag.dir/main.cpp.o: app/CMakeFiles/utag.dir/flags.make
 app/CMakeFiles/utag.dir/main.cpp.o: ../app/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/utag.dir/main.cpp.o"
-	cd /Users/ailchuk/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utag.dir/main.cpp.o -c /Users/ailchuk/Desktop/utag/app/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/utag.dir/main.cpp.o"
+	cd /Users/admin/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utag.dir/main.cpp.o -c /Users/admin/Desktop/utag/app/main.cpp
 
 app/CMakeFiles/utag.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utag.dir/main.cpp.i"
-	cd /Users/ailchuk/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ailchuk/Desktop/utag/app/main.cpp > CMakeFiles/utag.dir/main.cpp.i
+	cd /Users/admin/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/app/main.cpp > CMakeFiles/utag.dir/main.cpp.i
 
 app/CMakeFiles/utag.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utag.dir/main.cpp.s"
-	cd /Users/ailchuk/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ailchuk/Desktop/utag/app/main.cpp -o CMakeFiles/utag.dir/main.cpp.s
+	cd /Users/admin/Desktop/utag/build/app && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/app/main.cpp -o CMakeFiles/utag.dir/main.cpp.s
 
 # Object files for target utag
 utag_OBJECTS = \
@@ -113,17 +113,16 @@ utag_EXTERNAL_OBJECTS =
 utag: app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o
 utag: app/CMakeFiles/utag.dir/main.cpp.o
 utag: app/CMakeFiles/utag.dir/build.make
-utag: /Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/QtWidgets
+utag: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/QtWidgets
 utag: app/src/libsrc.a
-utag: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd
-utag: /Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/QtGui
-utag: /Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/QtCore
-utag: /Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/QtWidgets
-utag: /Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/QtGui
-utag: /Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/QtCore
+utag: /usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/QtGui
+utag: /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/QtCore
+utag: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/QtWidgets
+utag: /usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/QtGui
+utag: /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/QtCore
 utag: app/CMakeFiles/utag.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../utag"
-	cd /Users/ailchuk/Desktop/utag/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utag.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../utag"
+	cd /Users/admin/Desktop/utag/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utag.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/utag.dir/build: utag
@@ -131,10 +130,10 @@ app/CMakeFiles/utag.dir/build: utag
 .PHONY : app/CMakeFiles/utag.dir/build
 
 app/CMakeFiles/utag.dir/clean:
-	cd /Users/ailchuk/Desktop/utag/build/app && $(CMAKE_COMMAND) -P CMakeFiles/utag.dir/cmake_clean.cmake
+	cd /Users/admin/Desktop/utag/build/app && $(CMAKE_COMMAND) -P CMakeFiles/utag.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/utag.dir/clean
 
 app/CMakeFiles/utag.dir/depend:
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ailchuk/Desktop/utag /Users/ailchuk/Desktop/utag/app /Users/ailchuk/Desktop/utag/build /Users/ailchuk/Desktop/utag/build/app /Users/ailchuk/Desktop/utag/build/app/CMakeFiles/utag.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/admin/Desktop/utag /Users/admin/Desktop/utag/app /Users/admin/Desktop/utag/build /Users/admin/Desktop/utag/build/app /Users/admin/Desktop/utag/build/app/CMakeFiles/utag.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/utag.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/ailchuk/Desktop/utag/3dparty/taglib/bindings
+# Install script for directory: /Users/admin/Desktop/utag/3dparty/taglib/bindings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/ailchuk/.brew")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/ailchuk/Desktop/utag/build/3dparty/taglib/bindings/c/cmake_install.cmake")
+  include("/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/cmake_install.cmake")
 
 endif()
 

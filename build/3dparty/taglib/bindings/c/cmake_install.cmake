@@ -1,8 +1,8 @@
-# Install script for directory: /Users/ailchuk/Desktop/utag/3dparty/taglib/bindings/c
+# Install script for directory: /Users/admin/Desktop/utag/3dparty/taglib/bindings/c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/ailchuk/.brew")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,41 +39,41 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/ailchuk/.brew/lib/libtag_c.a")
+   "/usr/local/lib/libtag_c.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/ailchuk/.brew/lib" TYPE STATIC_LIBRARY FILES "/Users/ailchuk/Desktop/utag/build/3dparty/taglib/bindings/c/libtag_c.a")
-  if(EXISTS "$ENV{DESTDIR}/Users/ailchuk/.brew/lib/libtag_c.a" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/Users/ailchuk/.brew/lib/libtag_c.a")
-    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}/Users/ailchuk/.brew/lib/libtag_c.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/libtag_c.a")
+  if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libtag_c.a" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
+    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/ailchuk/.brew/include/taglib/tag_c.h")
+   "/usr/local/include/taglib/tag_c.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/ailchuk/.brew/include/taglib" TYPE FILE FILES "/Users/ailchuk/Desktop/utag/3dparty/taglib/bindings/c/tag_c.h")
+file(INSTALL DESTINATION "/usr/local/include/taglib" TYPE FILE FILES "/Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/ailchuk/.brew/lib/pkgconfig/taglib_c.pc")
+   "/usr/local/lib/pkgconfig/taglib_c.pc")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/ailchuk/.brew/lib/pkgconfig" TYPE FILE FILES "/Users/ailchuk/Desktop/utag/build/3dparty/taglib/bindings/c/taglib_c.pc")
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/taglib_c.pc")
 endif()
 

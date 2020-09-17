@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ailchuk/Desktop/utag/3dparty/taglib/bindings/c/tag_c.cpp" "/Users/ailchuk/Desktop/utag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o"
+  "/Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -16,6 +16,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "3dparty/taglib/bindings/c"
+  "../3dparty/taglib/bindings/c"
   "3dparty/taglib"
   "../3dparty/taglib/bindings/c/../../taglib"
   "../3dparty/taglib/bindings/c/../../taglib/toolkit"
@@ -36,7 +38,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/ailchuk/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
+  "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

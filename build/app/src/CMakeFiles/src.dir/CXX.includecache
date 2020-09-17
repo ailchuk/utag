@@ -40,31 +40,45 @@ file_utils.h
 mainwindow.h
 ../app/src/mainwindow.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QDebug
+/Users/admin/Desktop/utag/build/app/src/src_autogen/EWIEGA46WW/moc_mainwindow.cpp
+memory
+-
+mainwindow.h
+/Users/admin/Desktop/utag/build/app/src/src_autogen/EWIEGA46WW/mainwindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_mainwindow.cpp
+/Users/admin/Desktop/utag/build/app/src/src_autogen/EWIEGA46WW/moc_mainwindow.cpp
+
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDebug
 qdebug.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdebug.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdebug.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QDir
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDir
 qdir.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdir.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdir.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QFile
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QFile
 qfile.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfile.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfile.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QFileInfo
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QFileInfo
 qfileinfo.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfileinfo.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfileinfo.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QFileSystemWatcher
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QFileSystemWatcher
 qfilesystemwatcher.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfilesystemwatcher.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfilesystemwatcher.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QString
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QString
 qstring.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qstring.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qstring.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdebug.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -96,7 +110,7 @@ map
 utility
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdir.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdir.h
 QtCore/qstring.h
 -
 QtCore/qfileinfo.h
@@ -106,7 +120,7 @@ QtCore/qstringlist.h
 QtCore/qshareddata.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfile.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfile.h
 QtCore/qfiledevice.h
 -
 QtCore/qstring.h
@@ -114,7 +128,7 @@ QtCore/qstring.h
 stdio.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfileinfo.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfileinfo.h
 QtCore/qfile.h
 -
 QtCore/qlist.h
@@ -124,11 +138,11 @@ QtCore/qshareddata.h
 QtCore/qmetatype.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfilesystemwatcher.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfilesystemwatcher.h
 QtCore/qobject.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qstring.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -152,23 +166,23 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QFileDialog
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
 qfiledialog.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qfiledialog.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QListWidget
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
 qlistwidget.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qlistwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QMainWindow
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
 qmainwindow.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QWidget
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QWidget
 qwidget.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qwidget.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qfiledialog.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qdir.h
@@ -182,7 +196,7 @@ QtWidgets/qdialog.h
 functional
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qlistwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlistview.h
@@ -194,7 +208,7 @@ QtCore/qvector.h
 QtCore/qitemselectionmodel.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -202,7 +216,7 @@ QtWidgets/qwidget.h
 QtWidgets/qtabwidget.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
@@ -233,18 +247,4 @@ QtGui/qkeysequence.h
 -
 QtGui/qevent.h
 -
-
-/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/EWIEGA46WW/moc_mainwindow.cpp
-memory
--
-mainwindow.h
-/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/EWIEGA46WW/mainwindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_mainwindow.cpp
-/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/EWIEGA46WW/moc_mainwindow.cpp
 

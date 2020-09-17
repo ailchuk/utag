@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ailchuk/Desktop/utag
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/utag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,37 +78,37 @@ CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -124,7 +124,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -135,7 +135,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ailchuk/Desktop/utag/build/CMakeFiles /Users/ailchuk/Desktop/utag/build/3dparty/taglib/bindings/c//CMakeFiles/progress.marks
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ailchuk/Desktop/utag/build/CMakeFiles 0
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/utag/build/CMakeFiles /Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c//CMakeFiles/progress.marks
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/utag/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/clean
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 .PHONY : 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ tag_c: 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 
 # fast build rule for target.
 tag_c/fast:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build
 .PHONY : tag_c/fast
 
 tag_c.o: tag_c.cpp.o
@@ -196,7 +196,7 @@ tag_c.o: tag_c.cpp.o
 
 # target to build an object file
 tag_c.cpp.o:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o
 .PHONY : tag_c.cpp.o
 
 tag_c.i: tag_c.cpp.i
@@ -205,7 +205,7 @@ tag_c.i: tag_c.cpp.i
 
 # target to preprocess a source file
 tag_c.cpp.i:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.i
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.i
 .PHONY : tag_c.cpp.i
 
 tag_c.s: tag_c.cpp.s
@@ -214,7 +214,7 @@ tag_c.s: tag_c.cpp.s
 
 # target to generate assembly for a file
 tag_c.cpp.s:
-	cd /Users/ailchuk/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.s
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.s
 .PHONY : tag_c.cpp.s
 
 # Help Target
@@ -244,6 +244,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,6 +6,44 @@
 
 #IncludeRegexTransform: 
 
+../3dparty/taglib/taglib/tag.h
+taglib_export.h
+../3dparty/taglib/taglib/taglib_export.h
+tstring.h
+../3dparty/taglib/taglib/tstring.h
+
+../3dparty/taglib/taglib/taglib_export.h
+
+../3dparty/taglib/taglib/toolkit/taglib.h
+taglib_config.h
+../3dparty/taglib/taglib/toolkit/taglib_config.h
+string
+-
+
+../3dparty/taglib/taglib/toolkit/tbytevector.h
+taglib.h
+../3dparty/taglib/taglib/toolkit/taglib.h
+taglib_export.h
+../3dparty/taglib/taglib/toolkit/taglib_export.h
+vector
+-
+iostream
+-
+
+../3dparty/taglib/taglib/toolkit/tstring.h
+taglib_export.h
+../3dparty/taglib/taglib/toolkit/taglib_export.h
+taglib.h
+../3dparty/taglib/taglib/toolkit/taglib.h
+tbytevector.h
+../3dparty/taglib/taglib/toolkit/tbytevector.h
+string
+-
+iostream
+-
+
+../3dparty/taglib/taglib_config.h
+
 ../app/src/file_utils.h
 QWidget
 -
@@ -40,31 +78,39 @@ file_utils.h
 mainwindow.h
 ../app/src/mainwindow.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QDebug
+/Users/admin/Desktop/utag/app/main.cpp
+mainwindow.h
+/Users/admin/Desktop/utag/app/mainwindow.h
+QApplication
+-
+taglib/tag.h
+/Users/admin/Desktop/utag/app/taglib/tag.h
+
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDebug
 qdebug.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdebug.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdebug.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QDir
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDir
 qdir.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdir.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdir.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QFile
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QFile
 qfile.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfile.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfile.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QFileInfo
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QFileInfo
 qfileinfo.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfileinfo.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfileinfo.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QFileSystemWatcher
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QFileSystemWatcher
 qfilesystemwatcher.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfilesystemwatcher.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfilesystemwatcher.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/QString
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QString
 qstring.h
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qstring.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qstring.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdebug.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -96,7 +142,7 @@ map
 utility
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qdir.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qdir.h
 QtCore/qstring.h
 -
 QtCore/qfileinfo.h
@@ -106,7 +152,7 @@ QtCore/qstringlist.h
 QtCore/qshareddata.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfile.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfile.h
 QtCore/qfiledevice.h
 -
 QtCore/qstring.h
@@ -114,7 +160,7 @@ QtCore/qstring.h
 stdio.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfileinfo.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfileinfo.h
 QtCore/qfile.h
 -
 QtCore/qlist.h
@@ -124,11 +170,11 @@ QtCore/qshareddata.h
 QtCore/qmetatype.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qfilesystemwatcher.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qfilesystemwatcher.h
 QtCore/qobject.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers/qstring.h
+/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -152,27 +198,27 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QApplication
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QApplication
 qapplication.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qapplication.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qapplication.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QFileDialog
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
 qfiledialog.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qfiledialog.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QListWidget
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
 qlistwidget.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qlistwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QMainWindow
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
 qmainwindow.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/QWidget
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QWidget
 qwidget.h
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qwidget.h
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qapplication.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qcoreapplication.h
@@ -190,7 +236,7 @@ QtWidgets/qdesktopwidget.h
 QtGui/qguiapplication.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qfiledialog.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qdir.h
@@ -204,7 +250,7 @@ QtWidgets/qdialog.h
 functional
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qlistwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlistview.h
@@ -216,7 +262,7 @@ QtCore/qvector.h
 QtCore/qitemselectionmodel.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -224,7 +270,7 @@ QtWidgets/qwidget.h
 QtWidgets/qtabwidget.h
 -
 
-/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers/qwidget.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
@@ -254,11 +300,5 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
--
-
-/Users/ailchuk/Desktop/utag/app/main.cpp
-mainwindow.h
-/Users/ailchuk/Desktop/utag/app/mainwindow.h
-QApplication
 -
 

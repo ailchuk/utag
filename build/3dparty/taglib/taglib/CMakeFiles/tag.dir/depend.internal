@@ -4,7 +4,6 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
@@ -24,12 +23,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apetag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apetag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefooter.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -37,8 +36,8 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -51,12 +50,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -76,12 +74,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apetag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apetag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apetag.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -101,16 +99,15 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tutils.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apetag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ape/apetag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apefooter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apeitem.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apetag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ape/apetag.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
@@ -126,23 +123,21 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asffile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asffile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -157,18 +152,17 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asffile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asffile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asffile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asffile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
@@ -184,13 +178,13 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asffile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asffile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -199,12 +193,11 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
@@ -220,10 +213,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asftag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfattribute.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asfpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asftag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/asf/asftag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o
  ../3dparty/taglib/taglib/ape/apeproperties.h
@@ -244,8 +237,8 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/audioproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/audioproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/audioproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/audioproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o
  ../3dparty/taglib/taglib/ape/apefile.h
@@ -274,7 +267,6 @@
  ../3dparty/taglib/taglib/mpc/mpcfile.h
  ../3dparty/taglib/taglib/mpc/mpcproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -306,7 +298,6 @@
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tfile.h
- ../3dparty/taglib/taglib/toolkit/tfilestream.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tlist.h
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
@@ -321,14 +312,13 @@
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
  ../3dparty/taglib/taglib/xm/xmfile.h
  ../3dparty/taglib/taglib/xm/xmproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/audioproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/fileref.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/fileref.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/audioproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/fileref.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/fileref.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -352,12 +342,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacmetadatablock.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -367,8 +357,8 @@
  ../3dparty/taglib/taglib/toolkit/tlist.h
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacpicture.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -379,9 +369,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -396,11 +386,11 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacpicture.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacunknownmetadatablock.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -411,9 +401,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacmetadatablock.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/flac/flacunknownmetadatablock.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -436,16 +426,16 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/it/itfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/it/itfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/it/itproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/it/itfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/it/itfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/it/itproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/it/itproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/it/itproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/it/itproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/it/itproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/it/itproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -465,12 +455,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modfilebase.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modfileprivate.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modtag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modfilebase.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modfileprivate.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modtag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modfilebase.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -484,15 +474,15 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modfilebase.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modfilebase.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modfilebase.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modfilebase.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mod/modtag.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -508,8 +498,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modtag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mod/modtag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modtag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mod/modtag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4atom.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -523,8 +513,8 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4coverart.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -538,15 +528,14 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -561,13 +550,13 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4file.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4file.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4properties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4file.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4file.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4properties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4item.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -583,10 +572,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4properties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -605,13 +594,13 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4file.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4properties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4properties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4file.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4properties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4properties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4tag.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -631,11 +620,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4atom.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4coverart.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4item.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4/mp4tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -643,7 +632,6 @@
  ../3dparty/taglib/taglib/ape/apetag.h
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
@@ -663,9 +651,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpc/mpcfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpc/mpcfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpc/mpcproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc/mpcfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc/mpcfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc/mpcproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -680,9 +668,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpc/mpcfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpc/mpcproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpc/mpcproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc/mpcfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc/mpcproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc/mpcproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1genres.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -696,8 +684,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -715,12 +703,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/taglib_export.h
@@ -733,11 +720,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -756,11 +742,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -779,11 +764,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -802,11 +786,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/taglib_export.h
@@ -819,11 +802,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -841,8 +823,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/podcastframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -850,8 +832,8 @@
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -860,11 +842,10 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -881,8 +862,8 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -896,11 +877,10 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -919,11 +899,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -942,12 +921,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -965,11 +943,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -988,8 +965,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
@@ -997,11 +974,10 @@
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1020,11 +996,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1043,25 +1018,24 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2extendedheader.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1079,19 +1053,18 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tzlib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -1110,29 +1083,28 @@
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tzlib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/ownershipframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/podcastframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/privateframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/tableofcontentsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1140,18 +1112,17 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2synchdata.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
@@ -1172,20 +1143,19 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/uniquefileidentifierframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2synchdata.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/id3v2tag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -1193,7 +1163,6 @@
  ../3dparty/taglib/taglib/ape/apetag.h
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1216,11 +1185,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegheader.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1232,16 +1201,15 @@
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
  ../3dparty/taglib/taglib/ape/apeitem.h
  ../3dparty/taglib/taglib/ape/apetag.h
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
@@ -1257,15 +1225,14 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/xingheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/xingheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
@@ -1274,11 +1241,11 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/xingheader.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/mpeg/xingheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/mpegproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/xingheader.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/xingheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1289,7 +1256,6 @@
  ../3dparty/taglib/taglib/ogg/xiphcomment.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1304,8 +1270,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/flac/oggflacfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/flac/oggflacfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/flac/oggflacfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/flac/oggflacfile.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggfile.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1322,10 +1288,10 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpage.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpage.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpage.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1340,10 +1306,10 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpage.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpage.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpage.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpage.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/oggpageheader.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1358,9 +1324,9 @@
  ../3dparty/taglib/taglib/toolkit/tlist.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/oggpageheader.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1370,7 +1336,6 @@
  ../3dparty/taglib/taglib/ogg/xiphcomment.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1385,9 +1350,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1411,9 +1376,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1423,7 +1388,6 @@
  ../3dparty/taglib/taglib/ogg/xiphcomment.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1438,9 +1402,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1464,9 +1428,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex/speexproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1476,7 +1440,6 @@
  ../3dparty/taglib/taglib/ogg/xiphcomment.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1491,9 +1454,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1517,9 +1480,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis/vorbisproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.o
  ../3dparty/taglib/taglib/flac/flacmetadatablock.h
@@ -1539,11 +1502,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/ogg/xiphcomment.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/xiphcomment.cpp
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1551,7 +1513,6 @@
  ../3dparty/taglib/taglib/riff/rifffile.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1566,13 +1527,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aifffile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aifffile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aifffile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aifffile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1591,9 +1551,9 @@
  ../3dparty/taglib/taglib/toolkit/tmap.tcc
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aifffile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aifffile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/aiff/aiffproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/rifffile.cpp.o
  ../3dparty/taglib/taglib/tag.h
@@ -1604,9 +1564,9 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/rifffile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/rifffile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/riffutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/rifffile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/rifffile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/riffutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.o
  ../3dparty/taglib/taglib/riff/riffutils.h
@@ -1625,12 +1585,11 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1639,7 +1598,6 @@
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/tagunion.h
- ../3dparty/taglib/taglib/tagutils.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1654,14 +1612,13 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1682,10 +1639,10 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/infotag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/riff/wav/wavproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -1708,16 +1665,16 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/s3m/s3mfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/s3m/s3mfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/s3m/s3mproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/s3m/s3mfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/s3m/s3mfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/s3m/s3mproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/s3m/s3mproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/s3m/s3mproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/s3m/s3mproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/s3m/s3mproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/s3m/s3mproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o
  ../3dparty/taglib/taglib/toolkit/taglib.h
@@ -1731,9 +1688,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/tag.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/tag.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/taglib_export.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/tag.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/tag.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/taglib_export.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o
  ../3dparty/taglib/taglib/ape/apeitem.h
@@ -1741,7 +1698,6 @@
  ../3dparty/taglib/taglib/flac/flacmetadatablock.h
  ../3dparty/taglib/taglib/flac/flacpicture.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1762,13 +1718,12 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/tagunion.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/tagunion.cpp
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o
  ../3dparty/taglib/taglib/ape/apeitem.h
  ../3dparty/taglib/taglib/ape/apetag.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1784,8 +1739,8 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/tagutils.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/tagutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/tagutils.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/tagutils.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevector.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1794,48 +1749,48 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tutils.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorlist.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tbytevectorstream.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorstream.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorstream.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorstream.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorstream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebug.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tutils.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tutils.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tdebuglistener.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebuglistener.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefile.h
@@ -1865,7 +1820,6 @@
  ../3dparty/taglib/taglib/mpc/mpcfile.h
  ../3dparty/taglib/taglib/mpc/mpcproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1900,64 +1854,63 @@
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
  ../3dparty/taglib/taglib/xm/xmfile.h
  ../3dparty/taglib/taglib/xm/xmproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tfilestream.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.tcc
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tpropertymap.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tfilestream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.tcc
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tpropertymap.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfilestream.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tfilestream.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tfilestream.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tfilestream.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tfilestream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- ../3dparty/taglib/taglib/toolkit/taglib.h
- ../3dparty/taglib/taglib/toolkit/tbytevector.h
- ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tdebug.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tiostream.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.tcc
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tpropertymap.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tpropertymap.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tmap.tcc
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tpropertymap.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tpropertymap.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o
- ../3dparty/taglib/3rdparty/utf8-cpp/checked.h
- ../3dparty/taglib/3rdparty/utf8-cpp/core.h
  ../3dparty/taglib/taglib/taglib_export.h
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1967,22 +1920,23 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
  ../3dparty/taglib/taglib/toolkit/tutils.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/taglib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevector.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tbytevectorlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tlist.tcc
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/trefcounter.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o
  ../3dparty/taglib/taglib/taglib_export.h
@@ -1990,14 +1944,16 @@
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tdebug.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tzlib.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/toolkit/tzlib.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tzlib.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tzlib.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -2020,9 +1976,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2034,9 +1990,9 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o
  ../3dparty/taglib/taglib/ape/apefooter.h
@@ -2044,7 +2000,6 @@
  ../3dparty/taglib/taglib/ape/apetag.h
  ../3dparty/taglib/taglib/audioproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
  ../3dparty/taglib/taglib/tag.h
  ../3dparty/taglib/taglib/taglib_export.h
@@ -2064,9 +2019,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2078,9 +2033,9 @@
  ../3dparty/taglib/taglib/toolkit/tfile.h
  ../3dparty/taglib/taglib/toolkit/tiostream.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2103,9 +2058,9 @@
  ../3dparty/taglib/taglib/toolkit/trefcounter.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
  ../3dparty/taglib/taglib/toolkit/tstringlist.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/xm/xmfile.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/xm/xmfile.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmfile.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmfile.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.h
  3dparty/taglib/taglib_config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -2113,6 +2068,6 @@
  ../3dparty/taglib/taglib/toolkit/taglib.h
  ../3dparty/taglib/taglib/toolkit/tbytevector.h
  ../3dparty/taglib/taglib/toolkit/tstring.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.h
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.h
  3dparty/taglib/taglib_config.h

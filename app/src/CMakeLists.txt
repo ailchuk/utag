@@ -2,16 +2,11 @@ cmake_minimum_required(VERSION 3.10.0 FATAL_ERROR)
 
 project(src LANGUAGES CXX)
 
-add_compile_options(-std=c++17 -Wall -Werror -Wextra -Wpedantic)
-
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
-
 include_directories(../3dparty/taglib)
 link_directories(../3dparty/taglib)
 
-SET(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
+#SET(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/") // for unit
+SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 

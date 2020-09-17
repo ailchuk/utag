@@ -1,33 +1,33 @@
 {
-	"BUILD_DIR" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/ailchuk/Desktop/utag/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ailchuk/Desktop/utag/build/app/src",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ailchuk/Desktop/utag/app/src",
-	"CMAKE_EXECUTABLE" : "/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/Users/ailchuk/Desktop/utag",
+	"BUILD_DIR" : "/Users/admin/Desktop/utag/build/app/src/src_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/admin/Desktop/utag/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/admin/Desktop/utag/build/app/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/admin/Desktop/utag/app/src",
+	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.18.1/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/admin/Desktop/utag",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/ailchuk/Desktop/utag/app/src/file_utils.h",
+			"/Users/admin/Desktop/utag/app/src/file_utils.h",
 			"MU",
 			"EWIEGA46WW/moc_file_utils.cpp"
 		],
 		[
-			"/Users/ailchuk/Desktop/utag/app/src/mainwindow.h",
+			"/Users/admin/Desktop/utag/app/src/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
 		],
 		[
-			"/Users/ailchuk/Desktop/utag/app/src/mytag.h",
+			"/Users/admin/Desktop/utag/app/src/mytag.h",
 			"MU",
 			"EWIEGA46WW/moc_mytag.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/admin/Desktop/utag/build/app/src/src_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -38,17 +38,17 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/ailchuk/Desktop/utag/build/app/src",
-		"/Users/ailchuk/Desktop/utag/app/src",
-		"/Users/ailchuk/Desktop/utag/app/3dparty/taglib",
-		"/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework",
-		"/Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers",
-		"/Users/ailchuk/.brew/opt/qt/mkspecs/macx-clang",
-		"/Users/ailchuk/.brew/opt/qt/lib/QtGui.framework",
-		"/Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/Headers",
+		"/Users/admin/Desktop/utag/build/app/src",
+		"/Users/admin/Desktop/utag/app/src",
+		"/Users/admin/Desktop/utag/app/3dparty/taglib",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers",
+		"/usr/local/Cellar/qt/5.15.1/mkspecs/macx-clang",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtGui.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/Headers",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
-		"/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework",
-		"/Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework",
+		"/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers",
 		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include",
 		"/Library/Developer/CommandLineTools/usr/include",
@@ -63,24 +63,24 @@
 		"-dM",
 		"-E",
 		"-c",
-		"/Users/ailchuk/.brew/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+		"/usr/local/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/admin/Desktop/utag/build/app/src/src_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/ParseCache.txt",
-	"QT_MOC_EXECUTABLE" : "/Users/ailchuk/.brew/opt/qt/bin/moc",
-	"QT_UIC_EXECUTABLE" : "/Users/ailchuk/.brew/opt/qt/bin/uic",
+	"PARSE_CACHE_FILE" : "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/ailchuk/Desktop/utag/app/src/file_utils.cpp", "MU" ],
-		[ "/Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp", "MU" ],
-		[ "/Users/ailchuk/Desktop/utag/app/src/mytag.cpp", "MU" ]
+		[ "/Users/admin/Desktop/utag/app/src/file_utils.cpp", "MU" ],
+		[ "/Users/admin/Desktop/utag/app/src/mainwindow.cpp", "MU" ],
+		[ "/Users/admin/Desktop/utag/app/src/mytag.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

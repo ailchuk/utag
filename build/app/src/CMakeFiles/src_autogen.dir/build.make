@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ailchuk/Desktop/utag
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/utag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 
 # Utility rule file for src_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
 include app/src/CMakeFiles/src_autogen.dir/progress.make
 
 app/src/CMakeFiles/src_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target src"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E cmake_autogen /Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target src"
+	cd /Users/admin/Desktop/utag/build/app/src && /usr/local/Cellar/cmake/3.18.1/bin/cmake -E cmake_autogen /Users/admin/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenInfo.json ""
 
 src_autogen: app/src/CMakeFiles/src_autogen
 src_autogen: app/src/CMakeFiles/src_autogen.dir/build.make
@@ -87,10 +87,10 @@ app/src/CMakeFiles/src_autogen.dir/build: src_autogen
 .PHONY : app/src/CMakeFiles/src_autogen.dir/build
 
 app/src/CMakeFiles/src_autogen.dir/clean:
-	cd /Users/ailchuk/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -P CMakeFiles/src_autogen.dir/cmake_clean.cmake
+	cd /Users/admin/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -P CMakeFiles/src_autogen.dir/cmake_clean.cmake
 .PHONY : app/src/CMakeFiles/src_autogen.dir/clean
 
 app/src/CMakeFiles/src_autogen.dir/depend:
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ailchuk/Desktop/utag /Users/ailchuk/Desktop/utag/app/src /Users/ailchuk/Desktop/utag/build /Users/ailchuk/Desktop/utag/build/app/src /Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/admin/Desktop/utag /Users/admin/Desktop/utag/app/src /Users/admin/Desktop/utag/build /Users/admin/Desktop/utag/build/app/src /Users/admin/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/src/CMakeFiles/src_autogen.dir/depend
 

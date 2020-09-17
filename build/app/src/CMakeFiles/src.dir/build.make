@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ailchuk/Desktop/utag
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/utag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 
 # Include any dependencies generated for this target.
 include app/src/CMakeFiles/src.dir/depend.make
@@ -78,55 +78,55 @@ include app/src/CMakeFiles/src.dir/flags.make
 
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: app/src/CMakeFiles/src.dir/flags.make
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: app/src/src_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o -c /Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o -c /Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp
 
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.i"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp > CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.i
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp > CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.i
 
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.s"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ailchuk/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp -o CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.s
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp -o CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.s
 
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: app/src/CMakeFiles/src.dir/flags.make
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: ../app/src/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/src/CMakeFiles/src.dir/mainwindow.cpp.o"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/mainwindow.cpp.o -c /Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/src/CMakeFiles/src.dir/mainwindow.cpp.o"
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/mainwindow.cpp.o -c /Users/admin/Desktop/utag/app/src/mainwindow.cpp
 
 app/src/CMakeFiles/src.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/mainwindow.cpp.i"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp > CMakeFiles/src.dir/mainwindow.cpp.i
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/app/src/mainwindow.cpp > CMakeFiles/src.dir/mainwindow.cpp.i
 
 app/src/CMakeFiles/src.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/mainwindow.cpp.s"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ailchuk/Desktop/utag/app/src/mainwindow.cpp -o CMakeFiles/src.dir/mainwindow.cpp.s
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/app/src/mainwindow.cpp -o CMakeFiles/src.dir/mainwindow.cpp.s
 
 app/src/CMakeFiles/src.dir/mytag.cpp.o: app/src/CMakeFiles/src.dir/flags.make
 app/src/CMakeFiles/src.dir/mytag.cpp.o: ../app/src/mytag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object app/src/CMakeFiles/src.dir/mytag.cpp.o"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/mytag.cpp.o -c /Users/ailchuk/Desktop/utag/app/src/mytag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object app/src/CMakeFiles/src.dir/mytag.cpp.o"
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/mytag.cpp.o -c /Users/admin/Desktop/utag/app/src/mytag.cpp
 
 app/src/CMakeFiles/src.dir/mytag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/mytag.cpp.i"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ailchuk/Desktop/utag/app/src/mytag.cpp > CMakeFiles/src.dir/mytag.cpp.i
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/app/src/mytag.cpp > CMakeFiles/src.dir/mytag.cpp.i
 
 app/src/CMakeFiles/src.dir/mytag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/mytag.cpp.s"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ailchuk/Desktop/utag/app/src/mytag.cpp -o CMakeFiles/src.dir/mytag.cpp.s
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/app/src/mytag.cpp -o CMakeFiles/src.dir/mytag.cpp.s
 
 app/src/CMakeFiles/src.dir/file_utils.cpp.o: app/src/CMakeFiles/src.dir/flags.make
 app/src/CMakeFiles/src.dir/file_utils.cpp.o: ../app/src/file_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object app/src/CMakeFiles/src.dir/file_utils.cpp.o"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/file_utils.cpp.o -c /Users/ailchuk/Desktop/utag/app/src/file_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object app/src/CMakeFiles/src.dir/file_utils.cpp.o"
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/src.dir/file_utils.cpp.o -c /Users/admin/Desktop/utag/app/src/file_utils.cpp
 
 app/src/CMakeFiles/src.dir/file_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/src.dir/file_utils.cpp.i"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ailchuk/Desktop/utag/app/src/file_utils.cpp > CMakeFiles/src.dir/file_utils.cpp.i
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/app/src/file_utils.cpp > CMakeFiles/src.dir/file_utils.cpp.i
 
 app/src/CMakeFiles/src.dir/file_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/src.dir/file_utils.cpp.s"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ailchuk/Desktop/utag/app/src/file_utils.cpp -o CMakeFiles/src.dir/file_utils.cpp.s
+	cd /Users/admin/Desktop/utag/build/app/src && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/app/src/file_utils.cpp -o CMakeFiles/src.dir/file_utils.cpp.s
 
 # Object files for target src
 src_OBJECTS = \
@@ -144,9 +144,9 @@ app/src/libsrc.a: app/src/CMakeFiles/src.dir/mytag.cpp.o
 app/src/libsrc.a: app/src/CMakeFiles/src.dir/file_utils.cpp.o
 app/src/libsrc.a: app/src/CMakeFiles/src.dir/build.make
 app/src/libsrc.a: app/src/CMakeFiles/src.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ailchuk/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsrc.a"
-	cd /Users/ailchuk/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean_target.cmake
-	cd /Users/ailchuk/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsrc.a"
+	cd /Users/admin/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean_target.cmake
+	cd /Users/admin/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/src.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 app/src/CMakeFiles/src.dir/build: app/src/libsrc.a
@@ -154,10 +154,10 @@ app/src/CMakeFiles/src.dir/build: app/src/libsrc.a
 .PHONY : app/src/CMakeFiles/src.dir/build
 
 app/src/CMakeFiles/src.dir/clean:
-	cd /Users/ailchuk/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean.cmake
+	cd /Users/admin/Desktop/utag/build/app/src && $(CMAKE_COMMAND) -P CMakeFiles/src.dir/cmake_clean.cmake
 .PHONY : app/src/CMakeFiles/src.dir/clean
 
 app/src/CMakeFiles/src.dir/depend:
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ailchuk/Desktop/utag /Users/ailchuk/Desktop/utag/app/src /Users/ailchuk/Desktop/utag/build /Users/ailchuk/Desktop/utag/build/app/src /Users/ailchuk/Desktop/utag/build/app/src/CMakeFiles/src.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/admin/Desktop/utag /Users/admin/Desktop/utag/app/src /Users/admin/Desktop/utag/build /Users/admin/Desktop/utag/build/app/src /Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/src/CMakeFiles/src.dir/depend
 

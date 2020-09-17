@@ -1,8 +1,8 @@
-# Install script for directory: /Users/ailchuk/Desktop/utag/3dparty/taglib
+# Install script for directory: /Users/admin/Desktop/utag/3dparty/taglib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/ailchuk/.brew")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,32 +39,32 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/ailchuk/.brew/bin/taglib-config")
+   "/usr/local/bin/taglib-config")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/ailchuk/.brew/bin" TYPE PROGRAM FILES "/Users/ailchuk/Desktop/utag/build/3dparty/taglib/taglib-config")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE PROGRAM FILES "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib-config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/ailchuk/.brew/lib/pkgconfig/taglib.pc")
+   "/usr/local/lib/pkgconfig/taglib.pc")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/ailchuk/.brew/lib/pkgconfig" TYPE FILE FILES "/Users/ailchuk/Desktop/utag/build/3dparty/taglib/taglib.pc")
+file(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/ailchuk/Desktop/utag/build/3dparty/taglib/taglib/cmake_install.cmake")
-  include("/Users/ailchuk/Desktop/utag/build/3dparty/taglib/bindings/cmake_install.cmake")
+  include("/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/cmake_install.cmake")
+  include("/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/cmake_install.cmake")
 
 endif()
 

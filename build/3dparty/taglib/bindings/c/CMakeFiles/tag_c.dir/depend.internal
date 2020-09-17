@@ -22,7 +22,6 @@
  ../3dparty/taglib/taglib/mpc/mpcfile.h
  ../3dparty/taglib/taglib/mpc/mpcproperties.h
  ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
- ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
  ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -54,7 +53,7 @@
  ../3dparty/taglib/taglib/trueaudio/trueaudioproperties.h
  ../3dparty/taglib/taglib/wavpack/wavpackfile.h
  ../3dparty/taglib/taglib/wavpack/wavpackproperties.h
- /Users/ailchuk/Desktop/utag/3dparty/taglib/bindings/c/tag_c.cpp
- /Users/ailchuk/Desktop/utag/3dparty/taglib/bindings/c/tag_c.h
+ /Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.cpp
+ /Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.h
  3dparty/taglib/config.h
  3dparty/taglib/taglib_config.h

@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/ailchuk/Desktop/utag/build/app/src -I/Users/ailchuk/Desktop/utag/app/src -I/Users/ailchuk/Desktop/utag/build/app/src/src_autogen/include -I/Users/ailchuk/Desktop/utag/app/src/../3dparty/taglib -iframework /Users/ailchuk/.brew/opt/qt/lib -isystem /Users/ailchuk/.brew/opt/qt/lib/QtCore.framework/Headers -isystem /Users/ailchuk/.brew/opt/qt/./mkspecs/macx-clang -isystem /Users/ailchuk/.brew/opt/qt/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/ailchuk/.brew/opt/qt/lib/QtWidgets.framework/Headers
+CXX_INCLUDES = -I/Users/admin/Desktop/utag/build/app/src -I/Users/admin/Desktop/utag/app/src -I/Users/admin/Desktop/utag/build/app/src/src_autogen/include -I/Users/admin/Desktop/utag/app/src/../3dparty/taglib -iframework /usr/local/Cellar/qt/5.15.1/lib -isystem /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers -isystem /usr/local/Cellar/qt/5.15.1/./mkspecs/macx-clang -isystem /usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers
 
-CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -std=c++17 -Wall -Werror -Wextra -Wpedantic -fPIC -std=gnu++11
+CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wall -Wextra -Werror -Wpedantic -fPIC -std=c++17
 

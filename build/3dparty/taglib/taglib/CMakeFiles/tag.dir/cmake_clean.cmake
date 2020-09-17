@@ -95,6 +95,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/tag.dir/toolkit/tstring.cpp.o"
   "CMakeFiles/tag.dir/toolkit/tstringlist.cpp.o"
   "CMakeFiles/tag.dir/toolkit/tzlib.cpp.o"
+  "CMakeFiles/tag.dir/toolkit/unicode.cpp.o"
   "CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o"
   "CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.o"
   "CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o"

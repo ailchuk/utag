@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ailchuk/Desktop/utag
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/utag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 
 # Utility rule file for docs.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
 include 3dparty/taglib/CMakeFiles/docs.dir/progress.make
 
 3dparty/taglib/CMakeFiles/docs:
-	cd /Users/ailchuk/Desktop/utag/build/3dparty/taglib && doxygen
+	cd /Users/admin/Desktop/utag/build/3dparty/taglib && doxygen
 
 docs: 3dparty/taglib/CMakeFiles/docs
 docs: 3dparty/taglib/CMakeFiles/docs.dir/build.make
@@ -86,10 +86,10 @@ docs: 3dparty/taglib/CMakeFiles/docs.dir/build.make
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/build
 
 3dparty/taglib/CMakeFiles/docs.dir/clean:
-	cd /Users/ailchuk/Desktop/utag/build/3dparty/taglib && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
+	cd /Users/admin/Desktop/utag/build/3dparty/taglib && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/clean
 
 3dparty/taglib/CMakeFiles/docs.dir/depend:
-	cd /Users/ailchuk/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ailchuk/Desktop/utag /Users/ailchuk/Desktop/utag/3dparty/taglib /Users/ailchuk/Desktop/utag/build /Users/ailchuk/Desktop/utag/build/3dparty/taglib /Users/ailchuk/Desktop/utag/build/3dparty/taglib/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/admin/Desktop/utag/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/admin/Desktop/utag /Users/admin/Desktop/utag/3dparty/taglib /Users/admin/Desktop/utag/build /Users/admin/Desktop/utag/build/3dparty/taglib /Users/admin/Desktop/utag/build/3dparty/taglib/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3dparty/taglib/CMakeFiles/docs.dir/depend
 

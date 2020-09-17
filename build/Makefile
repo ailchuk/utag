@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.18.1/bin/cmake
 
 # The command to remove a file.
-RM = /Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.18.1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ailchuk/Desktop/utag
+CMAKE_SOURCE_DIR = /Users/admin/Desktop/utag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
+CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,37 +78,37 @@ CMAKE_BINARY_DIR = /Users/ailchuk/Desktop/utag/build
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -124,7 +124,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.18.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -135,7 +135,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Users/ailchuk/.brew/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.18.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ailchuk/Desktop/utag/build/CMakeFiles /Users/ailchuk/Desktop/utag/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/utag/build/CMakeFiles /Users/admin/Desktop/utag/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ailchuk/Desktop/utag/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/Desktop/utag/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -174,58 +174,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named utag
-
-# Build rule for target.
-utag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utag
-.PHONY : utag
-
-# fast build rule for target.
-utag/fast:
-	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/build
-.PHONY : utag/fast
-
-#=============================================================================
-# Target rules for targets named utag_autogen
-
-# Build rule for target.
-utag_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utag_autogen
-.PHONY : utag_autogen
-
-# fast build rule for target.
-utag_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag_autogen.dir/build.make app/CMakeFiles/utag_autogen.dir/build
-.PHONY : utag_autogen/fast
-
-#=============================================================================
-# Target rules for targets named src
-
-# Build rule for target.
-src: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src
-.PHONY : src
-
-# fast build rule for target.
-src/fast:
-	$(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/build
-.PHONY : src/fast
-
-#=============================================================================
-# Target rules for targets named src_autogen
-
-# Build rule for target.
-src_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src_autogen
-.PHONY : src_autogen
-
-# fast build rule for target.
-src_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src_autogen.dir/build.make app/src/CMakeFiles/src_autogen.dir/build
-.PHONY : src_autogen/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -278,6 +226,58 @@ tag_c: cmake_check_build_system
 tag_c/fast:
 	$(MAKE) $(MAKESILENT) -f 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build.make 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/build
 .PHONY : tag_c/fast
+
+#=============================================================================
+# Target rules for targets named utag
+
+# Build rule for target.
+utag: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utag
+.PHONY : utag
+
+# fast build rule for target.
+utag/fast:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/build
+.PHONY : utag/fast
+
+#=============================================================================
+# Target rules for targets named utag_autogen
+
+# Build rule for target.
+utag_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utag_autogen
+.PHONY : utag_autogen
+
+# fast build rule for target.
+utag_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag_autogen.dir/build.make app/CMakeFiles/utag_autogen.dir/build
+.PHONY : utag_autogen/fast
+
+#=============================================================================
+# Target rules for targets named src
+
+# Build rule for target.
+src: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src
+.PHONY : src
+
+# fast build rule for target.
+src/fast:
+	$(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/build
+.PHONY : src/fast
+
+#=============================================================================
+# Target rules for targets named src_autogen
+
+# Build rule for target.
+src_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src_autogen
+.PHONY : src_autogen
+
+# fast build rule for target.
+src_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src_autogen.dir/build.make app/src/CMakeFiles/src_autogen.dir/build
+.PHONY : src_autogen/fast
 
 # Help Target
 help:

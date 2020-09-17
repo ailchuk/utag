@@ -14,10 +14,10 @@ EOH
 	exit 1;
 }
 
-prefix=/Users/ailchuk/.brew
-exec_prefix=/Users/ailchuk/.brew
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
 
 flags=""
 
@@ -29,7 +29,7 @@ while test $# -gt 0
 do
   case $1 in
     --libs)
-	  flags="$flags -L$libdir -ltag -lz"
+	  flags="$flags -L$libdir -ltag"
 	  ;;
     --cflags)
 	  flags="$flags -I$includedir/taglib"

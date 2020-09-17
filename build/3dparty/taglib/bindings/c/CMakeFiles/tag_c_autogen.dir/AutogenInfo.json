@@ -1,0 +1,85 @@
+{
+	"BUILD_DIR" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/tag_c_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/admin/Desktop/utag/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/admin/Desktop/utag/3dparty/taglib/bindings/c",
+	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.18.1/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/admin/Desktop/utag",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.h",
+			"MU",
+			"EWIEGA46WW/moc_tag_c.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/tag_c_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/tag_c_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "HAVE_CONFIG_H", "TAGLIB_STATIC" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c",
+		"/Users/admin/Desktop/utag/3dparty/taglib/bindings/c",
+		"/Users/admin/Desktop/utag/build/3dparty/taglib",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/asf",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/vorbis",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/flac",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/flac",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpc",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mp4",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/mpeg/id3v2/frames",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/speex",
+		"/Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include",
+		"/Library/Developer/CommandLineTools/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/tag_c_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/local/Cellar/qt/5.15.1/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
