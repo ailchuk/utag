@@ -2,6 +2,13 @@ cmake_minimum_required(VERSION 3.10.0 FATAL_ERROR)
 
 project(src LANGUAGES CXX)
 
+add_compile_options(
+    -Wall
+    -Wextra
+    -Werror
+    -Wpedantic
+)
+
 include_directories(../3dparty/taglib)
 link_directories(../3dparty/taglib)
 

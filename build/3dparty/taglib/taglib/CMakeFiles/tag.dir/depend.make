@@ -3,6 +3,7 @@
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apefile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
@@ -54,6 +55,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeitem.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ape/apeproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -107,6 +109,7 @@
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfattribute.cpp.o: ../3dparty/taglib/taglib/tag.h
@@ -133,10 +136,12 @@
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asffile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -162,6 +167,7 @@
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfpicture.cpp.o: ../3dparty/taglib/taglib/tag.h
@@ -197,6 +203,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asfproperties.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/asf/asftag.cpp.o: ../3dparty/taglib/taglib/tag.h
@@ -266,6 +273,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpc/mpcfile.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpc/mpcproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -297,6 +305,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tdebug.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tfile.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tfilestream.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tiostream.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tlist.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/toolkit/tlist.tcc
@@ -318,6 +327,7 @@
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/flac/flacfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -535,6 +545,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mp4/mp4file.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -631,6 +642,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/ape/apetag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpc/mpcfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
@@ -707,6 +719,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v1/id3v1tag.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
@@ -723,6 +736,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/attachedpictureframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -745,6 +759,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/chapterframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/chapterframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -767,6 +782,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/commentsframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/commentsframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -789,6 +805,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/eventtimingcodesframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/eventtimingcodesframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
@@ -805,6 +822,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/generalencapsulatedobjectframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/generalencapsulatedobjectframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/ownershipframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -845,6 +863,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/popularimeterframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/popularimeterframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/privateframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -880,6 +899,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/relativevolumeframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/relativevolumeframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -902,6 +922,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/synchronizedlyricsframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/synchronizedlyricsframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -925,6 +946,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/tableofcontentsframe.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1genres.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -946,6 +968,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/textidentificationframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/textidentificationframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/uniquefileidentifierframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -977,6 +1000,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unknownframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -999,6 +1023,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/unsynchronizedlyricsframe.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/frames/urllinkframe.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1032,6 +1057,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.cpp
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2footer.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1058,6 +1084,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.cpp
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2frame.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
@@ -1099,6 +1126,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.cpp
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2framefactory.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
@@ -1111,6 +1139,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/toolkit/tdebug.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/toolkit/tstring.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.cpp
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2header.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1148,6 +1177,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unknownframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/unsynchronizedlyricsframe.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/urllinkframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2extendedheader.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2footer.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/id3v2/id3v2tag.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
@@ -1162,6 +1192,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/ape/apetag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1209,6 +1240,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/ape/apeitem.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/ape/apetag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
@@ -1232,6 +1264,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/mpegproperties.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/mpeg/xingheader.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
@@ -1255,6 +1288,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/ogg/xiphcomment.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/flac/oggflacfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1335,6 +1369,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/ogg/xiphcomment.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1387,6 +1422,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/ogg/xiphcomment.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/speex/speexfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1439,6 +1475,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/ogg/xiphcomment.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/vorbis/vorbisfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1505,6 +1542,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/xiphcomment.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1512,6 +1550,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/riff/rifffile.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1532,6 +1571,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aifffile.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/aiff/aiffproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1589,6 +1629,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/infotag.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1597,6 +1638,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/tagunion.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/tagutils.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1618,6 +1660,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavfile.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/riff/wav/wavproperties.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1697,6 +1740,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/flac/flacmetadatablock.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/flac/flacpicture.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1723,6 +1767,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/ape/apeitem.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/ape/apetag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
@@ -1819,6 +1864,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpc/mpcfile.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpc/mpcproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/frames/attachedpictureframe.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1882,10 +1928,9 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/tdebug.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/tstring.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/tiostream.cpp
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/tiostream.h
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: ../3dparty/taglib/taglib/toolkit/tstring.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tiostream.cpp.o: 3dparty/taglib/taglib_config.h
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tpropertymap.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
@@ -1910,6 +1955,8 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.o: 3dparty/taglib/config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/trefcounter.cpp.o: 3dparty/taglib/taglib_config.h
 
+3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/3rdparty/utf8-cpp/checked.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/3rdparty/utf8-cpp/core.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/taglib_export.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/toolkit/taglib.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevectorlist.h
@@ -1922,7 +1969,6 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/toolkit/tbytevector.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/toolkit/tstring.cpp
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/toolkit/tstring.h
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: ../3dparty/taglib/taglib/toolkit/unicode.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: 3dparty/taglib/config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o: 3dparty/taglib/taglib_config.h
 
@@ -1948,11 +1994,9 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o: 3dparty/taglib/config.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o: 3dparty/taglib/taglib_config.h
 
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o: ../3dparty/taglib/taglib/toolkit/unicode.cpp
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o: ../3dparty/taglib/taglib/toolkit/unicode.h
-
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2frame.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2framefactory.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
@@ -1999,6 +2043,7 @@
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/ape/apetag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v1/id3v1tag.h
+3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/mpeg/id3v2/id3v2header.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/tag.h
 3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o: ../3dparty/taglib/taglib/taglib_export.h

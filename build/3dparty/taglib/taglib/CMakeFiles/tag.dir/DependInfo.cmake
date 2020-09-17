@@ -100,7 +100,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstring.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstring.cpp.o"
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tstringlist.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tstringlist.cpp.o"
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/tzlib.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.o"
-  "/Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o"
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudiofile.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudiofile.cpp.o"
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/trueaudio/trueaudioproperties.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/trueaudio/trueaudioproperties.cpp.o"
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/wavpack/wavpackfile.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/wavpack/wavpackfile.cpp.o"
@@ -108,7 +107,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmfile.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmfile.cpp.o"
   "/Users/admin/Desktop/utag/3dparty/taglib/taglib/xm/xmproperties.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -145,6 +144,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../3dparty/taglib/taglib/s3m"
   "../3dparty/taglib/taglib/it"
   "../3dparty/taglib/taglib/xm"
+  "../3dparty/taglib/taglib/dsf"
+  "../3dparty/taglib/taglib/dsdiff"
+  "../3dparty/taglib/3rdparty"
   )
 
 # Targets to which this target links.

@@ -2782,33 +2782,6 @@ toolkit/tzlib.cpp.s:
 	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/tzlib.cpp.s
 .PHONY : toolkit/tzlib.cpp.s
 
-toolkit/unicode.o: toolkit/unicode.cpp.o
-
-.PHONY : toolkit/unicode.o
-
-# target to build an object file
-toolkit/unicode.cpp.o:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o
-.PHONY : toolkit/unicode.cpp.o
-
-toolkit/unicode.i: toolkit/unicode.cpp.i
-
-.PHONY : toolkit/unicode.i
-
-# target to preprocess a source file
-toolkit/unicode.cpp.i:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.i
-.PHONY : toolkit/unicode.cpp.i
-
-toolkit/unicode.s: toolkit/unicode.cpp.s
-
-.PHONY : toolkit/unicode.s
-
-# target to generate assembly for a file
-toolkit/unicode.cpp.s:
-	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.s
-.PHONY : toolkit/unicode.cpp.s
-
 trueaudio/trueaudiofile.o: trueaudio/trueaudiofile.cpp.o
 
 .PHONY : trueaudio/trueaudiofile.o
@@ -3272,9 +3245,6 @@ help:
 	@echo "... toolkit/tzlib.o"
 	@echo "... toolkit/tzlib.i"
 	@echo "... toolkit/tzlib.s"
-	@echo "... toolkit/unicode.o"
-	@echo "... toolkit/unicode.i"
-	@echo "... toolkit/unicode.s"
 	@echo "... trueaudio/trueaudiofile.o"
 	@echo "... trueaudio/trueaudiofile.i"
 	@echo "... trueaudio/trueaudiofile.s"

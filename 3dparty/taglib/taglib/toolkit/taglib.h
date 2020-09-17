@@ -44,6 +44,16 @@
 #define TAGLIB_CONSTRUCT_BITSET(x) static_cast<unsigned long>(x)
 #endif
 
+#if __cplusplus >= 201402
+#define TAGLIB_DEPRECATED [[deprecated]]
+#elif defined(__GNUC__) || defined(__clang__)
+#define TAGLIB_DEPRECATED __attribute__((deprecated))
+#elif defined(_MSC_VER)
+#define TAGLIB_DEPRECATED __declspec(deprecated)
+#else
+#define TAGLIB_DEPRECATED
+#endif
+
 #include <string>
 
 //! A namespace for all TagLib related classes and functions
@@ -115,7 +125,7 @@ namespace TagLib {
  *
  * \section installing Installing TagLib
  *
- * Please see the <a href="http://developer.kde.org/~wheeler/taglib.html">TagLib website</a> for the latest
+ * Please see the <a href="http://taglib.org/">TagLib website</a> for the latest
  * downloads.
  *
  * TagLib can be built using the CMake build system. TagLib installs a taglib-config and pkg-config file to
@@ -160,11 +170,10 @@ namespace TagLib {
  *
  * Questions about TagLib should be directed to the TagLib mailing list, not directly to the author.
  *
- *  - <a href="http://developer.kde.org/~wheeler/taglib/">TagLib Homepage</a>
+ *  - <a href="http://taglib.org/">TagLib Homepage</a>
  *  - <a href="https://mail.kde.org/mailman/listinfo/taglib-devel">TagLib Mailing List (taglib-devel@kde.org)</a>
  *
- * \author Scott Wheeler <wheeler@kde.org> et al.
- *
+ * \author <a href="https://github.com/taglib/taglib/blob/master/AUTHORS">TagLib authors</a>.
  */
 
 #endif

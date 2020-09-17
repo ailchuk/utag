@@ -45,13 +45,6 @@ set(TAGLIB_INCLUDES
 
 add_subdirectory(3dparty/taglib)
 
-add_compile_options(
-    -Wall
-    -Wextra
-    -Werror
-    -Wpedantic
-)
-
 add_subdirectory(app)
 
 target_include_directories(${TARGET} PUBLIC ${PROJECT_BINARY_DIR} ${TAGLIB_INCLUDES})

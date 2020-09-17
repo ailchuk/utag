@@ -1337,22 +1337,9 @@ include 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.s"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/3dparty/taglib/taglib/ogg/opus/opusproperties.cpp -o CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.s
 
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o: 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o: ../3dparty/taglib/taglib/toolkit/unicode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o"
-	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tag.dir/toolkit/unicode.cpp.o -c /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.cpp
-
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tag.dir/toolkit/unicode.cpp.i"
-	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.cpp > CMakeFiles/tag.dir/toolkit/unicode.cpp.i
-
-3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tag.dir/toolkit/unicode.cpp.s"
-	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/admin/Desktop/utag/3dparty/taglib/taglib/toolkit/unicode.cpp -o CMakeFiles/tag.dir/toolkit/unicode.cpp.s
-
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o: 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o: ../3dparty/taglib/taglib/tag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tag.dir/tag.cpp.o -c /Users/admin/Desktop/utag/3dparty/taglib/taglib/tag.cpp
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.i: cmake_force
@@ -1365,7 +1352,7 @@ include 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o: ../3dparty/taglib/taglib/tagunion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tag.dir/tagunion.cpp.o -c /Users/admin/Desktop/utag/3dparty/taglib/taglib/tagunion.cpp
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.i: cmake_force
@@ -1378,7 +1365,7 @@ include 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o: ../3dparty/taglib/taglib/fileref.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tag.dir/fileref.cpp.o -c /Users/admin/Desktop/utag/3dparty/taglib/taglib/fileref.cpp
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.i: cmake_force
@@ -1391,7 +1378,7 @@ include 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o: 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o: ../3dparty/taglib/taglib/audioproperties.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.o"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tag.dir/audioproperties.cpp.o -c /Users/admin/Desktop/utag/3dparty/taglib/taglib/audioproperties.cpp
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/audioproperties.cpp.i: cmake_force
@@ -1404,7 +1391,7 @@ include 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: 3dparty/taglib/taglib/CMakeFiles/tag.dir/flags.make
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o: ../3dparty/taglib/taglib/tagutils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tag.dir/tagutils.cpp.o -c /Users/admin/Desktop/utag/3dparty/taglib/taglib/tagutils.cpp
 
 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.i: cmake_force
@@ -1514,7 +1501,6 @@ tag_OBJECTS = \
 "CMakeFiles/tag.dir/xm/xmproperties.cpp.o" \
 "CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o" \
 "CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.o" \
-"CMakeFiles/tag.dir/toolkit/unicode.cpp.o" \
 "CMakeFiles/tag.dir/tag.cpp.o" \
 "CMakeFiles/tag.dir/tagunion.cpp.o" \
 "CMakeFiles/tag.dir/fileref.cpp.o" \
@@ -1621,7 +1607,6 @@ tag_EXTERNAL_OBJECTS =
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/xm/xmproperties.cpp.o
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusfile.cpp.o
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/ogg/opus/opusproperties.cpp.o
-3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/toolkit/unicode.cpp.o
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/tag.cpp.o
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagunion.cpp.o
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/fileref.cpp.o
@@ -1629,7 +1614,7 @@ tag_EXTERNAL_OBJECTS =
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/tagutils.cpp.o
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/build.make
 3dparty/taglib/taglib/libtag.a: 3dparty/taglib/taglib/CMakeFiles/tag.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Linking CXX static library libtag.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Linking CXX static library libtag.a"
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && $(CMAKE_COMMAND) -P CMakeFiles/tag.dir/cmake_clean_target.cmake
 	cd /Users/admin/Desktop/utag/build/3dparty/taglib/taglib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tag.dir/link.txt --verbose=$(VERBOSE)
 

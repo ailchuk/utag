@@ -274,6 +274,9 @@ LIB_SUFFIX:STRING=
 //Disable workarounds for iTunes bugs
 NO_ITUNES_HACKS:BOOL=OFF
 
+//Enable WinRT support
+PLATFORM_WINRT:BOOL=OFF
+
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/local/Cellar/qt/5.15.1/lib/cmake/Qt5Core
 

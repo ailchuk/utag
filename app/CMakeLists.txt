@@ -2,6 +2,13 @@ cmake_minimum_required(VERSION 3.10.0 FATAL_ERROR)
 
 project(utag LANGUAGES CXX)
 
+add_compile_options(
+    -Wall
+    -Wextra
+    -Werror
+    -Wpedantic
+)
+
 add_subdirectory(src)
 
 include_directories(src)

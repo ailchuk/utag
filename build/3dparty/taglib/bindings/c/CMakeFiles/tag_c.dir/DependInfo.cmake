@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/admin/Desktop/utag/3dparty/taglib/bindings/c/tag_c.cpp" "/Users/admin/Desktop/utag/build/3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/tag_c.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
