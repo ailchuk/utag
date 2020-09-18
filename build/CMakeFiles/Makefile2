@@ -72,22 +72,40 @@ CMAKE_BINARY_DIR = /Users/admin/Desktop/utag/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: 3dparty/taglib/all
+all: 3dparty/all
 all: app/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 3dparty/taglib/preinstall
+preinstall: 3dparty/preinstall
 preinstall: app/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: 3dparty/taglib/clean
+clean: 3dparty/clean
 clean: app/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory 3dparty
+
+# Recursive "all" directory target.
+3dparty/all: 3dparty/taglib/all
+
+.PHONY : 3dparty/all
+
+# Recursive "preinstall" directory target.
+3dparty/preinstall: 3dparty/taglib/preinstall
+
+.PHONY : 3dparty/preinstall
+
+# Recursive "clean" directory target.
+3dparty/clean: 3dparty/taglib/clean
+
+.PHONY : 3dparty/clean
 
 #=============================================================================
 # Directory level rules for directory 3dparty/taglib
@@ -347,6 +365,7 @@ app/CMakeFiles/utag.dir/clean:
 # Target rules for target app/CMakeFiles/utag_autogen.dir
 
 # All Build rule for target.
+app/CMakeFiles/utag_autogen.dir/all: 3dparty/taglib/taglib/CMakeFiles/tag.dir/all
 app/CMakeFiles/utag_autogen.dir/all: app/src/CMakeFiles/src.dir/all
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag_autogen.dir/build.make app/CMakeFiles/utag_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag_autogen.dir/build.make app/CMakeFiles/utag_autogen.dir/build

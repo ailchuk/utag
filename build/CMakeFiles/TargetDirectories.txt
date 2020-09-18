@@ -4,6 +4,12 @@
 /Users/admin/Desktop/utag/build/CMakeFiles/list_install_components.dir
 /Users/admin/Desktop/utag/build/CMakeFiles/rebuild_cache.dir
 /Users/admin/Desktop/utag/build/CMakeFiles/edit_cache.dir
+/Users/admin/Desktop/utag/build/3dparty/CMakeFiles/install/local.dir
+/Users/admin/Desktop/utag/build/3dparty/CMakeFiles/install/strip.dir
+/Users/admin/Desktop/utag/build/3dparty/CMakeFiles/install.dir
+/Users/admin/Desktop/utag/build/3dparty/CMakeFiles/list_install_components.dir
+/Users/admin/Desktop/utag/build/3dparty/CMakeFiles/rebuild_cache.dir
+/Users/admin/Desktop/utag/build/3dparty/CMakeFiles/edit_cache.dir
 /Users/admin/Desktop/utag/build/3dparty/taglib/CMakeFiles/install/local.dir
 /Users/admin/Desktop/utag/build/3dparty/taglib/CMakeFiles/list_install_components.dir
 /Users/admin/Desktop/utag/build/3dparty/taglib/CMakeFiles/install/strip.dir

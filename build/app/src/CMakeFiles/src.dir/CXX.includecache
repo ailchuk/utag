@@ -317,6 +317,8 @@ QtCore/QVariant
 -
 QtWidgets/QApplication
 -
+QtWidgets/QHBoxLayout
+-
 QtWidgets/QLabel
 -
 QtWidgets/QLineEdit
@@ -326,6 +328,8 @@ QtWidgets/QListWidget
 QtWidgets/QMainWindow
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QRadioButton
 -
 QtWidgets/QWidget
 -

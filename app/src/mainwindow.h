@@ -34,11 +34,14 @@ private slots:
 
     void on_m_folderList_itemDoubleClicked(QListWidgetItem *item);
 
+    void on_m_dark_b_clicked();
+
+    void on_m_light_b_clicked();
+
 private:
     Ui::MainWindow *m_ui;
     QString m_path;
     QFile *m_file;
     QString m_file_path;
-    TagLib::FileRef* m_ref; // in end m_ref.save()!!!!
 
 };

@@ -11,11 +11,13 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -42,12 +44,17 @@ public:
     QLineEdit *m_line_track;
     QLineEdit *m_line_comment;
     QLabel *m_full_path_to_file_l;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout;
+    QRadioButton *m_dark_b;
+    QRadioButton *m_light_b;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(800, 415);
+        MainWindow->setMinimumSize(QSize(0, 415));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         m_save = new QPushButton(centralwidget);
@@ -103,7 +110,7 @@ public:
         m_comment_l->setFont(font1);
         m_path_to_file_l = new QLabel(centralwidget);
         m_path_to_file_l->setObjectName(QString::fromUtf8("m_path_to_file_l"));
-        m_path_to_file_l->setGeometry(QRect(10, 30, 91, 30));
+        m_path_to_file_l->setGeometry(QRect(10, 50, 81, 30));
         m_path_to_file_l->setFont(font1);
         m_line_title = new QLineEdit(centralwidget);
         m_line_title->setObjectName(QString::fromUtf8("m_line_title"));
@@ -128,11 +135,27 @@ public:
         m_line_comment->setGeometry(QRect(100, 330, 365, 25));
         m_full_path_to_file_l = new QLabel(centralwidget);
         m_full_path_to_file_l->setObjectName(QString::fromUtf8("m_full_path_to_file_l"));
-        m_full_path_to_file_l->setGeometry(QRect(110, 30, 351, 30));
+        m_full_path_to_file_l->setGeometry(QRect(90, 50, 381, 30));
         QFont font2;
         font2.setPointSize(10);
         font2.setItalic(false);
         m_full_path_to_file_l->setFont(font2);
+        widget = new QWidget(centralwidget);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(180, 10, 203, 24));
+        horizontalLayout = new QHBoxLayout(widget);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setContentsMargins(0, 0, 0, 0);
+        m_dark_b = new QRadioButton(widget);
+        m_dark_b->setObjectName(QString::fromUtf8("m_dark_b"));
+
+        horizontalLayout->addWidget(m_dark_b);
+
+        m_light_b = new QRadioButton(widget);
+        m_light_b->setObjectName(QString::fromUtf8("m_light_b"));
+
+        horizontalLayout->addWidget(m_light_b);
+
         MainWindow->setCentralWidget(centralwidget);
 
         retranslateUi(MainWindow);
@@ -153,6 +176,8 @@ public:
         m_comment_l->setText(QCoreApplication::translate("MainWindow", "Comment", nullptr));
         m_path_to_file_l->setText(QCoreApplication::translate("MainWindow", "Path to file", nullptr));
         m_full_path_to_file_l->setText(QString());
+        m_dark_b->setText(QCoreApplication::translate("MainWindow", "Dark", nullptr));
+        m_light_b->setText(QCoreApplication::translate("MainWindow", "Light", nullptr));
     } // retranslateUi
 
 };

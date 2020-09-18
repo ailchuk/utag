@@ -115,13 +115,13 @@ utag: app/CMakeFiles/utag.dir/main.cpp.o
 utag: app/CMakeFiles/utag.dir/build.make
 utag: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/QtWidgets
 utag: app/src/libsrc.a
+utag: 3dparty/taglib/taglib/libtag.a
 utag: /usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/QtGui
 utag: /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/QtCore
+utag: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd
 utag: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/QtWidgets
 utag: /usr/local/Cellar/qt/5.15.1/lib/QtGui.framework/QtGui
 utag: /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/QtCore
-utag: 3dparty/taglib/taglib/libtag.a
-utag: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd
 utag: app/CMakeFiles/utag.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../utag"
 	cd /Users/admin/Desktop/utag/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utag.dir/link.txt --verbose=$(VERBOSE)

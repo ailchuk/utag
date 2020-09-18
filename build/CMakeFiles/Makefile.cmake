@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../3dparty/CMakeLists.txt"
   "../3dparty/taglib/CMakeLists.txt"
   "../3dparty/taglib/ConfigureChecks.cmake"
   "../3dparty/taglib/Doxyfile.cmake"
@@ -106,6 +107,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3dparty/CMakeFiles/CMakeDirectoryInformation.cmake"
   "3dparty/taglib/taglib.h.stamp"
   "3dparty/taglib/taglib-config"
   "3dparty/taglib/taglib.pc"

@@ -30,4 +30,5 @@ target_link_libraries(
     Qt5::Gui
     Qt5::Widgets
     src
+    tag
 )

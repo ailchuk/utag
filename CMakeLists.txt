@@ -43,7 +43,7 @@ set(TAGLIB_INCLUDES
     3dparty/taglib/taglib/xm
 )
 
-add_subdirectory(3dparty/taglib)
+add_subdirectory(3dparty)
 
 add_subdirectory(app)
 
