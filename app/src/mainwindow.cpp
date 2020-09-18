@@ -32,10 +32,11 @@ void MainWindow::setPath(std::string path)
     }
     else if(!(info.st_mode & S_IFDIR)) { 
         QMessageBox::critical(this,
-                              "Error opening folder", "Is not a directory!");
+                              "Error opening folder", "It is not a directory!");
     }
     else
         m_path = QString::fromStdString(path);
+    
 }
 
 void MainWindow::showDir()
@@ -61,8 +62,11 @@ void MainWindow::setMyLabels()
     TagLib::FileRef ref(m_file_path.toStdString().c_str());
     auto year = QString::number(ref.tag()->year());
     auto track = QString::number(ref.tag()->track());
+    size_t slash = m_file_path.toStdString().find_last_of("/");
+    std::string dirPath = (slash != std::string::npos) ? 
+        m_file_path.toStdString().substr(0, slash) : m_file_path.toStdString();
 
-    m_ui->m_full_path_to_file_l->setText(m_file_path);
+    m_ui->m_full_path_to_file_l->setText(QString::fromStdString(dirPath));
     m_ui->m_line_title->setText(
         QString::fromStdString(ref.tag()->title().toCString()));
     m_ui->m_line_artist->setText(

@@ -145,6 +145,8 @@ QFile
 -
 QMessageBox
 -
+unistd.h
+-
 taglib/tag.h
 -
 taglib/fileref.h

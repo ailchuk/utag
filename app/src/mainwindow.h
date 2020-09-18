@@ -10,6 +10,7 @@
 #include <QString>
 #include <QFile>
 #include <QMessageBox>
+#include <unistd.h>
 #include <taglib/tag.h>
 #include <taglib/fileref.h>
 
@@ -44,5 +45,4 @@ private:
     QString m_path;
     QFile *m_file;
     QString m_file_path;
-
 };
