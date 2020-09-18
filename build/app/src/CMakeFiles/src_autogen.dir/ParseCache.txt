@@ -294,6 +294,7 @@
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/QFileDialog
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/QListWidget
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/QMainWindow
+ mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qabstractitemdelegate.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qabstractitemview.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qabstractscrollarea.h
@@ -305,6 +306,7 @@
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qlistview.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qlistwidget.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qmainwindow.h
+ mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qmessagebox.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qrubberband.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h
  mdp:/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Versions/5/Headers/qslider.h

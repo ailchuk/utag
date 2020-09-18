@@ -34,9 +34,11 @@ app/src/CMakeFiles/src.dir/mainwindow.cpp.o
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
+ /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
  app/src/src_autogen/include/ui_mainwindow.h
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o
  ../3dparty/taglib/taglib/audioproperties.h
@@ -72,6 +74,8 @@ app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
+ /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h

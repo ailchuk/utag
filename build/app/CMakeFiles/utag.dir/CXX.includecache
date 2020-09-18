@@ -143,6 +143,8 @@ QString
 -
 QFile
 -
+QMessageBox
+-
 taglib/tag.h
 -
 taglib/fileref.h
@@ -282,6 +284,10 @@ qlistwidget.h
 qmainwindow.h
 /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
 
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
+qmessagebox.h
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
+
 /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -332,5 +338,11 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtWidgets/qtabwidget.h
+-
+
+/usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
 -
 

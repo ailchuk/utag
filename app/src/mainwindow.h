@@ -9,6 +9,7 @@
 #include <QListWidget>
 #include <QString>
 #include <QFile>
+#include <QMessageBox>
 #include <taglib/tag.h>
 #include <taglib/fileref.h>
 

@@ -33,9 +33,11 @@ app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtC
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
+app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
+app/src/CMakeFiles/src.dir/mainwindow.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
 app/src/CMakeFiles/src.dir/mainwindow.cpp.o: app/src/src_autogen/include/ui_mainwindow.h
 
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: ../3dparty/taglib/taglib/audioproperties.h
@@ -71,7 +73,9 @@ app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
+app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
+app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
 

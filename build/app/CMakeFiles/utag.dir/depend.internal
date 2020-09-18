@@ -35,9 +35,11 @@ app/CMakeFiles/utag.dir/main.cpp.o
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
+ /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qapplication.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
  /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o
  /Users/admin/Desktop/utag/build/app/utag_autogen/mocs_compilation.cpp

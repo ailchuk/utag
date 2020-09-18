@@ -34,10 +34,12 @@ app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.fr
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QFileDialog
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QListWidget
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMainWindow
+app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/QMessageBox
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qapplication.h
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qfiledialog.h
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qlistwidget.h
 app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmainwindow.h
+app/CMakeFiles/utag.dir/main.cpp.o: /usr/local/Cellar/qt/5.15.1/lib/QtWidgets.framework/Headers/qmessagebox.h
 
 app/CMakeFiles/utag.dir/utag_autogen/mocs_compilation.cpp.o: app/utag_autogen/mocs_compilation.cpp
 
