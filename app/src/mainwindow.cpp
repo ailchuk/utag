@@ -1,7 +1,5 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include <sys/types.h>
-#include <sys/stat.h>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -13,8 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     m_ui->setupUi(this);
     connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
             this,SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem*)));
-    m_ui->m_light_b->setChecked(true);
-    on_m_light_b_clicked();
+    on_m_light_theme_triggered();
 }
 
 MainWindow::~MainWindow()
@@ -28,33 +25,17 @@ void MainWindow::setPath(std::string path)
 
     if (stat(path.c_str(), &info ) != 0 ) {
         QMessageBox::critical(this,
-                              "Error opening folder", "Can't access folder!");
+                              "Error opening dir", "Can't access directory!");
     }
     else if(!(info.st_mode & S_IFDIR)) { 
         QMessageBox::critical(this,
-                              "Error opening folder", "It is not a directory!");
+                              "Error opening dir", "It is not a directory!");
     }
     else
         m_path = QString::fromStdString(path);
     
-}
-
-void MainWindow::showDir()
-{
-    QDir dir(m_path);
-
-    dir.setNameFilters(QStringList() << "*.mp3");
-    dir.setSorting(QDir::Size | QDir::Reversed);
-    QFileInfoList list = dir.entryInfoList(QDir::Files | 
-                                           QDir::Hidden |
-                                           QDir::NoSymLinks);
-
-    for (int i = 0; i < list.size(); ++i) {
-            m_ui->m_folderList->addItem(list.at(i).fileName());
-            m_ui->m_folderList->item(i)->setForeground(Qt::black);
-            m_ui->m_folderList->item(i)->setData(
-                Qt::UserRole, list.at(i).absoluteFilePath());
-    }
+    printFiles();
+    on_m_by_filename_triggered();
 }
 
 void MainWindow::setMyLabels()
@@ -116,61 +97,4 @@ void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
         QMessageBox::critical(this, "Error opening file", "Can't open file!");
     }
     m_file->close();
-}
-
-void MainWindow::on_m_dark_b_clicked() 
-{
-    if (m_ui->m_dark_b->isChecked()) {
-        m_ui->m_light_b->setStyleSheet("QRadioButton{ color: white; }");
-        m_ui->m_dark_b->setStyleSheet("QRadioButton{ color: white; }");
-        m_ui->centralwidget->setStyleSheet(
-            "QWidget { background-color: #708090; }");
-        m_ui->m_folderList->setStyleSheet(
-            "QWidget { background-color: #e6e6e6; }");
-        m_ui->m_full_path_to_file_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_path_to_file_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_line_title->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_artist->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_album->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_genre->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_year->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_track->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_comment->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_title_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_artist_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_album_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_genre_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_year_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_track_l->setStyleSheet("QLabel { color: white; }");
-        m_ui->m_comment_l->setStyleSheet("QLabel { color: white; }");
-    }
-}
-
-void MainWindow::on_m_light_b_clicked()
-{
-    if (m_ui->m_light_b->isChecked()) {
-        m_ui->m_light_b->setStyleSheet("QRadioButton{ color: black; }");
-        m_ui->m_dark_b->setStyleSheet("QRadioButton{ color: black; }");
-        m_ui->centralwidget->setStyleSheet(
-            "QWidget { background-color: white; }");
-        m_ui->m_folderList->setStyleSheet(
-            "QWidget { background-color: #e6e6e6; }");
-        m_ui->m_full_path_to_file_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_path_to_file_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_line_artist->setStyleSheet("QLineEdit { color: white; }");
-        m_ui->m_line_title->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_line_artist->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_line_album->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_line_genre->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_line_year->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_line_track->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_line_comment->setStyleSheet("QLineEdit { color: black; }");
-        m_ui->m_title_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_artist_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_album_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_genre_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_year_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_track_l->setStyleSheet("QLabel { color: black; }");
-        m_ui->m_comment_l->setStyleSheet("QLabel { color: black; }");
-    }
 }

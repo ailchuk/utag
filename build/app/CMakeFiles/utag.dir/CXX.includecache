@@ -151,6 +151,10 @@ taglib/tag.h
 -
 taglib/fileref.h
 -
+sys/types.h
+-
+sys/stat.h
+-
 
 /Users/admin/Desktop/utag/app/main.cpp
 mainwindow.h

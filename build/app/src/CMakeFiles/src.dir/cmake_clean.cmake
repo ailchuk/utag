@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/src_autogen.dir/ParseCache.txt"
   "src_autogen"
   "CMakeFiles/src.dir/mainwindow.cpp.o"
+  "CMakeFiles/src.dir/sort.cpp.o"
   "CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/src.dir/theme.cpp.o"
   "libsrc.a"
   "libsrc.pdb"
 )

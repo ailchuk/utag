@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>415</height>
+    <width>811</width>
+    <height>453</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -24,9 +24,9 @@
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>375</y>
+      <y>374</y>
       <width>451</width>
-      <height>30</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -55,8 +55,8 @@ QPushButton:pressed {
    <widget class="QListWidget" name="m_folderList">
     <property name="geometry">
      <rect>
-      <x>475</x>
-      <y>5</y>
+      <x>480</x>
+      <y>10</y>
       <width>321</width>
       <height>405</height>
      </rect>
@@ -66,7 +66,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>90</y>
+      <y>70</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -84,7 +84,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>170</y>
+      <y>150</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -102,7 +102,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>130</y>
+      <y>110</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -120,7 +120,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>210</y>
+      <y>190</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -138,7 +138,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>250</y>
+      <y>230</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -156,7 +156,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>290</y>
+      <y>270</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -174,7 +174,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>14</x>
-      <y>330</y>
+      <y>310</y>
       <width>75</width>
       <height>30</height>
      </rect>
@@ -192,7 +192,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
+      <y>30</y>
       <width>81</width>
       <height>30</height>
      </rect>
@@ -210,7 +210,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>90</y>
+      <y>70</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -220,7 +220,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>130</y>
+      <y>110</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -230,7 +230,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>170</y>
+      <y>150</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -240,7 +240,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>210</y>
+      <y>190</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -250,7 +250,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>250</y>
+      <y>230</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -260,7 +260,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>290</y>
+      <y>270</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -270,7 +270,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>330</y>
+      <y>310</y>
       <width>365</width>
       <height>25</height>
      </rect>
@@ -280,7 +280,7 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>50</y>
+      <y>30</y>
       <width>381</width>
       <height>30</height>
      </rect>
@@ -295,33 +295,129 @@ QPushButton:pressed {
      <string/>
     </property>
    </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>10</y>
-      <width>203</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QRadioButton" name="m_dark_b">
-       <property name="text">
-        <string>Dark</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="m_light_b">
-       <property name="text">
-        <string>Light</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
   </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>811</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Appearence</string>
+    </property>
+    <addaction name="m_light_theme"/>
+    <addaction name="m_dark_theme"/>
+   </widget>
+   <widget class="QMenu" name="menuFile_sorting">
+    <property name="title">
+     <string>Sort by</string>
+    </property>
+    <addaction name="m_by_filename"/>
+    <addaction name="m_by_title"/>
+    <addaction name="m_by_artist"/>
+    <addaction name="m_by_album"/>
+    <addaction name="m_by_genre"/>
+    <addaction name="separator"/>
+    <addaction name="m_by_asc"/>
+    <addaction name="m_by_desc"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuFile_sorting"/>
+  </widget>
+  <action name="m_light_theme">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Light theme</string>
+   </property>
+  </action>
+  <action name="m_dark_theme">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Dark theme</string>
+   </property>
+  </action>
+  <action name="m_by_filename">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Filename</string>
+   </property>
+  </action>
+  <action name="m_by_title">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Title</string>
+   </property>
+  </action>
+  <action name="m_by_artist">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Artist</string>
+   </property>
+  </action>
+  <action name="m_by_album">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Album</string>
+   </property>
+  </action>
+  <action name="m_by_genre">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Genre</string>
+   </property>
+  </action>
+  <action name="m_by_asc">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Ascending</string>
+   </property>
+  </action>
+  <action name="m_by_desc">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Descending</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

@@ -232,6 +232,33 @@ mainwindow.cpp.s:
 	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+sort.o: sort.cpp.o
+
+.PHONY : sort.o
+
+# target to build an object file
+sort.cpp.o:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/sort.cpp.o
+.PHONY : sort.cpp.o
+
+sort.i: sort.cpp.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.cpp.i:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/sort.cpp.i
+.PHONY : sort.cpp.i
+
+sort.s: sort.cpp.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.cpp.s:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/sort.cpp.s
+.PHONY : sort.cpp.s
+
 src_autogen/mocs_compilation.o: src_autogen/mocs_compilation.cpp.o
 
 .PHONY : src_autogen/mocs_compilation.o
@@ -259,6 +286,33 @@ src_autogen/mocs_compilation.cpp.s:
 	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.s
 .PHONY : src_autogen/mocs_compilation.cpp.s
 
+theme.o: theme.cpp.o
+
+.PHONY : theme.o
+
+# target to build an object file
+theme.cpp.o:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/theme.cpp.o
+.PHONY : theme.cpp.o
+
+theme.i: theme.cpp.i
+
+.PHONY : theme.i
+
+# target to preprocess a source file
+theme.cpp.i:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/theme.cpp.i
+.PHONY : theme.cpp.i
+
+theme.s: theme.cpp.s
+
+.PHONY : theme.s
+
+# target to generate assembly for a file
+theme.cpp.s:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/theme.cpp.s
+.PHONY : theme.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -276,9 +330,15 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 	@echo "... src_autogen/mocs_compilation.o"
 	@echo "... src_autogen/mocs_compilation.i"
 	@echo "... src_autogen/mocs_compilation.s"
+	@echo "... theme.o"
+	@echo "... theme.i"
+	@echo "... theme.s"
 .PHONY : help
 
 

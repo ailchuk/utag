@@ -10,6 +10,5 @@ int main(int argc, char *argv[])
     w.setPath("../../Music/");
     // w.setPath("Music_test");
     w.show();
-    w.showDir();
     return a.exec();
 }
