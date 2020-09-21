@@ -151,16 +151,12 @@ taglib/tag.h
 -
 taglib/fileref.h
 -
-sys/types.h
--
-sys/stat.h
--
 
 /Users/admin/Desktop/utag/app/main.cpp
-mainwindow.h
-/Users/admin/Desktop/utag/app/mainwindow.h
 QApplication
 -
+mainwindow.h
+/Users/admin/Desktop/utag/app/mainwindow.h
 
 /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers/QDebug
 qdebug.h

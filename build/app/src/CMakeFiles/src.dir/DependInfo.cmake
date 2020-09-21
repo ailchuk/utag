@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/admin/Desktop/utag/app/src/files.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/files.cpp.o"
   "/Users/admin/Desktop/utag/app/src/mainwindow.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/mainwindow.cpp.o"
   "/Users/admin/Desktop/utag/app/src/sort.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/sort.cpp.o"
   "/Users/admin/Desktop/utag/build/app/src/src_autogen/mocs_compilation.cpp" "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"

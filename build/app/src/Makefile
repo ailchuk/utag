@@ -205,6 +205,33 @@ src_autogen/fast:
 	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src_autogen.dir/build.make app/src/CMakeFiles/src_autogen.dir/build
 .PHONY : src_autogen/fast
 
+files.o: files.cpp.o
+
+.PHONY : files.o
+
+# target to build an object file
+files.cpp.o:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/files.cpp.o
+.PHONY : files.cpp.o
+
+files.i: files.cpp.i
+
+.PHONY : files.i
+
+# target to preprocess a source file
+files.cpp.i:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/files.cpp.i
+.PHONY : files.cpp.i
+
+files.s: files.cpp.s
+
+.PHONY : files.s
+
+# target to generate assembly for a file
+files.cpp.s:
+	cd /Users/admin/Desktop/utag/build && $(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/files.cpp.s
+.PHONY : files.cpp.s
+
 mainwindow.o: mainwindow.cpp.o
 
 .PHONY : mainwindow.o
@@ -327,6 +354,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... src_autogen"
 	@echo "... src"
+	@echo "... files.o"
+	@echo "... files.i"
+	@echo "... files.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"

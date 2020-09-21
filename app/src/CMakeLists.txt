@@ -45,7 +45,7 @@ SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
-set(SRCS mainwindow.ui mainwindow.cpp sort.cpp theme.cpp)
+set(SRCS mainwindow.ui mainwindow.cpp files.cpp sort.cpp theme.cpp)
 
 add_library(src ${SRCS})
 

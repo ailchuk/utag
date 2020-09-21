@@ -93,6 +93,7 @@
 	"SETTINGS_FILE" : "/Users/admin/Desktop/utag/build/app/src/CMakeFiles/src_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/admin/Desktop/utag/app/src/files.cpp", "MU" ],
 		[ "/Users/admin/Desktop/utag/app/src/mainwindow.cpp", "MU" ],
 		[ "/Users/admin/Desktop/utag/app/src/sort.cpp", "MU" ],
 		[ "/Users/admin/Desktop/utag/app/src/theme.cpp", "MU" ]

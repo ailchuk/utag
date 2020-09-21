@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/src_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/src_autogen.dir/ParseCache.txt"
   "src_autogen"
+  "CMakeFiles/src.dir/files.cpp.o"
   "CMakeFiles/src.dir/mainwindow.cpp.o"
   "CMakeFiles/src.dir/sort.cpp.o"
   "CMakeFiles/src.dir/src_autogen/mocs_compilation.cpp.o"

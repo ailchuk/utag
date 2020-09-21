@@ -13,8 +13,6 @@
 #include <unistd.h>
 #include <taglib/tag.h>
 #include <taglib/fileref.h>
-#include <sys/types.h>
-#include <sys/stat.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -25,11 +23,12 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    MainWindow(std::string path, QWidget *parent = nullptr);
     ~MainWindow();
-    void setPath(std::string path);
-    void setMyLabels();
+    void setPathAndGetFiles(std::string &path);
     void printFiles();
+    QList<QFileInfo> getDirFiles();
+    void setMyLabels();
 
 
 private slots:
@@ -60,7 +59,8 @@ private slots:
 
 private:
     Ui::MainWindow *m_ui;
-    QString m_path;
-    QFile *m_file;
+    QString m_cur_dir;
     QString m_file_path;
+    QFile *m_file;
+    QList<QFileInfo> m_files_from_dir;
 };

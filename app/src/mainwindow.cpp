@@ -1,10 +1,10 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , m_ui(new Ui::MainWindow)
+MainWindow::MainWindow(std::string path, QWidget *parent)
+    : QMainWindow(parent), m_ui(new Ui::MainWindow)
 {
+    setPathAndGetFiles(path);
     setFixedSize(800, 415);
     setWindowFlags(Qt::WindowCloseButtonHint | Qt::WindowMinimizeButtonHint | 
                    Qt::CustomizeWindowHint);
@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
             this,SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem*)));
     on_m_light_theme_triggered();
+    printFiles();
 }
 
 MainWindow::~MainWindow()
@@ -19,23 +20,16 @@ MainWindow::~MainWindow()
     delete m_ui;
 }
 
-void MainWindow::setPath(std::string path)
+void MainWindow::setPathAndGetFiles(std::string &path)
 {
-    struct stat info;
+    m_cur_dir = QString::fromStdString(path);
+    QDir dir(m_cur_dir);
 
-    if (stat(path.c_str(), &info ) != 0 ) {
-        QMessageBox::critical(this,
-                              "Error opening dir", "Can't access directory!");
+    if (!dir.exists() || !dir.isReadable()) {
+        QMessageBox::critical(this, "Error dir", "Can't read or access directory!");
+        throw 1;
     }
-    else if(!(info.st_mode & S_IFDIR)) { 
-        QMessageBox::critical(this,
-                              "Error opening dir", "It is not a directory!");
-    }
-    else
-        m_path = QString::fromStdString(path);
-    
-    printFiles();
-    on_m_by_filename_triggered();
+    m_files_from_dir = getDirFiles();
 }
 
 void MainWindow::setMyLabels()
@@ -84,17 +78,4 @@ void MainWindow::on_m_save_clicked()
     }
 }
 
-void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem *item)
-{
-    QVariant data = item->data(Qt::UserRole);
-    m_file_path = data.toString();
-    m_file = new QFile(m_file_path);
-    m_file->open(QIODevice::ReadWrite | QIODevice::Text);
 
-    if (m_file) {
-        setMyLabels();
-    } else {
-        QMessageBox::critical(this, "Error opening file", "Can't open file!");
-    }
-    m_file->close();
-}
