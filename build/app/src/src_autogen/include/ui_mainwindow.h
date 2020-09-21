@@ -28,7 +28,6 @@ class Ui_MainWindow
 public:
     QAction *m_light_theme;
     QAction *m_dark_theme;
-    QAction *m_by_filename;
     QAction *m_by_title;
     QAction *m_by_artist;
     QAction *m_by_album;
@@ -55,8 +54,8 @@ public:
     QLineEdit *m_line_comment;
     QLabel *m_full_path_to_file_l;
     QMenuBar *menuBar;
-    QMenu *menuFile;
-    QMenu *menuFile_sorting;
+    QMenu *Appearance;
+    QMenu *Sort_By;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -69,26 +68,25 @@ public:
         m_light_theme->setCheckable(true);
         m_light_theme->setChecked(true);
         m_light_theme->setEnabled(true);
+        QFont font;
+        font.setPointSize(10);
+        m_light_theme->setFont(font);
         m_dark_theme = new QAction(MainWindow);
         m_dark_theme->setObjectName(QString::fromUtf8("m_dark_theme"));
         m_dark_theme->setCheckable(true);
-        m_by_filename = new QAction(MainWindow);
-        m_by_filename->setObjectName(QString::fromUtf8("m_by_filename"));
-        m_by_filename->setCheckable(true);
-        m_by_filename->setChecked(true);
         m_by_title = new QAction(MainWindow);
         m_by_title->setObjectName(QString::fromUtf8("m_by_title"));
         m_by_title->setCheckable(true);
         m_by_title->setChecked(false);
         m_by_artist = new QAction(MainWindow);
         m_by_artist->setObjectName(QString::fromUtf8("m_by_artist"));
-        m_by_artist->setCheckable(false);
+        m_by_artist->setCheckable(true);
         m_by_album = new QAction(MainWindow);
         m_by_album->setObjectName(QString::fromUtf8("m_by_album"));
-        m_by_album->setCheckable(false);
+        m_by_album->setCheckable(true);
         m_by_genre = new QAction(MainWindow);
         m_by_genre->setObjectName(QString::fromUtf8("m_by_genre"));
-        m_by_genre->setCheckable(false);
+        m_by_genre->setCheckable(true);
         m_by_genre->setEnabled(true);
         m_by_asc = new QAction(MainWindow);
         m_by_asc->setObjectName(QString::fromUtf8("m_by_asc"));
@@ -102,11 +100,11 @@ public:
         m_save = new QPushButton(centralwidget);
         m_save->setObjectName(QString::fromUtf8("m_save"));
         m_save->setGeometry(QRect(14, 374, 451, 31));
-        QFont font;
-        font.setPointSize(10);
-        font.setBold(false);
-        font.setWeight(50);
-        m_save->setFont(font);
+        QFont font1;
+        font1.setPointSize(14);
+        font1.setBold(false);
+        font1.setWeight(50);
+        m_save->setFont(font1);
         m_save->setStyleSheet(QString::fromUtf8("QPushButton {\n"
 "  background-color: rgb(255, 151, 57);\n"
 "  color: white; \n"
@@ -119,41 +117,41 @@ public:
 "}"));
         m_folderList = new QListWidget(centralwidget);
         m_folderList->setObjectName(QString::fromUtf8("m_folderList"));
-        m_folderList->setGeometry(QRect(480, 10, 321, 405));
+        m_folderList->setGeometry(QRect(480, 0, 321, 416));
         m_title_l = new QLabel(centralwidget);
         m_title_l->setObjectName(QString::fromUtf8("m_title_l"));
         m_title_l->setGeometry(QRect(14, 70, 75, 30));
-        QFont font1;
-        font1.setPointSize(10);
-        m_title_l->setFont(font1);
+        QFont font2;
+        font2.setPointSize(13);
+        m_title_l->setFont(font2);
         m_album_l = new QLabel(centralwidget);
         m_album_l->setObjectName(QString::fromUtf8("m_album_l"));
         m_album_l->setGeometry(QRect(14, 150, 75, 30));
-        m_album_l->setFont(font1);
+        m_album_l->setFont(font2);
         m_artist_l = new QLabel(centralwidget);
         m_artist_l->setObjectName(QString::fromUtf8("m_artist_l"));
         m_artist_l->setGeometry(QRect(14, 110, 75, 30));
-        m_artist_l->setFont(font1);
+        m_artist_l->setFont(font2);
         m_genre_l = new QLabel(centralwidget);
         m_genre_l->setObjectName(QString::fromUtf8("m_genre_l"));
         m_genre_l->setGeometry(QRect(14, 190, 75, 30));
-        m_genre_l->setFont(font1);
+        m_genre_l->setFont(font2);
         m_year_l = new QLabel(centralwidget);
         m_year_l->setObjectName(QString::fromUtf8("m_year_l"));
         m_year_l->setGeometry(QRect(14, 230, 75, 30));
-        m_year_l->setFont(font1);
+        m_year_l->setFont(font2);
         m_track_l = new QLabel(centralwidget);
         m_track_l->setObjectName(QString::fromUtf8("m_track_l"));
         m_track_l->setGeometry(QRect(14, 270, 75, 30));
-        m_track_l->setFont(font1);
+        m_track_l->setFont(font2);
         m_comment_l = new QLabel(centralwidget);
         m_comment_l->setObjectName(QString::fromUtf8("m_comment_l"));
         m_comment_l->setGeometry(QRect(14, 310, 75, 30));
-        m_comment_l->setFont(font1);
+        m_comment_l->setFont(font2);
         m_path_to_file_l = new QLabel(centralwidget);
         m_path_to_file_l->setObjectName(QString::fromUtf8("m_path_to_file_l"));
         m_path_to_file_l->setGeometry(QRect(10, 30, 81, 30));
-        m_path_to_file_l->setFont(font1);
+        m_path_to_file_l->setFont(font2);
         m_line_title = new QLineEdit(centralwidget);
         m_line_title->setObjectName(QString::fromUtf8("m_line_title"));
         m_line_title->setGeometry(QRect(100, 70, 365, 25));
@@ -177,33 +175,31 @@ public:
         m_line_comment->setGeometry(QRect(100, 310, 365, 25));
         m_full_path_to_file_l = new QLabel(centralwidget);
         m_full_path_to_file_l->setObjectName(QString::fromUtf8("m_full_path_to_file_l"));
-        m_full_path_to_file_l->setGeometry(QRect(90, 30, 381, 30));
-        QFont font2;
-        font2.setPointSize(10);
-        font2.setItalic(false);
-        m_full_path_to_file_l->setFont(font2);
+        m_full_path_to_file_l->setGeometry(QRect(100, 30, 371, 30));
+        QFont font3;
+        font3.setPointSize(10);
+        font3.setItalic(false);
+        m_full_path_to_file_l->setFont(font3);
         MainWindow->setCentralWidget(centralwidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 811, 25));
-        menuFile = new QMenu(menuBar);
-        menuFile->setObjectName(QString::fromUtf8("menuFile"));
-        menuFile_sorting = new QMenu(menuBar);
-        menuFile_sorting->setObjectName(QString::fromUtf8("menuFile_sorting"));
+        Appearance = new QMenu(menuBar);
+        Appearance->setObjectName(QString::fromUtf8("Appearance"));
+        Sort_By = new QMenu(menuBar);
+        Sort_By->setObjectName(QString::fromUtf8("Sort_By"));
         MainWindow->setMenuBar(menuBar);
 
-        menuBar->addAction(menuFile->menuAction());
-        menuBar->addAction(menuFile_sorting->menuAction());
-        menuFile->addAction(m_light_theme);
-        menuFile->addAction(m_dark_theme);
-        menuFile_sorting->addAction(m_by_filename);
-        menuFile_sorting->addAction(m_by_title);
-        menuFile_sorting->addAction(m_by_artist);
-        menuFile_sorting->addAction(m_by_album);
-        menuFile_sorting->addAction(m_by_genre);
-        menuFile_sorting->addSeparator();
-        menuFile_sorting->addAction(m_by_asc);
-        menuFile_sorting->addAction(m_by_desc);
+        menuBar->addAction(Appearance->menuAction());
+        menuBar->addAction(Sort_By->menuAction());
+        Appearance->addAction(m_light_theme);
+        Appearance->addAction(m_dark_theme);
+        Sort_By->addAction(m_by_title);
+        Sort_By->addAction(m_by_artist);
+        Sort_By->addAction(m_by_album);
+        Sort_By->addAction(m_by_genre);
+        Sort_By->addAction(m_by_asc);
+        Sort_By->addAction(m_by_desc);
 
         retranslateUi(MainWindow);
 
@@ -212,10 +208,9 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "utag", nullptr));
         m_light_theme->setText(QCoreApplication::translate("MainWindow", "Light theme", nullptr));
         m_dark_theme->setText(QCoreApplication::translate("MainWindow", "Dark theme", nullptr));
-        m_by_filename->setText(QCoreApplication::translate("MainWindow", "Filename", nullptr));
         m_by_title->setText(QCoreApplication::translate("MainWindow", "Title", nullptr));
         m_by_artist->setText(QCoreApplication::translate("MainWindow", "Artist", nullptr));
         m_by_album->setText(QCoreApplication::translate("MainWindow", "Album", nullptr));
@@ -232,8 +227,8 @@ public:
         m_comment_l->setText(QCoreApplication::translate("MainWindow", "Comment", nullptr));
         m_path_to_file_l->setText(QCoreApplication::translate("MainWindow", "Path to file", nullptr));
         m_full_path_to_file_l->setText(QString());
-        menuFile->setTitle(QCoreApplication::translate("MainWindow", "Appearence", nullptr));
-        menuFile_sorting->setTitle(QCoreApplication::translate("MainWindow", "Sort by", nullptr));
+        Appearance->setTitle(QCoreApplication::translate("MainWindow", "Appearance", nullptr));
+        Sort_By->setTitle(QCoreApplication::translate("MainWindow", "Sort by", nullptr));
     } // retranslateUi
 
 };

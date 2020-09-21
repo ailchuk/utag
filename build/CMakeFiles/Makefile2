@@ -336,9 +336,9 @@ tag_c: 3dparty/taglib/bindings/c/CMakeFiles/tag_c.dir/rule
 # Target rules for target app/CMakeFiles/utag.dir
 
 # All Build rule for target.
-app/CMakeFiles/utag.dir/all: app/CMakeFiles/utag_autogen.dir/all
 app/CMakeFiles/utag.dir/all: 3dparty/taglib/taglib/CMakeFiles/tag.dir/all
 app/CMakeFiles/utag.dir/all: app/src/CMakeFiles/src.dir/all
+app/CMakeFiles/utag.dir/all: app/CMakeFiles/utag_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/utag.dir/build.make app/CMakeFiles/utag.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=97,98,99 "Built target utag"
@@ -393,8 +393,8 @@ app/CMakeFiles/utag_autogen.dir/clean:
 # Target rules for target app/src/CMakeFiles/src.dir
 
 # All Build rule for target.
-app/src/CMakeFiles/src.dir/all: app/src/CMakeFiles/src_autogen.dir/all
 app/src/CMakeFiles/src.dir/all: 3dparty/taglib/taglib/CMakeFiles/tag.dir/all
+app/src/CMakeFiles/src.dir/all: app/src/CMakeFiles/src_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/src/CMakeFiles/src.dir/build.make app/src/CMakeFiles/src.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/admin/Desktop/utag/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target src"

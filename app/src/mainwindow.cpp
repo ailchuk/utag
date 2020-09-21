@@ -1,27 +1,25 @@
 #include "mainwindow.h"
+
 #include "./ui_mainwindow.h"
 
 MainWindow::MainWindow(std::string path, QWidget *parent)
-    : QMainWindow(parent), m_ui(new Ui::MainWindow)
-{
+    : QMainWindow(parent), m_ui(new Ui::MainWindow) {
     setPathAndGetFiles(path);
     setFixedSize(800, 415);
-    setWindowFlags(Qt::WindowCloseButtonHint | Qt::WindowMinimizeButtonHint | 
+    setWindowFlags(Qt::WindowCloseButtonHint | Qt::WindowMinimizeButtonHint |
                    Qt::CustomizeWindowHint);
     m_ui->setupUi(this);
-    connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem*)),
-            this,SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem*)));
+    connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem *)),
+            this, SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem *)));
     on_m_light_theme_triggered();
     printFiles();
 }
 
-MainWindow::~MainWindow()
-{
+MainWindow::~MainWindow() {
     delete m_ui;
 }
 
-void MainWindow::setPathAndGetFiles(std::string &path)
-{
+void MainWindow::setPathAndGetFiles(std::string &path) {
     m_cur_dir = QString::fromStdString(path);
     QDir dir(m_cur_dir);
 
@@ -32,14 +30,12 @@ void MainWindow::setPathAndGetFiles(std::string &path)
     m_files_from_dir = getDirFiles();
 }
 
-void MainWindow::setMyLabels()
-{
+void MainWindow::setMyLabels() {
     TagLib::FileRef ref(m_file_path.toStdString().c_str());
     auto year = QString::number(ref.tag()->year());
     auto track = QString::number(ref.tag()->track());
     size_t slash = m_file_path.toStdString().find_last_of("/");
-    std::string dirPath = (slash != std::string::npos) ? 
-        m_file_path.toStdString().substr(0, slash) : m_file_path.toStdString();
+    std::string dirPath = (slash != std::string::npos) ? m_file_path.toStdString().substr(0, slash) : m_file_path.toStdString();
 
     m_ui->m_full_path_to_file_l->setText(QString::fromStdString(dirPath));
     m_ui->m_line_title->setText(
@@ -56,11 +52,10 @@ void MainWindow::setMyLabels()
         QString::fromStdString(ref.tag()->comment().toCString()));
 }
 
-void MainWindow::on_m_save_clicked()
-{
+void MainWindow::on_m_save_clicked() {
     if (m_file_path.size() <= 0) {
-        QMessageBox::warning(this, 
-            "File error", "Can't save changes!\n Please select a file");
+        QMessageBox::warning(this,
+                             "File error", "Can't save changes!\n Please select a file");
         return;
     }
 
@@ -75,7 +70,6 @@ void MainWindow::on_m_save_clicked()
         ref.tag()->setTrack(m_ui->m_line_track->text().toInt());
         ref.tag()->setComment(m_ui->m_line_comment->text().toStdString());
         ref.save();
+        QMessageBox::information(this, "", "\nIncoming chanes saved!");
     }
 }
-
-

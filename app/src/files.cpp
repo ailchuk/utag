@@ -4,6 +4,7 @@
 void MainWindow::printFiles() {
     int i = 0;
 
+    m_ui->m_folderList->clear();
     for (const auto& file : m_files_from_dir) {
         m_ui->m_folderList->addItem(file.fileName());
         m_ui->m_folderList->item(i)->setForeground(Qt::black);
@@ -16,10 +17,8 @@ void MainWindow::printFiles() {
 QList<QFileInfo> MainWindow::getDirFiles() {
     QDir dir = m_cur_dir;
 
-    dir.setNameFilters(QStringList() << "*.mp3"
-                                     << "*.ogg"
-                                     << "*.wav"
-                                     << "*.flac");
+    dir.setNameFilters(QStringList() << "*.mp3" << "*.ogg" 
+                                     << "*.wav" << "*.flac");
     QList<QFileInfo> list = dir.entryInfoList(QDir::Files |
                                               QDir::Hidden |
                                               QDir::NoSymLinks);

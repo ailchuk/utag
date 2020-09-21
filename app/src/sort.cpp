@@ -1,91 +1,77 @@
 #include "./ui_mainwindow.h"
 #include "mainwindow.h"
 
-void MainWindow::on_m_by_filename_triggered() {
-    if (m_ui->m_by_asc->isChecked()) {
-        on_m_by_asc_triggered();
-    } else {
-        on_m_by_desc_triggered();
-    }
-    for (int i = 0; i < m_ui->m_folderList->count() - 1; ++i) {
-        for (int j = 0; j < m_ui->m_folderList->count() - i - 1; j++) {
-            if (m_ui->m_folderList->item(j)->data(Qt::UserRole).toString() >
-                m_ui->m_folderList->item(j + 1)->data(Qt::UserRole).toString()) {
-                m_ui->m_folderList->model()->moveRow(QModelIndex(), j + 1, QModelIndex(), j);
-            }
-        }
-    }
-    m_ui->m_folderList->update();
-    m_ui->m_by_filename->setChecked(true);
-    m_ui->m_by_title->setChecked(false);
-}
-
 void MainWindow::on_m_by_title_triggered() {
-    if (m_ui->m_by_asc->isChecked()) {
-        on_m_by_asc_triggered();
-    } else {
-        on_m_by_desc_triggered();
-    }
-    if (m_ui->m_by_title->isChecked()) {
-        for (int i = 0; i < m_ui->m_folderList->count() - 1; ++i) {
-            for (int j = 0; j < m_ui->m_folderList->count() - i - 1; j++) {
-                TagLib::FileRef lhs(m_ui->m_folderList->item(j)->data(Qt::UserRole).toString().toStdString().c_str());
-                TagLib::FileRef rhs(m_ui->m_folderList->item(j + 1)->data(Qt::UserRole).toString().toStdString().c_str());
+    std::sort(m_files_from_dir.rbegin(), m_files_from_dir.rend(),
+              [](auto a, auto b) {
+                  TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
+                  TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-                if (lhs.tag()->title().toCString() > rhs.tag()->title().toCString()) {
-                    m_ui->m_folderList->model()->moveRow(QModelIndex(), j + 1, QModelIndex(), j);
-                }
-                qDebug() << lhs.tag()->title().toCString();
-            }
-        }
-        m_ui->m_folderList->update();
-    }
-    m_ui->m_by_filename->setChecked(false);
-    m_ui->m_by_title->setChecked(true);
+                  return std::string(lhs.tag()->title().toCString()) > std::string(rhs.tag()->title().toCString());
+              });
+    printFiles();
+    changeFilter(Filter::TITLE);
 }
 
 void MainWindow::on_m_by_artist_triggered() {
-    for (int i = 0; i < m_ui->m_folderList->count() - 1; ++i) {
-        TagLib::FileRef lhs(m_ui->m_folderList->item(i)->data(Qt::UserRole).toString().toStdString().c_str());
-        TagLib::FileRef rhs(m_ui->m_folderList->item(i + 1)->data(Qt::UserRole).toString().toStdString().c_str());
+    std::sort(m_files_from_dir.rbegin(), m_files_from_dir.rend(),
+              [](auto a, auto b) {
+                  TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
+                  TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-        if (!lhs.isNull() && !rhs.isNull())
-            if (lhs.tag()->artist() < rhs.tag()->artist())
-                m_ui->m_folderList->model()->moveRow(QModelIndex(), i + 1, QModelIndex(), i);
-    }
-    m_ui->m_folderList->update();
+                  return std::string(lhs.tag()->artist().toCString()) > std::string(rhs.tag()->artist().toCString());
+              });
+    printFiles();
+    changeFilter(Filter::ARTIST);
 }
 
 void MainWindow::on_m_by_album_triggered() {
-    for (int i = 0; i < m_ui->m_folderList->count() - 1; ++i) {
-        TagLib::FileRef lhs(m_ui->m_folderList->item(i)->data(Qt::UserRole).toString().toStdString().c_str());
-        TagLib::FileRef rhs(m_ui->m_folderList->item(i + 1)->data(Qt::UserRole).toString().toStdString().c_str());
+    std::sort(m_files_from_dir.rbegin(), m_files_from_dir.rend(),
+              [](auto a, auto b) {
+                  TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
+                  TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-        if (!lhs.isNull() && !rhs.isNull())
-            if (lhs.tag()->album() < rhs.tag()->album())
-                m_ui->m_folderList->model()->moveRow(QModelIndex(), i, QModelIndex(), i + 1);
-    }
-    m_ui->m_folderList->update();
+                  return std::string(lhs.tag()->album().toCString()) > std::string(rhs.tag()->album().toCString());
+              });
+    printFiles();
+    changeFilter(Filter::ALBUM);
 }
 
 void MainWindow::on_m_by_genre_triggered() {
+    std::sort(m_files_from_dir.rbegin(), m_files_from_dir.rend(),
+              [](auto a, auto b) {
+                  TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
+                  TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
+
+                  return std::string(lhs.tag()->genre().toCString()) > std::string(rhs.tag()->genre().toCString());
+              });
+    printFiles();
+    changeFilter(Filter::GENRE);
 }
 
 void MainWindow::on_m_by_desc_triggered() {
     if (m_ui->m_by_desc->isChecked()) {
         m_ui->m_folderList->sortItems(Qt::DescendingOrder);
         m_ui->m_folderList->update();
-        m_ui->m_by_asc->setChecked(false);
+    } else if (m_ui->m_by_title->isChecked()) {
+        on_m_by_title_triggered();
     }
-    m_ui->m_by_desc->setChecked(true);
+    changeFilter(Filter::DESC);
 }
 
 void MainWindow::on_m_by_asc_triggered() {
     if (m_ui->m_by_asc->isChecked()) {
         m_ui->m_folderList->sortItems(Qt::AscendingOrder);
         m_ui->m_folderList->update();
-        m_ui->m_by_desc->setChecked(false);
     }
-    m_ui->m_by_asc->setChecked(true);
+    changeFilter(Filter::ASC);
 }
 
+void MainWindow::changeFilter(Filter f) {
+    m_ui->m_by_title->setChecked(f == Filter::TITLE ? true : false);
+    m_ui->m_by_artist->setChecked(f == Filter::ARTIST ? true : false);
+    m_ui->m_by_album->setChecked(f == Filter::ALBUM ? true : false);
+    m_ui->m_by_genre->setChecked(f == Filter::GENRE ? true : false);
+    m_ui->m_by_asc->setChecked(f == Filter::ASC ? true : false);
+    m_ui->m_by_desc->setChecked(f == Filter::DESC ? true : false);
+}

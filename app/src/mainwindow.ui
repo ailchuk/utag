@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>utag</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="m_save">
@@ -31,7 +31,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>14</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -56,9 +56,9 @@ QPushButton:pressed {
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>10</y>
+      <y>0</y>
       <width>321</width>
-      <height>405</height>
+      <height>416</height>
      </rect>
     </property>
    </widget>
@@ -73,7 +73,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -91,7 +91,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -109,7 +109,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -127,7 +127,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -145,7 +145,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -163,7 +163,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -181,7 +181,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -199,7 +199,7 @@ QPushButton:pressed {
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">
@@ -279,9 +279,9 @@ QPushButton:pressed {
    <widget class="QLabel" name="m_full_path_to_file_l">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>100</x>
       <y>30</y>
-      <width>381</width>
+      <width>371</width>
       <height>30</height>
      </rect>
     </property>
@@ -305,28 +305,26 @@ QPushButton:pressed {
      <height>25</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuFile">
+   <widget class="QMenu" name="Appearance">
     <property name="title">
-     <string>Appearence</string>
+     <string>Appearance</string>
     </property>
     <addaction name="m_light_theme"/>
     <addaction name="m_dark_theme"/>
    </widget>
-   <widget class="QMenu" name="menuFile_sorting">
+   <widget class="QMenu" name="Sort_By">
     <property name="title">
      <string>Sort by</string>
     </property>
-    <addaction name="m_by_filename"/>
     <addaction name="m_by_title"/>
     <addaction name="m_by_artist"/>
     <addaction name="m_by_album"/>
     <addaction name="m_by_genre"/>
-    <addaction name="separator"/>
     <addaction name="m_by_asc"/>
     <addaction name="m_by_desc"/>
    </widget>
-   <addaction name="menuFile"/>
-   <addaction name="menuFile_sorting"/>
+   <addaction name="Appearance"/>
+   <addaction name="Sort_By"/>
   </widget>
   <action name="m_light_theme">
    <property name="checkable">
@@ -341,6 +339,11 @@ QPushButton:pressed {
    <property name="text">
     <string>Light theme</string>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
   </action>
   <action name="m_dark_theme">
    <property name="checkable">
@@ -348,17 +351,6 @@ QPushButton:pressed {
    </property>
    <property name="text">
     <string>Dark theme</string>
-   </property>
-  </action>
-  <action name="m_by_filename">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
-   <property name="checked">
-    <bool>true</bool>
-   </property>
-   <property name="text">
-    <string>Filename</string>
    </property>
   </action>
   <action name="m_by_title">
@@ -374,7 +366,7 @@ QPushButton:pressed {
   </action>
   <action name="m_by_artist">
    <property name="checkable">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>Artist</string>
@@ -382,7 +374,7 @@ QPushButton:pressed {
   </action>
   <action name="m_by_album">
    <property name="checkable">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>Album</string>
@@ -390,7 +382,7 @@ QPushButton:pressed {
   </action>
   <action name="m_by_genre">
    <property name="checkable">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="enabled">
     <bool>true</bool>

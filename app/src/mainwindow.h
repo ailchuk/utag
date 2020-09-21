@@ -14,6 +14,8 @@
 #include <taglib/tag.h>
 #include <taglib/fileref.h>
 
+enum class Filter { TITLE, ARTIST, ALBUM, GENRE, ASC, DESC };
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -44,8 +46,6 @@ private slots:
     void on_m_by_asc_triggered();
 
     void on_m_by_desc_triggered();
-
-    void on_m_by_filename_triggered();
     
     void on_m_by_title_triggered();
 
@@ -55,12 +55,11 @@ private slots:
     
     void on_m_by_genre_triggered();
 
-
-
 private:
     Ui::MainWindow *m_ui;
     QString m_cur_dir;
     QString m_file_path;
     QFile *m_file;
     QList<QFileInfo> m_files_from_dir;
+    void changeFilter(Filter f);
 };
