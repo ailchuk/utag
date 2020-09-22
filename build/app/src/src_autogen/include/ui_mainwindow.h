@@ -44,7 +44,6 @@ public:
     QLabel *m_year_l;
     QLabel *m_track_l;
     QLabel *m_comment_l;
-    QLabel *m_path_to_file_l;
     QLineEdit *m_line_title;
     QLineEdit *m_line_artist;
     QLineEdit *m_line_album;
@@ -52,7 +51,8 @@ public:
     QLineEdit *m_line_year;
     QLineEdit *m_line_track;
     QLineEdit *m_line_comment;
-    QLabel *m_full_path_to_file_l;
+    QPushButton *m_dir_button;
+    QLabel *m_dir_l;
     QMenuBar *menuBar;
     QMenu *Appearance;
     QMenu *Sort_By;
@@ -148,10 +148,6 @@ public:
         m_comment_l->setObjectName(QString::fromUtf8("m_comment_l"));
         m_comment_l->setGeometry(QRect(14, 310, 75, 30));
         m_comment_l->setFont(font2);
-        m_path_to_file_l = new QLabel(centralwidget);
-        m_path_to_file_l->setObjectName(QString::fromUtf8("m_path_to_file_l"));
-        m_path_to_file_l->setGeometry(QRect(10, 30, 81, 30));
-        m_path_to_file_l->setFont(font2);
         m_line_title = new QLineEdit(centralwidget);
         m_line_title->setObjectName(QString::fromUtf8("m_line_title"));
         m_line_title->setGeometry(QRect(100, 70, 365, 25));
@@ -173,13 +169,23 @@ public:
         m_line_comment = new QLineEdit(centralwidget);
         m_line_comment->setObjectName(QString::fromUtf8("m_line_comment"));
         m_line_comment->setGeometry(QRect(100, 310, 365, 25));
-        m_full_path_to_file_l = new QLabel(centralwidget);
-        m_full_path_to_file_l->setObjectName(QString::fromUtf8("m_full_path_to_file_l"));
-        m_full_path_to_file_l->setGeometry(QRect(100, 30, 371, 30));
-        QFont font3;
-        font3.setPointSize(10);
-        font3.setItalic(false);
-        m_full_path_to_file_l->setFont(font3);
+        m_dir_button = new QPushButton(centralwidget);
+        m_dir_button->setObjectName(QString::fromUtf8("m_dir_button"));
+        m_dir_button->setGeometry(QRect(379, 20, 81, 30));
+        m_dir_button->setStyleSheet(QString::fromUtf8("QPushButton {\n"
+"  background-color: rgb(255, 151, 57);\n"
+"  color: white; \n"
+"  border: 1px solid gray;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
+"                                      stop: 0 #FF7832, stop: 1 #FF9739);\n"
+"}"));
+        m_dir_l = new QLabel(centralwidget);
+        m_dir_l->setObjectName(QString::fromUtf8("m_dir_l"));
+        m_dir_l->setGeometry(QRect(10, 20, 361, 30));
+        m_dir_l->setFont(font2);
         MainWindow->setCentralWidget(centralwidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -225,8 +231,8 @@ public:
         m_year_l->setText(QCoreApplication::translate("MainWindow", "Year", nullptr));
         m_track_l->setText(QCoreApplication::translate("MainWindow", "Track", nullptr));
         m_comment_l->setText(QCoreApplication::translate("MainWindow", "Comment", nullptr));
-        m_path_to_file_l->setText(QCoreApplication::translate("MainWindow", "Path to file", nullptr));
-        m_full_path_to_file_l->setText(QString());
+        m_dir_button->setText(QCoreApplication::translate("MainWindow", "Browse", nullptr));
+        m_dir_l->setText(QString());
         Appearance->setTitle(QCoreApplication::translate("MainWindow", "Appearance", nullptr));
         Sort_By->setTitle(QCoreApplication::translate("MainWindow", "Sort by", nullptr));
     } // retranslateUi

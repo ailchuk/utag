@@ -188,24 +188,6 @@ QPushButton:pressed {
      <string>Comment</string>
     </property>
    </widget>
-   <widget class="QLabel" name="m_path_to_file_l">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>30</y>
-      <width>81</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Path to file</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="m_line_title">
     <property name="geometry">
      <rect>
@@ -276,19 +258,43 @@ QPushButton:pressed {
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="m_full_path_to_file_l">
+   <widget class="QPushButton" name="m_dir_button">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>30</y>
-      <width>371</width>
+      <x>379</x>
+      <y>20</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: rgb(255, 151, 57);
+  color: white; 
+  border: 1px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+    </property>
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="m_dir_l">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>361</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
-      <italic>false</italic>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="text">

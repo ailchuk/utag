@@ -29,11 +29,12 @@ public:
     ~MainWindow();
     void setPathAndGetFiles(std::string &path);
     void printFiles();
-    QList<QFileInfo> getDirFiles();
+    QList<QFileInfo> getDirFiles(QDir& dir);
     void setMyLabels();
 
 
 private slots:
+    void on_m_dir_button_clicked();
 
     void on_m_save_clicked();
 

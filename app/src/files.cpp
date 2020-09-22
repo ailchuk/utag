@@ -14,9 +14,7 @@ void MainWindow::printFiles() {
     }
 }
 
-QList<QFileInfo> MainWindow::getDirFiles() {
-    QDir dir = m_cur_dir;
-
+QList<QFileInfo> MainWindow::getDirFiles(QDir& dir) {
     dir.setNameFilters(QStringList() << "*.mp3"
                                      << "*.ogg"
                                      << "*.wav"
