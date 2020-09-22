@@ -17,8 +17,10 @@ void MainWindow::printFiles() {
 QList<QFileInfo> MainWindow::getDirFiles() {
     QDir dir = m_cur_dir;
 
-    dir.setNameFilters(QStringList() << "*.mp3" << "*.ogg" 
-                                     << "*.wav" << "*.flac");
+    dir.setNameFilters(QStringList() << "*.mp3"
+                                     << "*.ogg"
+                                     << "*.wav"
+                                     << "*.flac");
     QList<QFileInfo> list = dir.entryInfoList(QDir::Files |
                                               QDir::Hidden |
                                               QDir::NoSymLinks);
@@ -30,10 +32,12 @@ void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem* item) {
     m_file_path = data.toString();
     m_file = new QFile(m_file_path);
     m_file->open(QIODevice::ReadWrite | QIODevice::Text);
-    
+
     if (!m_file->isReadable() || !m_file->isWritable()) {
         QMessageBox::warning(this, "File error",
-                             m_file->fileName().prepend("Can't read/write file "));
+                             m_file->fileName().prepend("Can't read/write: "));
+        m_file->close();
+        return;
     } else if (m_file) {
         setMyLabels();
     }

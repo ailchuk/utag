@@ -7,7 +7,8 @@ void MainWindow::on_m_by_title_triggered() {
                   TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
                   TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-                  return std::string(lhs.tag()->title().toCString()) > std::string(rhs.tag()->title().toCString());
+                  return std::string(lhs.tag()->title().toCString()) >
+                         std::string(rhs.tag()->title().toCString());
               });
     printFiles();
     changeFilter(Filter::TITLE);
@@ -19,7 +20,8 @@ void MainWindow::on_m_by_artist_triggered() {
                   TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
                   TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-                  return std::string(lhs.tag()->artist().toCString()) > std::string(rhs.tag()->artist().toCString());
+                  return std::string(lhs.tag()->artist().toCString()) >
+                         std::string(rhs.tag()->artist().toCString());
               });
     printFiles();
     changeFilter(Filter::ARTIST);
@@ -31,7 +33,8 @@ void MainWindow::on_m_by_album_triggered() {
                   TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
                   TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-                  return std::string(lhs.tag()->album().toCString()) > std::string(rhs.tag()->album().toCString());
+                  return std::string(lhs.tag()->album().toCString()) >
+                         std::string(rhs.tag()->album().toCString());
               });
     printFiles();
     changeFilter(Filter::ALBUM);
@@ -43,7 +46,8 @@ void MainWindow::on_m_by_genre_triggered() {
                   TagLib::FileRef lhs(a.absoluteFilePath().toStdString().c_str());
                   TagLib::FileRef rhs(b.absoluteFilePath().toStdString().c_str());
 
-                  return std::string(lhs.tag()->genre().toCString()) > std::string(rhs.tag()->genre().toCString());
+                  return std::string(lhs.tag()->genre().toCString()) >
+                         std::string(rhs.tag()->genre().toCString());
               });
     printFiles();
     changeFilter(Filter::GENRE);

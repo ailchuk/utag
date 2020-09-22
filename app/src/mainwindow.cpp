@@ -9,8 +9,6 @@ MainWindow::MainWindow(std::string path, QWidget *parent)
     setWindowFlags(Qt::WindowCloseButtonHint | Qt::WindowMinimizeButtonHint |
                    Qt::CustomizeWindowHint);
     m_ui->setupUi(this);
-    connect(m_ui->m_folderList, SIGNAL(itemDoubleClicked(QListWidgetItem *)),
-            this, SLOT(on_m_folderList_itemDoubleClicked(QListWidgetItem *)));
     on_m_light_theme_triggered();
     printFiles();
 }
@@ -24,7 +22,8 @@ void MainWindow::setPathAndGetFiles(std::string &path) {
     QDir dir(m_cur_dir);
 
     if (!dir.exists() || !dir.isReadable()) {
-        QMessageBox::critical(this, "Error dir", "Can't read or access directory!");
+        QMessageBox::critical(this, "Error dir", 
+                              "Can't read or access directory!");
         throw 1;
     }
     m_files_from_dir = getDirFiles();
@@ -35,7 +34,9 @@ void MainWindow::setMyLabels() {
     auto year = QString::number(ref.tag()->year());
     auto track = QString::number(ref.tag()->track());
     size_t slash = m_file_path.toStdString().find_last_of("/");
-    std::string dirPath = (slash != std::string::npos) ? m_file_path.toStdString().substr(0, slash) : m_file_path.toStdString();
+    std::string dirPath = (slash != std::string::npos) ? 
+                          m_file_path.toStdString().substr(0, slash) :
+                          m_file_path.toStdString();
 
     m_ui->m_full_path_to_file_l->setText(QString::fromStdString(dirPath));
     m_ui->m_line_title->setText(
@@ -54,8 +55,8 @@ void MainWindow::setMyLabels() {
 
 void MainWindow::on_m_save_clicked() {
     if (m_file_path.size() <= 0) {
-        QMessageBox::warning(this,
-                             "File error", "Can't save changes!\n Please select a file");
+        QMessageBox::warning(this, "File error",
+                             "Can't save changes!\n Please select a file");
         return;
     }
 
@@ -66,8 +67,14 @@ void MainWindow::on_m_save_clicked() {
         ref.tag()->setArtist(m_ui->m_line_artist->text().toStdString());
         ref.tag()->setAlbum(m_ui->m_line_album->text().toStdString());
         ref.tag()->setGenre(m_ui->m_line_genre->text().toStdString());
-        ref.tag()->setYear(m_ui->m_line_year->text().toInt());
-        ref.tag()->setTrack(m_ui->m_line_track->text().toInt());
+        if (!m_ui->m_line_year->text().toUInt() ||
+            !m_ui->m_line_track->text().toUInt()) {
+            QMessageBox::warning(this, "",
+                                 "\nYear and Track must contain only digits");
+            return;
+        }
+        ref.tag()->setYear(m_ui->m_line_year->text().toUInt());
+        ref.tag()->setTrack(m_ui->m_line_track->text().toUInt());
         ref.tag()->setComment(m_ui->m_line_comment->text().toStdString());
         ref.save();
         QMessageBox::information(this, "", "\nIncoming chanes saved!");
