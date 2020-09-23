@@ -2,9 +2,9 @@
 #include "mainwindow.h"
 
 void MainWindow::on_m_dir_button_clicked() {
-    QString directory = QFileDialog::getExistingDirectory(this,
-                                                          "Browse dir",
-                                                          m_cur_dir);
+    QString directory = QFileDialog::getExistingDirectory(
+                                            this, "Browse dir", m_cur_dir,
+                                            QFileDialog::DontUseNativeDialog);
     std::string dir = directory.toStdString();
 
     if (!directory.isEmpty()) {

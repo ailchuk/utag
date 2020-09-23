@@ -9,11 +9,6 @@ add_compile_options(
     -Wpedantic
 )
 
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-
-
 set(TAGLIB_INCLUDES
     ../../3dparty/taglib
     ../../3dparty/taglib/taglib
@@ -45,7 +40,7 @@ set(TAGLIB_INCLUDES
 
 include_directories(${TAGLIB_INCLUDES})
 
-set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
+#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
 #SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
 #set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/Cellar/qt/5.15.1/")
 

@@ -9,18 +9,13 @@ add_compile_options(
     -Wpedantic
 )
 
-
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-
 add_subdirectory(src)
 
 include_directories(src)
 
 #set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
 #SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
-set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/Cellar/qt/5.15.1")
+#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/Cellar/qt/5.15.1")
 
 find_package(QT NAMES Qt5 COMPONENTS Widgets Core Gui REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Core Gui REQUIRED)
