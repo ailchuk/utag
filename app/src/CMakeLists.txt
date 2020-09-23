@@ -40,10 +40,6 @@ set(TAGLIB_INCLUDES
 
 include_directories(${TAGLIB_INCLUDES})
 
-#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
-#SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
-#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/Cellar/qt/5.15.1/")
-
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets Core Gui REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Core Gui REQUIRED)
 
