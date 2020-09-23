@@ -44,8 +44,8 @@ void MainWindow::setMyLabels() {
         QString::fromStdString(ref.tag()->album().toCString()));
     m_ui->m_line_genre->setText(
         QString::fromStdString(ref.tag()->genre().toCString()));
-    m_ui->m_line_year->setText(year == "0" ? " " : year);
-    m_ui->m_line_track->setText(track == "0" ? " " : track);
+    m_ui->m_line_year->setText(year == "0" ? "" : year);
+    m_ui->m_line_track->setText(track == "0" ? "" : track);
     m_ui->m_line_comment->setText(
         QString::fromStdString(ref.tag()->comment().toCString()));
 }

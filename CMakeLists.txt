@@ -6,7 +6,8 @@ project(${TARGET} VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
+#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
+set(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
