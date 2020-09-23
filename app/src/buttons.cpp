@@ -23,20 +23,24 @@ void MainWindow::on_m_save_clicked() {
     TagLib::FileRef ref(m_file_path.toStdString().c_str());
 
     if (!ref.isNull()) {
+        if (m_ui->m_line_year->text().size() > 0 &&
+            !m_ui->m_line_year->text().toUInt()) {
+            QMessageBox::warning(this, "", "\nYear must contain only digits");
+            return;
+        }
+        if (m_ui->m_line_track->text().size() > 0 &&
+            !m_ui->m_line_track->text().toUInt()) {
+            QMessageBox::warning(this, "", "\nTrack must contain only digits");
+            return;
+        }
         ref.tag()->setTitle(m_ui->m_line_title->text().toStdString());
         ref.tag()->setArtist(m_ui->m_line_artist->text().toStdString());
         ref.tag()->setAlbum(m_ui->m_line_album->text().toStdString());
         ref.tag()->setGenre(m_ui->m_line_genre->text().toStdString());
-        if (!m_ui->m_line_year->text().toUInt() ||
-            !m_ui->m_line_track->text().toUInt()) {
-            QMessageBox::warning(this, "",
-                                 "\nYear and Track must contain only digits");
-            return;
-        }
         ref.tag()->setYear(m_ui->m_line_year->text().toUInt());
         ref.tag()->setTrack(m_ui->m_line_track->text().toUInt());
         ref.tag()->setComment(m_ui->m_line_comment->text().toStdString());
         ref.save();
-        QMessageBox::information(this, "", "\nIncoming chanes saved!");
+        QMessageBox::information(this, "", "\nIncoming changes saved!");
     }
 }

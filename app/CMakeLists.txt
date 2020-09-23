@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.18.2)
 
 project(utag LANGUAGES CXX)
 
@@ -9,26 +9,31 @@ add_compile_options(
     -Wpedantic
 )
 
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 add_subdirectory(src)
 
 include_directories(src)
 
-#SET(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/") // for unit
-SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
+#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
+#SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
+set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/Cellar/qt/5.15.1")
 
-find_package(Qt5 COMPONENTS Widgets Core Gui REQUIRED)
-
-set(SRCS main.cpp)
+find_package(QT NAMES Qt5 COMPONENTS Widgets Core Gui REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Core Gui REQUIRED)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../)
 
-add_executable(${CMAKE_PROJECT_NAME} ${SRCS} src)
+add_executable(${CMAKE_PROJECT_NAME} main.cpp)
 
 target_link_libraries(
     ${CMAKE_PROJECT_NAME}
-    Qt5::Core
-    Qt5::Gui
-    Qt5::Widgets
+    Qt${QT_VERSION_MAJOR}::Core
+    Qt${QT_VERSION_MAJOR}::Widgets
+    Qt${QT_VERSION_MAJOR}::Gui
     src
     tag
 )

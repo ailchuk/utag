@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.18.2)
 
 project(src LANGUAGES CXX)
 
@@ -8,6 +8,11 @@ add_compile_options(
     -Werror
     -Wpedantic
 )
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
 
 set(TAGLIB_INCLUDES
     ../../3dparty/taglib
@@ -40,10 +45,12 @@ set(TAGLIB_INCLUDES
 
 include_directories(${TAGLIB_INCLUDES})
 
-#SET(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/") // for unit
-SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
+set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/opt/qt/")
+#SET(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.15.1")
+#set(CMAKE_PREFIX_PATH "/Users/ailchuk/.brew/Cellar/qt/5.15.1/")
 
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets Core Gui REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Core Gui REQUIRED)
 
 set(SRCS mainwindow.ui mainwindow.cpp files.cpp sort.cpp theme.cpp buttons.cpp)
 
@@ -51,8 +58,8 @@ add_library(src ${SRCS})
 
 target_link_libraries(
     src
-    Qt5::Core
-    Qt5::Gui
-    Qt5::Widgets
+    Qt${QT_VERSION_MAJOR}::Core
+    Qt${QT_VERSION_MAJOR}::Widgets
+    Qt${QT_VERSION_MAJOR}::Gui
     tag
-) 
+)
