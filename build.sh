@@ -1,2 +1,1 @@
-cmake . -Bbuild && cmake --build ./build
-./build/utag Music_test/
+cmake . -Bbuild -Wdev -Werror=dev && cmake --build ./build
