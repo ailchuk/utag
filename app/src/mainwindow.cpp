@@ -16,7 +16,7 @@ MainWindow::~MainWindow() {
 }
 
 
-void MainWindow::setPathAndGetFiles(std::string &path) {
+void MainWindow::setPathAndGetFiles(std::string path) {
     m_cur_dir = QString::fromStdString(path);
     QDir dir(m_cur_dir);
 

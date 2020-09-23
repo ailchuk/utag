@@ -11,6 +11,7 @@
 #include <QFile>
 #include <QMessageBox>
 #include <unistd.h>
+#include <fstream>
 #include <taglib/tag.h>
 #include <taglib/fileref.h>
 
@@ -27,7 +28,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(std::string path, QWidget *parent = nullptr);
     ~MainWindow();
-    void setPathAndGetFiles(std::string &path);
+    void setPathAndGetFiles(std::string path);
     void printFiles();
     QList<QFileInfo> getDirFiles(QDir& dir);
     void setMyLabels();

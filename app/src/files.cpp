@@ -28,6 +28,12 @@ QList<QFileInfo> MainWindow::getDirFiles(QDir& dir) {
 void MainWindow::on_m_folderList_itemDoubleClicked(QListWidgetItem* item) {
     QVariant data = item->data(Qt::UserRole);
     m_file_path = data.toString();
+    std::ifstream file(m_file_path.toStdString().c_str());
+    if (!file) {
+        QMessageBox::warning(this, "", "\nCan't read/open file");
+        setPathAndGetFiles(m_cur_dir.toStdString());
+        return;
+    }
     m_file = new QFile(m_file_path);
     m_file->open(QIODevice::ReadWrite | QIODevice::Text);
 

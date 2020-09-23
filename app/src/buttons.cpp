@@ -5,21 +5,14 @@ void MainWindow::on_m_dir_button_clicked() {
     QString directory = QFileDialog::getExistingDirectory(
                                             this, "Browse dir", m_cur_dir,
                                             QFileDialog::DontUseNativeDialog);
-    std::string dir = directory.toStdString();
 
     if (!directory.isEmpty()) {
         m_ui->m_dir_l->setText(directory);
-        setPathAndGetFiles(dir);
+        setPathAndGetFiles(directory.toStdString());
     }
 }
 
 void MainWindow::on_m_save_clicked() {
-    if (m_file_path.size() <= 0) {
-        QMessageBox::warning(this, "File error",
-                             "Can't save changes!\n Please select a file");
-        return;
-    }
-
     TagLib::FileRef ref(m_file_path.toStdString().c_str());
 
     if (!ref.isNull()) {
