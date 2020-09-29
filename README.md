@@ -1,6 +1,6 @@
 # 🔊 uTag
 ## Description
-  App to read and write tags of mp3 files with Qt GUI and Taglib
+  App to read and write tags of audio files with Qt GUI and Taglib
 
 ## How to use
 
