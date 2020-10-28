@@ -32,7 +32,7 @@ public:
     void printFiles();
     QList<QFileInfo> getDirFiles(QDir& dir);
     void setMyLabels();
-
+    void sort_by(Filter f);
 
 private slots:
     void on_m_dir_button_clicked();
